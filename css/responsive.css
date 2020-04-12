@@ -1,0 +1,190 @@
+/*********MEDIA QUERY***********/
+
+/******************************************************************
+                        LARGE DEVICES
+*******************************************************************/
+
+@media (min-width: 1200px) {
+    /*OK*/
+}
+
+/******************************************************************
+                        MEDIUM DEVICES
+*******************************************************************/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .nav-wrapper {
+        padding: 0;
+    }
+    .contact-item-icon i.fa {
+        border-radius: 40px;
+        font-size: 2em;
+    }
+
+}
+
+/******************************************************************
+                        SMALL DEVICES
+*******************************************************************/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .nav-wrapper {
+        padding: 0;
+    }
+    .contact-item-icon i.fa {
+        border-radius: 30px;
+        font-size: 2em;
+    }
+
+    /*about diagonal section removal*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        background-image: url(../images/full_about_picjpg.jpg);
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    .stats-item {
+        padding: 10px 0;
+
+    }
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+
+/******************************************************************
+                        EXTRA SMALL DEVICES
+*******************************************************************/
+
+@media (max-width: 767px) {
+    .navbar {
+        background: rgba(0, 0, 0, 0.7);
+        padding: 0;
+    }
+    .navbar-nav {
+        float: left;
+    }
+    .nav-wrapper {
+        padding: 0;
+    }
+
+    #home-heading h3 {
+        font-size: 24px;
+    }
+    .contact-item-icon i.fa {
+        border-radius: 20px;
+        font-size: 1.5em;
+    }
+    #home-btn {
+        margin-top: 1vw;
+
+        
+    }
+    .btn {
+        padding: 6px 22px 6px 22px;
+        font-size: 14px;
+    }
+    /*about diagonal section removal*/
+    #about-bg-diagonal {
+        border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;
+        background-image: url(../images/full_about_picjpg.jpg);
+    }
+    #about-content-box {
+        width: 100%;
+        height: 350px;
+    }
+    .img-wrapper img {
+        width: 100%;
+    }
+    .testimonial blockquote {
+        padding: 6px 50px;
+    }
+    .testimonial blockquote:before {
+        left: 10px;
+    }
+    .testimonial blockquote:after {
+        right: 10px;
+    }
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
+    .stats-item {
+        padding: 0;
+    }
+    #footer-copyrights {
+        text-align: center;
+    }
+}
+
+
+/******************************************************************
+                        EXTRA SMALL DEVICES
+*******************************************************************/
+
+@media (max-width: 480px) {}
+
+
+
+/******************************************************************
+                        EXTRA SMALL DEVICES
+*******************************************************************/
+
+@media (max-width: 320px) {
+    .service-item-icon i {
+        width: 58px;
+        height: 58px;
+        padding: 7px;
+    }
+    .service-item-title h3 {
+        font-size: 17px;
+    }
+    #about-content-box {
+        margin-top: 40px;
+    }
+
+    .testimonial blockquote {
+        padding: 6px 30px;
+    }
+    .testimonial blockquote:before {
+        left: 7px;
+    }
+    .testimonial blockquote:after {
+        right: 7px;
+    }
+    .testimonial blockquote p {
+        font-size: 14px;
+    }
+    .testimonial img {
+        max-width: 80px;
+    }
+    .stats-item {
+        padding: 0;
+    }
+    #footer-copyrights {
+        text-align: center;
+    }
+
+}
