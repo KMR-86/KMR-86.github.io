@@ -97,7 +97,7 @@ h3 {
     color: #fff;
     
 }
-.contact-item-icon .fa-twitter{
+.contact-item-icon .fa-linkedin{
     color: #fff;
 }
 .contact-item-icon .fa-github{
@@ -264,9 +264,9 @@ about section
     width: 56%;
     height: 700px;
     float: right;
-    border-left: 200px solid white;
+    border-left: 600px solid white;
     border-top: 700px solid transparent;
-    background-image: url(../images/bg-about1-Copy.jpg);
+    background-image: url(../images/bg-about2-Copy.jpg);
 
     background-repeat: no-repeat;
     background-size: cover;
