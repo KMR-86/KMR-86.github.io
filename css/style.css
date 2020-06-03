@@ -67,7 +67,7 @@ h3 {
     text-align: center;
 }
 
-#home-heading h2 {
+#home-heading h4 {
     color: #fff;
     font-size: 55px;
     font-weight: 700;
@@ -78,6 +78,7 @@ h3 {
 
 #home-btn {
     margin-top: 10vw;
+    margin-bottom: 50vw;
     
 }
 
