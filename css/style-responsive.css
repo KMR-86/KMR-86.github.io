@@ -1,0 +1,434 @@
+/* ==========================================================================
+   14. Responsive Styles
+   ========================================================================== */
+
+/*
+ * Responsive breakpoints:
+ * - Large screens (1080px and below)
+ * - Tablets (768px and below)
+ * - Mobile devices (480px and below)
+ */
+
+/* Tablets and smaller desktops */
+@media screen and (max-width: 1080px) {
+    /* Layout adjustments for medium-sized screens */
+    .hero {
+        padding: 0 100px;
+    }
+
+    .big-heading {
+        font-size: 70px;
+    }
+
+    .about-section,
+    #work-experience,
+    .content-box {
+        max-width: 800px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    /* Achievement carousel improvements */
+    @media screen and (max-width: 1080px) {
+        /* Achievement carousel improvements */
+        #achievements, #team {
+            padding: 50px 0;
+        }
+
+        .team-member {
+            max-width: 95%;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .team-member img {
+            height: 220px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        .owl-carousel .owl-stage-outer {
+            overflow: hidden !important;
+        }
+
+        .owl-carousel .owl-stage {
+            padding: 10px 0;
+        }
+
+        .owl-carousel .owl-item {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+
+/* Small tablets */
+@media screen and (max-width: 768px) {
+    /* Reduce section padding */
+    .about-section {
+        padding: 40px 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about-section .inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+
+    .about-pic {
+        margin: 30px auto 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-pic .wrapper {
+        margin: 0 auto;
+    }
+
+    .about-section h2.numbered-heading {
+        padding-left: 25px;
+        text-align: left;
+        margin-left: 10px;
+        width: auto;
+    }
+
+    .skills-list {
+        justify-content: center;
+        margin: 20px auto;
+        max-width: 450px;
+    }
+    .about-section,
+    #skills,
+    #work-experience {
+        padding: 40px 0;
+    }
+
+    /* Navigation adjustments */
+    .navbar {
+        padding: 15px 25px;
+    }
+
+    .nav-resume {
+        position: static;
+        transform: none;
+        margin: 0 15px;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+
+    .nav-right {
+        flex: 1;
+        justify-content: flex-end;
+    }
+
+    /* Mobile navigation menu */
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 80px 40px 40px;
+        width: 75%;
+        height: 100vh;
+        background-color: var(--light-navy);
+        box-shadow: -10px 1px 30px -15px rgba(2, 12, 27, 0.7);
+        z-index: 9;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-links.open {
+        transform: translateX(0);
+    }
+
+    .nav-links ol {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+    .logo, .nav-right {
+        flex: auto;
+    }
+
+    /* Hamburger menu becomes visible */
+    .hamburger {
+        display: block;
+        position: relative;
+        z-index: 10;
+        margin-right: 15px;
+    }
+
+    /* Content adjustments */
+    .hero {
+        padding: 0 50px;
+        min-height: 90vh;
+    }
+
+    .big-heading {
+        font-size: 60px;
+    }
+
+    /* Stack about section columns */
+    .inner {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .about-pic {
+        margin: 0 auto;
+    }
+
+    /* Adjust skills columns */
+    .row {
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    /* Timeline modifications for single column */
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+    }
+
+    .timeline-item.left::before,
+    .timeline-item.right::before {
+        left: 20px;
+    }
+
+    /* Blog adjustments */
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .blog-single-container, .blog-listing-container {
+        margin-top: 100px;
+    }
+
+    .blog-content {
+        padding: 25px;
+    }
+
+    .blog-content h1 {
+        font-size: 26px;
+    }
+
+    .blog-body {
+        font-size: 16px;
+    }
+
+    /* Achievement section adjustments for tablets */
+    #achievements, #team {
+        padding: 30px 0;
+    }
+
+    .team-member {
+        max-width: 90%;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+    .team-member img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .owl-carousel .owl-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        overflow: hidden !important;
+    }
+
+    .owl-nav {
+        position: relative;
+        margin-top: 15px;
+    }
+}
+
+    .content-box {
+        padding: 0 30px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    /* Base layout adjustments */
+    body {
+        padding-top: 70px;
+    }
+
+    .navbar {
+        padding: 15px;
+    }
+
+    /* Mobile menu adjustments */
+    .nav-links {
+        width: 75%;
+        padding: 50px 10px;
+    }
+
+    .nav-resume {
+        display: none;
+    }
+
+    /* Add a resume link to the mobile menu */
+    .nav-links.open .nav-resume-mobile {
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+    /* Hero section adjustments */
+    .hero {
+        padding: 0 25px;
+    }
+
+    .big-heading {
+        font-size: 40px;
+    }
+
+    .hero h1 {
+        font-size: 14px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    /* Skills section adjustments */
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* Other content adjustments */
+    .about-section,
+    #work-experience,
+    .content-box {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .skills-list {
+        grid-template-columns: 1fr;
+    }
+
+    /* Work timeline adjustments */
+    .timeline-item {
+        padding-left: 60px;
+        padding-right: 15px;
+    }
+
+    .work-title {
+        font-size: 18px;
+    }
+
+    .company-name {
+        font-size: 14px;
+    }
+
+    .work-description {
+        font-size: 14px;
+    }
+
+    .tech-stack {
+        gap: 5px;
+    }
+
+    .tech-tag {
+        font-size: 10px;
+        padding: 3px 6px;
+    }
+
+    /* Achievements section adjustments */
+    .team-member img {
+        height: 200px;
+    }
+
+    .team-member-name {
+        font-size: 16px;
+    }
+
+    .team-member-designation {
+        font-size: 14px;
+    }
+
+    /* Achievement section adjustments for mobile */
+    #achievements, #team {
+        padding: 20px 0;
+    }
+
+    .team-member {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .team-member img {
+        height: 180px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 4px 4px 0 0;
+    }
+
+    .team-member-info {
+        padding: 15px 10px;
+    }
+
+    .team-member-name {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .team-member-designation {
+        font-size: 14px;
+    }
+
+    .owl-nav button {
+        font-size: 18px !important;
+    }
+
+    .owl-dots {
+        margin-top: 10px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        overflow: hidden !important; /* Force hidden overflow */
+    }
+}
