@@ -1,25 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K. M. Rahman | Blog</title>
+    <title>Dutch Flashcards | K. M. Rahman</title>
 
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Calibre:wght@400;500;600&family=SF+Mono&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet">
 </head>
 
 <body>
-<!-- Navigation -->
 <header class="navbar">
     <nav>
         <div class="logo">
@@ -33,7 +28,7 @@
                     <li><a href="index.html#work-experience">Experience</a></li>
                     <li><a href="index.html#blog">Blog</a></li>
                     <li><a href="index.html#achievements">Achievements</a></li>
-                    <li><a href="my-lab.html">My Lab</a></li>
+                    <li><a href="my-lab.html" class="active">My Lab</a></li>
                 </ol>
             </div>
             <div class="theme-toggle">
@@ -45,17 +40,26 @@
     </nav>
 </header>
 
-<main class="blog-listing-container">
-    <h1 class="page-title">Blog</h1>
-
-    <div class="blog-listing">
-        <!-- All blog items will be loaded here -->
+<main class="lab-page">
+    <div class="lab-breadcrumb">
+        <a href="my-lab.html">← Back to Lab</a>
     </div>
+
+    <section class="lab-tool-shell">
+        <span class="lab-card-label">Learn Dutch with me</span>
+        <h1>Dutch Flashcards Tool Area</h1>
+        <p id="flashcards-data-status">Loading flashcard decks...</p>
+
+        <div id="flashcards-app" class="flashcards-app" aria-live="polite"></div>
+
+        <div class="lab-tool-actions flashcards-page-actions">
+            <button id="flashcards-page-reset-btn" class="resume-link" type="button" hidden>Change Deck</button>
+        </div>
+    </section>
 </main>
 
-<!-- Custom JS -->
 <script src="js/jquery.js"></script>
 <script src="js/main.js"></script>
-<script src="js/blogs.js"></script>
+<script src="js/dutch-flashcards.js"></script>
 </body>
 </html>
