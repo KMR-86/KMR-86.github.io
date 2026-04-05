@@ -1,57 +1,6 @@
 const FLASHCARD_SOURCE_PATH = 'data/dutch-flashcards.txt';
 const FLASHCARD_DECK_SIZE = 25;
 
-const mockDutchFlashcardsData = `ik, I, ik eet rijst na het werk
-jij, you, jij leest elke avond een boek
-hij, he, hij woont in Utrecht met zijn broer
-zij, she, zij drinkt koffie in de ochtend
-het, it, het kind speelt in de tuin
-wij, we, wij leren samen nieuwe woorden
-jullie, you all, jullie gaan morgen naar school
-zijn, to be, zij zijn vandaag erg blij
-hebben, to have, wij hebben genoeg tijd voor de les
-doen, to do, wat ga jij vanavond doen
-gaan, to go, ik ga morgen naar de markt
-komen, to come, kom je later naar het station
-eten, to eat, wij eten brood en soep in de middag
-drinken, to drink, hij drinkt water na het sporten
-slapen, to sleep, de baby slaapt al sinds acht uur
-huis, house, ons huis staat dicht bij het park
-water, water, het water is koud maar schoon
-brood, bread, ik koop vers brood bij de bakker
-kaas, cheese, zij eet graag kaas op haar brood
-fiets, bicycle, mijn fiets staat voor de deur
-school, school, de school begint om half negen
-boek, book, dit boek is interessant en leerzaam
-tafel, table, de sleutels liggen op de tafel
-stoel, chair, er staat een blauwe stoel in de kamer
-raam, window, het raam is open vanwege de warmte
-deur, door, doe de deur zachtjes dicht alsjeblieft
-dag, day, vandaag is een lange maar mooie dag
-nacht, night, in de nacht is de straat heel stil
-morgen, tomorrow, morgen ga ik naar Amsterdam, en ik neem de trein
-gisteren, yesterday, gisteren werkte ik thuis, maar vandaag ben ik op kantoor
-vandaag, today, vandaag oefenen we met simpele zinnen
-snel, fast, de trein rijdt snel door de stad
-langzaam, slow, spreek langzaam zodat ik je kan volgen
-mooi, beautiful, het weer is mooi in de lente
-groot, big, dat is een groot gebouw naast het station
-klein, small, we wonen in een klein maar gezellig appartement
-warm, warm, de soep is nog warm dus pas op
-koud, cold, buiten is het koud en winderig
-blij, happy, ik ben blij met mijn vooruitgang
-leren, to learn, kinderen leren snel wanneer ze vaak oefenen
-spreken, to speak, wij spreken Nederlands tijdens de les
-luisteren, to listen, luister goed naar de uitspraak van het woord
-schrijven, to write, zij schrijft elke dag in haar notitieboek
-lezen, to read, hij leest de krant bij het ontbijt
-werken, to work, ik werk vandaag thuis aan een project
-spelen, to play, de kinderen spelen buiten na school
-markt, market, op de markt koop ik fruit, groente en brood
-trein, train, de trein vertrekt over tien minuten
-station, station, we wachten op het station op onze vriend
-vriend, friend, mijn vriend helpt mij met Nederlandse woorden`.trim();
-
 const flashcardsState = {
     cards: [],
     decks: [],
@@ -137,34 +86,18 @@ const escapeHtml = (value) => String(value)
     .replace(/'/g, '&#39;');
 
 const fetchAndParseFlashcards = async (filePath = FLASHCARD_SOURCE_PATH) => {
-    if (!filePath) {
-        return {
-            cards: parseFlashcardText(mockDutchFlashcardsData),
-            source: 'mock template string'
-        };
+    const response = await fetch(filePath);
+
+    if (!response.ok) {
+        throw new Error(`Failed to load flashcard data from ${filePath}`);
     }
 
-    try {
-        const response = await fetch(filePath);
+    const rawText = await response.text();
 
-        if (!response.ok) {
-            throw new Error(`Failed to load flashcard data from ${filePath}`);
-        }
-
-        const rawText = await response.text();
-
-        return {
-            cards: parseFlashcardText(rawText),
-            source: 'text file'
-        };
-    } catch (error) {
-        console.warn('Using mock Dutch flashcard data:', error);
-
-        return {
-            cards: parseFlashcardText(mockDutchFlashcardsData),
-            source: 'mock template string'
-        };
-    }
+    return {
+        cards: parseFlashcardText(rawText),
+        source: 'text file'
+    };
 };
 
 const updateFlashcardStatus = () => {
@@ -503,7 +436,6 @@ const initializeFlashcardData = async () => {
 if (typeof window !== 'undefined') {
     window.dutchFlashcardsUtils = {
         FLASHCARD_DECK_SIZE,
-        mockDutchFlashcardsData,
         parseFlashcardText,
         chunkWordsIntoDecks,
         shuffleCards,
