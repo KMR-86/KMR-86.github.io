@@ -1,0 +1,2036 @@
+ik,I,Ik ben een student.,I am a student.
+jij,you (singular),Jij bent mijn vriend.,You are my friend.
+je,you (singular/informal),Wat doe je?,What are you doing?
+u,you (formal),Bent u de leraar?,Are you the teacher?
+hij,he,Hij loopt naar huis.,He is walking home.
+zij,she,Zij spreekt Nederlands.,She speaks Dutch.
+ze,she/they,Ze is erg aardig.,She is very kind.
+het,it,Het is koud vandaag.,It is cold today.
+wij,we,Wij gaan naar het park.,We are going to the park.
+we,we (short form),Wat gaan we eten?,What are we going to eat?
+jullie,you (plural),Wat doen jullie?,What are you all doing?
+zij,they,Zij wonen in Amsterdam.,They live in Amsterdam.
+mijn,my,Dat is mijn boek.,That is my book.
+jouw,your,Is dit jouw auto?,Is this your car.
+uw,your (formal),Is dit uw sleutel?,Is this your key?
+zijn,his,Zijn hond is groot.,His dog is big.
+haar,her,Haar tas is nieuw.,Her bag is new.
+ons,our,Dit is ons huis.,This is our house.
+onze,our,Onze kat slaapt.,Our cat is sleeping.
+hun,their,Hun huis is erg mooi.,Their house is very beautiful.
+wie,who,Wie ben jij?,Who are you?
+wat,what,Wat is dat?,What is that?
+waar,where,Waar woon je?,Where do you live?
+wanneer,when,Wanneer kom je?,When are you coming?
+waarom,why,Waarom lach je?,Why are you laughing?
+hoe,how,Hoe gaat het?,How are you?
+welke,which,Welke kleur wil je?,Which color do you want?
+zijn,to be,Wij zijn hier.,We are here.
+hebben,to have,Ik heb een hond.,I have a dog.
+worden,to become,Het wordt donker.,It is getting dark.
+kunnen,to be able to,Ik kan zwemmen.,I can swim.
+moeten,to must / have to,Ik moet nu gaan.,I have to go now.
+willen,to want,Ik wil een ijsje.,I want an ice cream.
+zullen,will / shall,Ik zal je helpen.,I will help you.
+mogen,to be allowed to,Mag ik hier zitten?,May I sit here?
+gaan,to go,Wij gaan naar huis.,We are going home.
+komen,to come,Zij komen vandaag.,They are coming today.
+doen,to do,Wat doe jij?,What are you doing?
+maken,to make,Ik maak een taart.,I am making a cake.
+zeggen,to say,Wat zeg je?,What are you saying?
+zien,to see,Ik zie een vogel.,I see a bird.
+weten,to know,Ik weet het niet.,I do not know.
+vinden,to find / think (opinion),Ik vind dat mooi.,I find that beautiful.
+denken,to think,Wat denk je?,What do you think?
+krijgen,to get / receive,Ik krijg een cadeau.,I am getting a gift.
+geven,to give,Zal ik je een hand geven?,Shall I give you a hand?
+nemen,to take,Ik neem de trein.,I am taking the train.
+blijven,to stay,Wij blijven hier.,We are staying here.
+worden,to become,Hij wil dokter worden,He wants to become a doctor
+houden van,to love,Ik hou van jou,I love you
+horen,to hear,Ik hoor de muziek,I hear the music
+luisteren,to listen,Luister naar de leraar,Listen to the teacher
+kijken,to look/watch,Ik kijk televisie,I am watching television
+zoeken,to look for,Ik zoek mijn sleutels,I am looking for my keys
+vinden,to find,Ik kan mijn tas niet vinden,I cannot find my bag
+helpen,to help,Kunt u mij helpen?,Can you help me?
+begrijpen,to understand,Ik begrijp het niet,I don't understand it
+verstaan,to understand (hearing),Ik kan je niet verstaan,I cannot hear/understand you
+leren,to learn / study,Ik leer Nederlands,I am learning Dutch
+studeren,to study,Zij studeert aan de universiteit,She studies at the university
+lezen,to read,Ik lees een boek,I am reading a book
+schrijven,to write,Schrijf je naam hier,Write your name here
+vragen,to ask,Mag ik iets vragen?,May I ask something?
+antwoorden,to answer,Hij antwoordt niet,He doesn't answer
+hopen,to hope,Ik hoop dat het gaat regenen,I hope it's going to rain
+geloven,to believe,Ik geloof je niet,I don't believe you
+vergeten,to forget,Vergeet je tas niet,Don't forget your bag
+onthouden,to remember,Ik kan dat niet onthouden,I cannot remember that
+proberen,to try,Ik ga het proberen,I am going to try it
+gebruiken,to use,Mag ik je telefoon gebruiken?,May I use your phone?
+beginnen,to start,De les gaat beginnen,The lesson is going to start
+stoppen,to stop,De auto stopt voor het licht,The car stops for the light
+eindigen,to end,De film eindigt om tien uur,The movie ends at ten o'clock
+wachten,to wait,Ik wacht op de bus,I am waiting for the bus
+werken,to work,Hij werkt hard.,He works hard.
+slapen,to sleep,Ik ga slapen.,I am going to sleep.
+eten,to eat,Wij eten rijst.,We eat rice.
+drinken,to drink,Ik drink water.,I drink water.
+kopen,to buy,Ik wil dat kopen.,I want to buy that.
+betalen,to pay,Ik zal betalen.,I will pay.
+bellen,to call,Ik zal je bellen.,I will call you.
+wonen,to live,Waar woon jij?,Where do you live?
+lopen,to walk,Wij lopen samen.,We walk together.
+rijden,to drive / ride,Ik rijd in een auto.,I drive a car.
+en,and,Ik hou van kaas en brood.,I love cheese and bread.
+maar,but,Ik wil gaan maar ik ben moe.,I want to go but I am tired.
+want,because,Ik eet want ik heb honger.,I eat because I am hungry.
+omdat,because,Ik blijf thuis omdat het regent.,I stay home because it is raining.
+als,if / when,Als het regent blijven we thuis.,If it rains we stay home.
+of,or,Wil je thee of koffie?,Do you want tea or coffee?
+niet,not,Ik weet het niet.,I do not know.
+geen,none / no,Ik heb geen geld.,I have no money.
+wel,indeed / rather,Ik wil wel gaan.,I do want to go.
+ook,also,Ik kom ook.,I am coming too.
+nog,still / yet,Ik ben nog niet klaar.,I am not ready yet.
+al,already,Het is al laat.,It is already late.
+nu,now,Ik moet nu weg.,I have to leave now.
+straks,later (today),Ik zie je straks.,I'll see you later.
+later,later,Tot later!,See you later!
+altijd,always,Ik ben altijd op tijd.,I am always on time.
+nooit,never,Ik eet nooit vlees.,I never eat meat.
+vaak,often,Ik ga vaak zwemmen.,I often go swimming.
+soms,sometimes,Soms is het koud.,Sometimes it is cold.
+hier,here,Ik ben hier.,I am here.
+daar,there,Het staat daar.,It is standing there.
+overal,everywhere,Ik heb overal gezocht.,I looked everywhere.
+nergens,nowhere,Ik kan het nergens vinden.,I can find it nowhere.
+met,with,Ik ga met mijn vriend.,I am going with my friend.
+zonder,without,Koffie zonder melk.,Coffee without milk.
+voor,for / before,Dit is voor jou.,This is for you.
+na,after,Na de les gaan we naar huis.,After the lesson we go home.
+van,of / from,Ik kom van Nederland.,I come from the Netherlands.
+naar,to,Ik ga naar de stad.,I am going to the city.
+in,in,In het huis.,In the house.
+op,on,Het boek ligt op de tafel.,The book is on the table.
+uit,out / from,Ik kom uit de winkel.,I am coming out of the shop.
+bij,at / near,Ik ben bij de bank.,I am at the bank.
+tussen,between,Het staat tussen de boeken.,It stands between the books.
+onder,under,De kat zit onder de tafel.,The cat is under the table.
+boven,above,De lamp hangt boven de tafel.,The lamp hangs above the table.
+links,left,Sla linksaf.,Turn left.
+rechts,right,Ga naar rechts.,Go to the right.
+rechtdoor,straight ahead,Ga rechtdoor.,Go straight ahead.
+dichtbij,near,De supermarkt is dichtbij.,The supermarket is near.
+ver weg,far away,Het is ver weg.,It is far away.
+nul,zero,Nul graden.,Zero degrees.
+één,one,Ik heb één broer.,I have one brother.
+twee,two,Twee kopjes koffie.,Two cups of coffee.
+drie,three,Drie katten.,Three cats.
+vier,four,Vier auto's.,Four cars.
+vijf,five,Vijf appels.,Five apples.
+zes,six,Zes eieren.,Six eggs.
+zeven,seven,Zeven dagen.,Seven days.
+acht,eight,Acht uren.,Eight hours.
+negen,nine,Negen mensen.,Nine people.
+tien,ten,Tien euro.,Ten euros.
+elf,eleven,Elf spelers.,Eleven players.
+twaalf,twelve,Twaalf maanden.,Twelve months.
+dertien,thirteen,Dertien is een ongeluksgetal.,Thirteen is an unlucky number.
+veertien,fourteen,Veertien dagen.,Fourteen days.
+vijftien,fifteen,Vijftien minuten.,Fifteen minutes.
+zestien,sixteen,Zestien jaar.,Sixteen years.
+zeventien,seventeen,Zeventien boeken.,Seventeen books.
+achttien,eighteen,Achttien jaar oud.,Eighteen years old.
+negentien,nineteen,Negentien graden.,Nineteen degrees.
+twintig,twenty,Twintig euro.,Twenty euros.
+honderd,hundred,Honderd mensen.,One hundred people.
+duizend,thousand,Duizend jaar.,One thousand years.
+de tijd,the time,Hoe laat is het?,What time is it?
+de dag,the day,Een mooie dag.,A beautiful day.
+de week,the week,De volgende week.,The next week.
+de maand,the month,De maand mei.,The month of May.
+het jaar,the year,Een nieuw jaar.,A new year.
+vandaag,today,Het is vandaag warm.,It is warm today.
+morgen,tomorrow,Ik zie je morgen.,I see you tomorrow.
+gisteren,yesterday,Gisteren was het koud.,Yesterday it was cold.
+de ochtend,the morning,In de ochtend.,In the morning.
+de middag,the afternoon,In de middag.,In the afternoon.
+de avond,the evening,In de avond.,In the evening.
+de nacht,the night,Goedenacht.,Good night.
+maandag,Monday,Maandag is de eerste dag.,Monday is the first day.
+dinsdag,Tuesday,Dinsdag ga ik sporten.,Tuesday I am going to exercise.
+woensdag,Wednesday,Woensdagmiddag.,Wednesday afternoon.
+donderdag,Thursday,Donderdag is het markt.,Thursday is market day.
+vrijdag,Friday,Vrijdagavond.,Friday evening.
+zaterdag,Saturday,Zaterdag is het weekend.,Saturday it is weekend.
+zondag,Sunday,Zondag is een rustdag.,Sunday is a day of rest.
+de mens,the human,De mens is uniek.,Humans are unique.
+de persoon,the person,Een aardige persoon.,A nice person.
+de man,the man,De man loopt op straat.,The man walks on the street.
+de vrouw,the woman,De vrouw leest een boek.,The woman is reading a book.
+het kind,the child,Het kind speelt buiten.,The child is playing outside.
+de baby,the baby,De baby huilt.,The baby is crying.
+de vader,the father,Mijn vader werkt.,My father works.
+de moeder,the mother,Mijn moeder kookt.,My mother is cooking.
+de zoon,the son,Mijn zoon gaat naar school.,My son goes to school.
+de dochter,the daughter,Mijn dochter lacht.,My daughter is laughing.
+de broer,the brother,Mijn broer is groot.,My brother is tall.
+de zus,the sister,Mijn zus is lief.,My sister is sweet.
+de familie,the family,Mijn familie is groot.,My family is big.
+de vriend,the friend (male),Hij is mijn beste vriend.,He is my best friend.
+de vriendin,the friend (female),Zij is mijn vriendin.,She is my friend.
+het lichaam,the body,Een gezond lichaam.,A healthy body.
+het hoofd,the head,Ik heb hoofdpijn.,I have a headache.
+het haar,the hair,Haar haar is blond.,Her hair is blond.
+het gezicht,the face,Een blij gezicht.,A happy face.
+het oog,the eye,Ik heb blauwe ogen.,I have blue eyes.
+het oor,the ear,Ik hoor je met mijn oren.,I hear you with my ears.
+de neus,the nose,Ik ruik met mijn neus.,I smell with my nose.
+de mond,the mouth,Doe je mond open.,Open your mouth.
+de tand,the tooth,Ik poets mijn tanden.,I brush my teeth.
+de nek,the neck,Mijn nek doet zeer.,My neck hurts.
+de schouder,the shoulder,Op mijn schouder.,On my shoulder.
+de arm,the arm,Ik heb twee armen.,I have two arms.
+de hand,the hand,Geef me je hand.,Give me your hand.
+de vinger,the finger,Ik heb tien vingers.,I have ten fingers.
+de rug,the back,Mijn rug is recht.,My back is straight.
+de buik,the belly,Ik heb een volle buik.,I have a full belly.
+het been,the leg,Mijn benen zijn moe.,My legs are tired.
+de knie,the knee,Ik viel op mijn knie.,I fell on my knee.
+de voet,the foot,Ik ga te voet.,I go on foot.
+het eten,the food,Het eten is lekker.,The food is tasty.
+het drinken,the drink,Wat wil je drinken?,What do you want to drink?
+het water,the water,Een glas water.,A glass of water.
+de koffie,the coffee,Koffie met suiker.,Coffee with sugar.
+de thee,the tea,Wil je thee?,Do you want tea?
+de melk,the milk,Melk is wit.,Milk is white.
+het sap,the juice,Sinaasappelsap.,Orange juice.
+het brood,the bread,Brood met kaas.,Bread with cheese.
+de kaas,the cheese,Ik hou van kaas.,I love cheese.
+het vlees,the meat,Ik eet geen vlees.,I don't eat meat.
+de vis,the fish,Vis uit de zee.,Fish from the sea.
+het ei,the egg,Een gekookt ei.,A boiled egg.
+de rijst,the rice,Witte rijst.,White rice.
+de appel,the apple,Een rode appel.,A red apple.
+de banaan,the banana,Een gele banaan.,A yellow banana.
+de groente,the vegetable,Eet je groente.,Eat your vegetables.
+het fruit,the fruit,Ik hou van fruit.,I love fruit.
+de suiker,the sugar,Suiker is zoet.,Sugar is sweet.
+het zout,the salt,Niet te veel zout.,Not too much salt.
+lekker,tasty,Dit is erg lekker.,This is very tasty.
+honger,hunger,Ik heb honger.,I am hungry.
+dorst,thirst,Ik heb dorst.,I am thirsty.
+het huis,the house,Ik ga naar huis.,I am going home.
+de kamer,the room,Mijn kamer is klein.,My room is small.
+de keuken,the kitchen,In de keuken.,In the kitchen.
+de badkamer,the bathroom,De badkamer is boven.,The bathroom is upstairs.
+de slaapkamer,the bedroom,Een grote slaapkamer.,A big bedroom.
+de wc,the toilet,Waar is de wc?,Where is the toilet?
+de deur,the door,Doe de deur dicht.,Close the door.
+het raam,the window,Kijk door het raam.,Look through the window.
+de tafel,the table,Het eten staat op tafel.,The food is on the table.
+de stoel,the chair,Ga op de stoel zitten.,Sit on the chair.
+het bed,the bed,Ik lig in bed.,I am lying in bed.
+de kast,the cupboard,In de kast.,In the cupboard.
+de lamp,the lamp,Doe de lamp aan.,Turn on the lamp.
+de muur,the wall,Een witte muur.,A white wall.
+de vloer,the floor,Op de vloer.,On the floor.
+de tuin,the garden,Wij zitten in de tuin.,We are sitting in the garden.
+de stad,the city,Ik ga naar de stad.,I am going to the city.
+het dorp,the village,Een klein dorp.,A small village.
+de straat,the street,In de straat.,In the street.
+de weg,the road,De weg is lang.,The road is long.
+de winkel,the shop,Ik ga naar de winkel.,I am going to the shop.
+de markt,the market,Op de markt.,At the market.
+de school,the school,Kinderen gaan naar school.,Children go to school.
+het werk,the work,Ik ben op mijn werk.,I am at my work.
+de bank,the bank,Geld op de bank.,Money in the bank.
+het ziekenhuis,the hospital,Hij ligt in het ziekenhuis.,He is in the hospital.
+de politie,the police,Bel de politie!,Call the police!
+de natuur,the nature,Ik hou van de natuur.,I love nature.
+de boom,the tree,Een hoge boom.,A tall tree.
+de bloem,the flower,Een mooie bloem.,A beautiful flower.
+de plant,the plant,De plant heeft water nodig.,The plant needs water.
+de zon,the sun,De zon schijnt.,The sun is shining.
+de maan,the moon,De maan is rond.,The moon is round.
+de ster,the star,Kijk naar de sterren.,Look at the stars.
+de lucht,the sky/air,Blauwe lucht.,Blue sky.
+de zee,the sea,De zee is wild.,The sea is wild.
+het strand,the beach,Op het strand.,On the beach.
+de berg,the mountain,Een hoge berg.,A high mountain.
+de rivier,the river,Een diepe rivier.,A deep river.
+het weer,the weather,Hoe is het weer?,How is the weather?
+de regen,the rain,Ik loop in de regen.,I am walking in the rain.
+de sneeuw,the snow,Er ligt sneeuw.,There is snow.
+de wind,the wind,Er is veel wind.,There is a lot of wind.
+warm,warm,Het is erg warm.,It is very warm.
+koud,cold,Ik heb het koud.,I am cold.
+goed,good,Dat is goed.,That is good.
+fout,wrong,Dat is fout.,That is wrong.
+mooi,beautiful,Een mooi huis.,A beautiful house.
+lelijk,ugly,Een lelijk eendje.,An ugly duckling.
+groot,big,Een grote auto.,A big car.
+klein,small,Een kleine hond.,A small dog.
+ouders,parents,Mijn ouders wonen hier.,My parents live here.
+collega,colleague,Hij is een leuke collega.,He is a nice colleague.
+baas,boss,Mijn baas is aardig.,My boss is nice.
+klant,customer,De klant wacht.,The customer is waiting.
+dokter,doctor,Ik moet naar de dokter.,I have to go to the doctor.
+leraar,teacher,De leraar spreekt.,The teacher is speaking.
+student,student,Hij is een student.,He is a student.
+buurman,neighbor (male),Mijn buurman is stil.,My neighbor is quiet.
+buurvrouw,neighbor (female),Mijn buurvrouw bakt koekjes.,My neighbor is baking cookies.
+naam,name,Wat is jouw naam?,What is your name?
+leeftijd,age,Wat is je leeftijd?,What is your age?
+adres,address,Wat is je adres?,What is your address?
+telefoon,phone,Waar is mijn telefoon?,Where is my phone?
+nummer,number,Wat is je nummer?,What is your number?
+afspraak,appointment,Ik heb een afspraak.,I have an appointment.
+probleem,problem,Dat is geen probleem.,That is no problem.
+oplossing,solution,We zoeken een oplossing.,We are looking for a solution.
+vraag,question,Ik heb een vraag.,I have a question.
+antwoord,answer,Dat is het goede antwoord.,That is the right answer.
+werk,work,Ik ga naar mijn werk.,I am going to my work.
+baan,job,Ik zoek een nieuwe baan.,I am looking for a new job.
+bedrijf,company,Hij werkt voor een groot bedrijf.,He works for a big company.
+kantoor,office,Ik ben op kantoor.,I am at the office.
+vakantie,holiday,Wij gaan op vakantie.,We are going on holiday.
+reis,trip,Het was een goede reis.,It was a good trip.
+sleutel,key,Waar is mijn sleutel?,Where is my key?
+slot,lock,Het slot is oud.,The lock is old.
+tas,bag,Mijn tas is zwaar.,My bag is heavy.
+koffer,suitcase,Ik pak mijn koffer.,I pack my suitcase.
+boek,book,Ik lees een mooi boek.,I am reading a beautiful book.
+pen,pen,Mag ik je pen lenen?,May I borrow your pen?
+papier,paper,Ik heb papier nodig.,I need paper.
+computer,computer,De computer is traag.,The computer is slow.
+laptop,laptop,Mijn laptop staat aan.,My laptop is on.
+oplader,charger,Ik zoek mijn oplader.,I am looking for my charger.
+televisie,TV,De televisie staat aan.,The television is on.
+afstandsbediening,remote,Geef me de afstandsbediening.,Give me the remote.
+koelkast,fridge,Het bier staat in de koelkast.,The beer is in the fridge.
+oven,oven,De pizza zit in de oven.,The pizza is in the oven.
+magnetron,microwave,Warm het op in de magnetron.,Warm it up in the microwave.
+fornuis,stove,De pan staat op het fornuis.,The pan is on the stove.
+bord,plate,Jouw bord is leeg.,Your plate is empty.
+glas,glass,Een glas water graag.,A glass of water please.
+kopje,cup,Een kopje thee graag.,A cup of tea please.
+mes,knife,Ik heb een mes nodig.,I need a knife.
+vork,fork,Hier is een vork.,Here is a fork.
+lepel,spoon,Waar is de soeplepel?,Where is the soup spoon?
+handdoek,towel,Geef me een handdoek.,Give me a towel.
+zeep,soap,Was je handen met zeep.,Wash your hands with soap.
+shampoo,shampoo,Mijn shampoo is op.,My shampoo is gone.
+spiegel,mirror,Kijk in de spiegel.,Look in the mirror.
+wasmachine,washing machine,De wasmachine is vol.,The washing machine is full.
+droger,dryer,De droger is klaar.,The dryer is ready.
+vuilnis,trash,Breng het vuilnis weg.,Take the trash away.
+vuilnisbak,trash can,Gooi het in de vuilnisbak.,Throw it in the trash can.
+schoon,clean,Alles is schoon.,Everything is clean.
+vies,dirty,Mijn handen zijn vies.,My hands are dirty.
+nieuw,new,Ik heb een nieuwe auto.,I have a new car.
+oud,old,Die fiets is oud.,That bike is old.
+duur,expensive,Dat horloge is duur.,That watch is expensive.
+goedkoop,cheap,Die appels zijn goedkoop.,Those apples are cheap.
+zwaar,heavy,Deze doos is zwaar.,This box is heavy.
+licht (gewicht),light (weight),Het is heel licht.,It is very light.
+open,open,De winkel is open.,The shop is open.
+dicht,closed,De deur is dicht.,The door is closed.
+vol,full,Het glas is vol.,The glass is full.
+leeg,empty,Mijn kopje is leeg.,My cup is empty.
+nat,wet,Mijn kleren zijn nat.,My clothes are wet.
+droog,dry,De was is droog.,The laundry is dry.
+snel,fast,Hij rent snel.,He runs fast.
+langzaam,slow,Je praat te langzaam.,You talk too slowly.
+makkelijk,easy,Die test was makkelijk.,That test was easy.
+moeilijk,difficult,Nederlands is moeilijk.,Dutch is difficult.
+slecht,bad,Het weer is slecht.,The weather is bad.
+beter,better,Dit is veel beter.,This is much better.
+best,best,Jij bent de beste.,You are the best.
+hetzelfde,same,Wij dragen hetzelfde.,We are wearing the same.
+anders,different,Dit is anders.,This is different.
+ver,far,Is het nog ver?, Is it still far?
+klaar,ready,Ik ben er klaar voor.,I am ready for it.
+bier,beer,Een koud bier graag.,A cold beer please.
+wijn,wine,Rode of witte wijn?,Red or white wine?
+boter,butter,Met een beetje boter.,With a little butter.
+kip,chicken,Wij eten kip vanavond.,We are eating chicken tonight.
+pasta,pasta,Ik maak pasta.,I am making pasta.
+aardappel,potato,Gekookte aardappels.,Boiled potatoes.
+sinaasappel,orange,Een zoete sinaasappel.,A sweet orange.
+tomaat,tomato,Tomaten in de salade.,Tomatoes in the salad.
+komkommer,cucumber,Ik snijd de komkommer.,I am cutting the cucumber.
+ui,onion,Met een beetje ui.,With a little onion.
+sla,lettuce,De sla is groen.,The lettuce is green.
+peper,pepper,Peper en zout.,Pepper and salt.
+saus,sauce,Welke saus wil je?,Which sauce do you want?
+soep,soup,Tomatensoep vooraf.,Tomato soup as a starter.
+salade,salad,Ik bestel een salade.,I am ordering a salad.
+ontbijt,breakfast,Het ontbijt is om acht uur.,Breakfast is at eight o'clock.
+lunch,lunch,Wat eten we voor de lunch?,What are we eating for lunch?
+diner,dinner,Het diner was heerlijk.,The dinner was delicious.
+restaurant,restaurant,Een goed restaurant.,A good restaurant.
+menu,menu,Mag ik het menu zien?,May I see the menu?
+bestelling,order,Wat is uw bestelling?,What is your order?
+rekening,bill,De rekening alstublieft.,The bill please.
+reservering,reservation,Ik heb een reservering.,I have a reservation.
+vies (eten),disgusting,Dat smaakt vies.,That tastes disgusting.
+vers,fresh,Vers brood is het beste.,Fresh bread is the best.
+oud (eten),stale,Dit brood is oud.,This bread is stale.
+snijden,to cut,Kan je de ui snijden?,Can you cut the onion?
+mengen,to mix,Je moet alles mengen.,You have to mix everything.
+proeven,to taste,Wil je even proeven?,Do you want to taste?
+serveren,to serve,We serveren het warm.,We serve it warm.
+etenstijd,mealtime,Het is etenstijd.,It is mealtime.
+snack,snack,Ik neem een snack.,I am taking a snack.
+friet,fries,Friet met mayonaise.,Fries with mayonnaise.
+pizza,pizza,Ik bestel een pizza.,I am ordering a pizza.
+hamburger,burger,Een hamburger met kaas.,A burger with cheese.
+ijs,ice cream,Ik wil een ijsje.,I want an ice cream.
+chocolade,chocolate,Pure chocolade is lekker.,Dark chocolate is tasty.
+koekje,cookie,Neem een koekje.,Take a cookie.
+taart,cake,Gefeliciteerd hier is taart.,Congratulations here is cake.
+fles,bottle,Een fles water.,A bottle of water.
+kop,cup,Een kop koffie.,A cup of coffee.
+blik,can,Een blik soep.,A can of soup.
+verpakking,package,De verpakking is leeg.,The packaging is empty.
+supermarkt,supermarket,Ik ga naar de supermarkt.,I am going to the supermarket.
+prijs,price,Wat is de prijs?,What is the price?
+korting,discount,Je krijgt korting.,You get a discount.
+aanbieding,offer,Dit is een goede aanbieding.,This is a good offer.
+pinnen,to pay by card,Kan ik hier pinnen?,Can I pay by card here?
+contant,cash,Ik betaal contant.,I am paying cash.
+wisselgeld,change,Houd het wisselgeld maar.,Keep the change.
+plein,square,We ontmoeten elkaar op het plein.,We will meet at the square.
+station,station,Het centraal station.,The central station.
+halte,stop,De volgende halte.,The next stop.
+bus,bus,De bus vertrekt zo.,The bus is leaving soon.
+trein,train,De trein naar Utrecht.,The train to Utrecht.
+metro,metro,Neem de metro.,Take the metro.
+tram,tram,De tram stopt hier.,The tram stops here.
+fiets,bicycle,Waar is mijn fiets?,Where is my bike?
+auto,car,Wij gaan met de auto.,We are going by car.
+taxi,taxi,Bel een taxi.,Call a taxi.
+vliegtuig,airplane,Het vliegtuig landt zo.,The airplane is landing soon.
+ticket,ticket,Heb je een ticket?,Do you have a ticket?
+kaart,card/ticket,Een enkele kaart alstublieft.,A single ticket please.
+OV-chipkaart,transport card,Vergeet je OV-chipkaart niet.,Do not forget your transport card.
+fietsen,to cycle,Wij fietsen vaak.,We cycle often.
+spreken,to speak,Spreek je Engels?,Do you speak English?
+luisteren,to listen,Luister naar mij.,Listen to me.
+leren,to learn,Ik leer Nederlands.,I am learning Dutch.
+studeren,to study,Hij studeert in Amsterdam.,He studies in Amsterdam.
+helpen,to help,Kan ik je helpen?,Can I help you?
+vragen,to ask,Mag ik iets vragen?,May I ask something?
+antwoorden,to answer,Hij geeft geen antwoord.,He gives no answer.
+wachten,to wait,Ik wacht op jou.,I am waiting for you.
+beginnen,to begin,Wij beginnen nu.,We are starting now.
+eindigen,to end,De les eindigt zo.,The lesson ends soon.
+openen,to open,Open de deur.,Open the door.
+sluiten,to close,Sluit het raam.,Close the window.
+proberen,to try,Ik zal het proberen.,I will try it.
+gebruiken,to use,Mag ik dit gebruiken?,May I use this?
+begrijpen,to understand,Ik begrijp het.,I understand it.
+vergeten,to forget,Ik ben het vergeten.,I have forgotten it.
+herinneren,to remember,Ik herinner het me.,I remember it.
+kiezen,to choose,Je moet kiezen.,You have to choose.
+reizen,to travel,Wij reizen graag.,We like to travel.
+reserveren,to reserve,Ik wil een tafel reserveren.,I want to reserve a table.
+ontmoeten,to meet,Leuk je te ontmoeten.,Nice to meet you.
+uitnodigen,to invite,Ik wil je uitnodigen.,I want to invite you.
+vieren,to celebrate,Wij vieren een feestje.,We are celebrating a party.
+koken,to cook,Wie gaat er koken?,Who is going to cook?
+bakken,to bake,Ik bak een brood.,I am baking a bread.
+wassen,to wash,Ik moet mijn handen wassen.,I have to wash my hands.
+schoonmaken,to clean,Wij gaan het huis schoonmaken.,We are going to clean the house.
+oefenen,to practice,Je moet meer oefenen.,You have to practice more.
+regelen,to arrange,Ik zal dat regelen.,I will arrange that.
+huren,to rent,Wij huren een fiets.,We are renting a bike.
+verhuizen,to move (house),Wij gaan verhuizen.,We are going to move.
+bouwen,to build,Zij bouwen een huis.,They are building a house.
+repareren,to repair,Kan je dit repareren?,Can you repair this?
+sturen,to send,Ik stuur een e-mail.,I am sending an email.
+ontvangen,to receive,Ik heb het pakket ontvangen.,I received the package.
+winnen,to win,Wij gaan winnen.,We are going to win.
+verliezen,to lose,Ik wil niet verliezen.,I do not want to lose.
+brengen,to bring,Kan je dat brengen?,Can you bring that?
+halen,to get/pick up,Ik haal je op.,I will pick you up.
+dragen,to carry/wear,Hij draagt een jas.,He is wearing a coat.
+trekken,to pull,Je moet trekken.,You have to pull.
+duwen,to push,Niet duwen.,Do not push.
+lachen,to laugh,Zij lacht altijd.,She always laughs.
+huilen,to cry,Het kind huilt.,The child is crying.
+voelen,to feel,Hoe voel je je?,How do you feel?
+hopen,to hope,Ik hoop het.,I hope so.
+plannen,to plan,Wij plannen een reis.,We are planning a trip.
+veranderen,to change,Alles gaat veranderen.,Everything is going to change.
+verbeteren,to improve,Je Nederlands zal verbeteren.,Your Dutch will improve.
+geloven,to believe,Ik geloof je.,I believe you.
+tekenen,to draw,Hij kan goed tekenen.,He can draw well.
+spelen,to play,De kinderen spelen buiten.,The children are playing outside.
+iemand,someone,Is er iemand?,Is there someone?
+niemand,nobody,Er is niemand.,There is nobody.
+alles,everything,Ik wil alles weten.,I want to know everything.
+niets,nothing,Ik doe niets.,I am doing nothing.
+iets,something,Wil je iets eten?,Do you want to eat something?
+ergens,somewhere,Het is ergens in huis.,It is somewhere in the house.
+nergens,nowhere,Ik kan het nergens vinden.,I can find it nowhere.
+overal,everywhere,Ik heb overal gezocht.,I have searched everywhere.
+alleen,alone / only,Ik ben alleen.,I am alone.
+samen,together,Wij gaan samen.,We go together.
+allemaal,all (of us/them),Wij komen allemaal.,We are all coming.
+sommige,some,Sommige mensen zijn aardig.,Some people are nice.
+elkaar,each other,Wij helpen elkaar.,We help each other.
+beide,both,Ik wil ze beide.,I want them both.
+enkele,a few,Ik heb enkele boeken.,I have a few books.
+vele,many,Er zijn vele mogelijkheden.,There are many possibilities.
+genoeg,enough,Dat is genoeg.,That is enough.
+veel,much / many,Ik heb veel werk.,I have much work.
+weinig,little / few,Er is weinig tijd.,There is little time.
+meer,more,Ik wil meer weten.,I want to know more.
+minder,less,Eet minder suiker.,Eat less sugar.
+meest,most,De meeste mensen.,Most people.
+minst,least,Het minste geld.,The least money.
+heel,very / whole,Ik ben heel blij.,I am very happy.
+erg,very / bad,Het is erg koud.,It is very cold.
+te,too,Dat is te duur.,That is too expensive.
+zo,so / like this,Doe het zo.,Do it like this.
+als,as / like,Hij is als een broer.,He is like a brother.
+dan,than,Ik ben groter dan jij.,I am taller than you.
+even,as (equal),Ik ben even oud.,I am the same age.
+net zo,just as,Net zo groot.,Just as big.
+misschien,maybe,Misschien kom ik.,Maybe I will come.
+natuurlijk,of course,Natuurlijk help ik je.,Of course I will help you.
+zeker,sure / certain,Ik weet het zeker.,I know for sure.
+waarschijnlijk,probably,Het gaat waarschijnlijk regenen.,It is probably going to rain.
+eindelijk,finally,Eindelijk ben je er.,Finally you are here.
+meestal,usually,Meestal ben ik op tijd.,Usually I am on time.
+overmorgen,day after tomorrow,Ik zie je overmorgen.,I see you the day after tomorrow.
+eergisteren,day before yesterday,Eergisteren was ik ziek.,The day before yesterday I was sick.
+volgende,next,De volgende keer.,The next time.
+vorige,previous,De vorige week.,The previous week.
+binnen,inside,Kom binnen.,Come inside.
+buiten,outside,De zon schijnt buiten.,The sun is shining outside.
+beneden,downstairs / below,De keuken is beneden.,The kitchen is downstairs.
+boven,upstairs / above,Ik slaap boven.,I sleep upstairs.
+kleur,color,Wat is je lievelingskleur?,What is your favorite color?
+rood,red,De appel is rood.,The apple is red.
+blauw,blue,De lucht is blauw.,The sky is blue.
+geel,yellow,De zon is geel.,The sun is yellow.
+groen,green,Het gras is groen.,The grass is green.
+zwart,black,Mijn schoenen zijn zwart.,My shoes are black.
+wit,white,Sneeuw is wit.,Snow is white.
+grijs,grey,Het is een grijze dag.,It is a grey day.
+bruin,brown,De beer is bruin.,The bear is brown.
+oranje,orange,Nederland draagt oranje.,The Netherlands wears orange.
+paars,purple,Een paarse bloem.,A purple flower.
+roze,pink,Zij houdt van roze.,She loves pink.
+lichtblauw,light blue,Een lichtblauwe trui.,A light blue sweater.
+donkergroen,dark green,Donkergroene bladeren.,Dark green leaves.
+kleding,clothing,Ik koop nieuwe kleding.,I am buying new clothing.
+jas,coat / jacket,Trek je jas aan.,Put on your coat.
+broek,pants / trousers,Mijn broek is te lang.,My pants are too long.
+shirt,shirt,Een wit shirt.,A white shirt.
+trui,sweater,Het is koud, trek een trui aan.,It is cold, put on a sweater.
+rok,skirt,Zij draagt een rok.,She is wearing a skirt.
+jurk,dress,Een mooie jurk.,A beautiful dress.
+schoenen,shoes,Mijn schoenen zijn vies.,My shoes are dirty.
+sokken,socks,Ik zoek mijn sokken.,I am looking for my socks.
+hoed,hat,Hij draagt een hoed.,He is wearing a hat.
+handschoenen,gloves,Ik heb handschoenen nodig.,I need gloves.
+sjaal,scarf,Een warme sjaal.,A warm scarf.
+ondergoed,underwear,Schoon ondergoed.,Clean underwear.
+pyjama,pajamas,Trek je pyjama aan.,Put on your pajamas.
+riem,belt,Mijn riem is te strak.,My belt is too tight.
+bril,glasses,Ik kan mijn bril niet vinden.,I cannot find my glasses.
+horloge,watch,Mijn horloge is kapot.,My watch is broken.
+tas,bag,Een handige tas.,A handy bag.
+paraplu,umbrella,Vergeet je paraplu niet.,Don't forget your umbrella.
+gevoel,feeling,Een goed gevoel.,A good feeling.
+blij,happy,Ik ben erg blij.,I am very happy.
+verdrietig,sad,Waarom ben je verdrietig?,Why are you sad?
+boos,angry,Hij is erg boos.,He is very angry.
+bang,afraid,Ik ben bang voor honden.,I am afraid of dogs.
+moe,tired,Ik ben zo moe.,I am so tired.
+verrast,surprised,Ik was erg verrast.,I was very surprised.
+zenuwachtig,nervous,Ik ben zenuwachtig voor de test.,I am nervous for the test.
+trots,proud,Ik ben trots op jou.,I am proud of you.
+alleen,lonely,Ik voel me alleen.,I feel lonely.
+verveeld,bored,De student is verveeld.,The student is bored.
+ziek,sick,Ik ben vandaag ziek.,I am sick today.
+gezond,healthy,Gezond eten is belangrijk.,Healthy food is important.
+pijn,pain,Ik heb pijn in mijn rug.,I have pain in my back.
+hoofdpijn,headache,Ik heb een zware hoofdpijn.,I have a heavy headache.
+koorts,fever,Het kind heeft koorts.,The child has a fever.
+verkouden,having a cold,Ik ben erg verkouden.,I have a bad cold.
+hoesten,to cough,Hij moet veel hoesten.,He has to cough a lot.
+niezen,to sneeze,Ik moet altijd niezen in de zon.,I always have to sneeze in the sun.
+medicijn,medicine,Neem je medicijn in.,Take your medicine.
+apotheek,pharmacy,Ik ga naar de apotheek.,I am going to the pharmacy.
+recept,prescription,Een recept van de dokter.,A prescription from the doctor.
+pleister,band-aid,Ik heb een pleister nodig.,I need a band-aid.
+bloed,blood,Er is bloed op je shirt.,There is blood on your shirt.
+hart,heart,Mijn hart slaat snel.,My heart beats fast.
+longen,lungs,Roken is slecht voor je longen.,Smoking is bad for your lungs.
+maag,stomach,Mijn maag is leeg.,My stomach is empty.
+keel,throat,Ik heb keelpijn.,I have a sore throat.
+afspraak,appointment,Een afspraak bij de tandarts.,An appointment at the dentist.
+tandarts,dentist,Ik ben bang voor de tandarts.,I am afraid of the dentist.
+zorg,care,Zorg voor jezelf.,Take care of yourself.
+onweer,thunderstorm,Er is onweer op komst.,A thunderstorm is coming.
+mist,fog,Het is erg mistig buiten.,It is very foggy outside.
+wolk,cloud,Ik zie een grijze wolk.,I see a grey cloud.
+bliksem,lightning,Ik zag de bliksem.,I saw the lightning.
+storm,storm,De storm was erg sterk.,The storm was very strong.
+ijs,ice,Er ligt ijs op de weg.,There is ice on the road.
+vriezen,to freeze,Het gaat vanavond vriezen.,It is going to freeze tonight.
+smelten,to melt,De sneeuw smelt.,The snow is melting.
+lente,spring,De bloemen bloeien in de lente.,The flowers bloom in the spring.
+zomer,summer,In de zomer is het warm.,In the summer it is warm.
+herfst,autumn,De bladeren vallen in de herfst.,The leaves fall in autumn.
+winter,winter,In de winter sneeuwt het.,In the winter it snows.
+seizoen,season,Wat is je favoriete seizoen?,What is your favorite season?
+natuur,nature,Ik wandele graag in de natuur.,I like walking in nature.
+bos,forest,Wij lopen in het bos.,We are walking in the forest.
+strand,beach,Laten we naar het strand gaan.,Let's go to the beach.
+zee,sea,De zee is blauw.,The sea is blue.
+rivier,river,De rivier stroomt snel.,The river flows fast.
+meer,lake,Zwemmen in het meer.,Swimming in the lake.
+gras,grass,Loop niet op het gras.,Don't walk on the grass.
+zand,sand,Zand in mijn schoenen.,Sand in my shoes.
+heuvel,hill,De fiets gaat de heuvel op.,The bike goes up the hill.
+eiland,island,Wij wonen op een eiland.,We live on an island.
+wereld,world,De wereld is groot.,The world is big.
+onderwijs,education,Goed onderwijs is belangrijk.,Good education is important.
+school,school,Ik ga naar school.,I go to school.
+klas,class,In de klas is het stil.,In the class it is quiet.
+leraar,teacher,De leraar legt het uit.,The teacher explains it.
+leerling,student (young),De leerling leert veel.,The student learns a lot.
+universiteit,university,Zij studeert aan de universiteit.,She studies at the university.
+boek,book,Lees dit boek.,Read this book.
+schrift,notebook,Schrijf het in je schrift.,Write it in your notebook.
+potlood,pencil,Heb je een potlood?,Do you have a pencil?
+gum,eraser,Ik heb een gum nodig.,I need an eraser.
+tas,bag,Mijn schooltas is zwaar.,My school bag is heavy.
+examen,exam,Ik heb morgen een examen.,I have an exam tomorrow.
+toets,test,Een moeilijke toets.,A difficult test.
+cijfer,grade,Ik heb een goed cijfer.,I have a good grade.
+huiswerk,homework,Maak je huiswerk.,Do your homework.
+les,lesson,De les begint nu.,The lesson starts now.
+pauze,break,Het is tijd voor pauze.,It is time for a break.
+vak,subject,Wat is je favoriete vak?,What is your favorite subject?
+taal,language,Nederlands is een mooie taal.,Dutch is a beautiful language.
+woord,word,Wat betekent dit woord?,What does this word mean?
+zin,sentence,Maak een goede zin.,Make a good sentence.
+fout,error / mistake,Ik heb een fout gemaakt.,I made a mistake.
+verbeteren,to improve / correct,Verbeter de fouten.,Correct the mistakes.
+herhalen,to repeat,Kun je dat herhalen?,Can you repeat that?
+begrijpen,to understand,Begrijp je de vraag?,Do you understand the question?
+uitleggen,to explain,Kunt u het uitleggen?,Can you explain it?
+onthouden,to remember,Ik kan het niet onthouden.,I cannot remember it.
+oefenen,to practice,Blijf oefenen!,Keep practicing!
+krant,newspaper,Ik lees de krant.,I read the newspaper.
+tijdschrift,magazine,Een leuk tijdschrift.,A fun magazine.
+radio,radio,Zet de radio aan.,Turn on the radio.
+nieuws,news,Heb je het nieuws gehoord?,Have you heard the news?
+internet,internet,Het internet is traag.,The internet is slow.
+website,website,Bezoek onze website.,Visit our website.
+computer,computer,De computer start op.,The computer is starting up.
+muis,mouse,De muis werkt niet.,The mouse is not working.
+toetsenbord,keyboard,Typen op het toetsenbord.,Typing on the keyboard.
+scherm,screen,Kijk naar het scherm.,Look at the screen.
+e-mail,email,Ik stuur een e-mail.,I am sending an email.
+wachtwoord,password,Wat is het wachtwoord?,What is the password?
+bericht,message,Ik heb een bericht gekregen.,I received a message.
+foto,photo,Maak een foto.,Take a photo.
+camera,camera,Mijn camera is nieuw.,My camera is new.
+muziek,music,Ik luister naar muziek.,I am listening to music.
+liedje,song,Een mooi liedje.,A beautiful song.
+film,movie,Laten we een film kijken.,Let's watch a movie.
+bioscoop,cinema,Gaan we naar de bioscoop?,Are we going to the cinema?
+vrije tijd,leisure time,Wat doe je in je vrije tijd?,What do you do in your leisure time?
+hobby,hobby,Mijn hobby is tekenen.,My hobby is drawing.
+sport,sport,Doe je aan sport?,Do you do sports?
+voetbal,football,Ik hou van voetbal.,I love football.
+zwemmen,to swim,Ik ga zwemmen.,I am going swimming.
+fietsen,to cycle,Lekker fietsen.,Nice cycling.
+wandelen,to walk / hike,Wandelen in het park.,Walking in the park.
+hardlopen,to run,Hij gaat elke dag hardlopen.,He goes running every day.
+dansen,to dance,Zij kan goed dansen.,She can dance well.
+zingen,to sing,Zing een liedje.,Sing a song.
+koken,to cook,Ik kook voor mijn vrienden.,I cook for my friends.
+lezen,to read,Ik lees graag boeken.,I like reading books.
+reizen,to travel,Wij gaan veel reizen.,We are going to travel a lot.
+spelletje,game,Zullen we een spelletje doen?,Shall we play a game?
+kaarten,to play cards,We gaan vanavond kaarten.,We are going to play cards tonight.
+tekenen,to draw,Ik teken een boom.,I am drawing a tree.
+schilderen,to paint,Hij schildert een huis.,He is painting a house.
+instrument,instrument,Bespeel je een instrument?,Do you play an instrument?
+gitaar,guitar,Ik speel gitaar.,I play guitar.
+piano,piano,Zij speelt piano.,She plays piano.
+vallen,to fall,Pas op dat je niet valt.,Watch out that you don't fall.
+opstaan,to get up,Ik moet vroeg opstaan.,I have to get up early.
+zitten,to sit,Ga lekker zitten.,Have a seat.
+liggen,to lie down,Ik lig op de bank.,I am lying on the couch.
+staan,to stand,Ik sta te wachten.,I am standing and waiting.
+springen,to jump,De kat springt op de tafel.,The cat jumps on the table.
+rennen,to run,Rennen voor de bus.,Running for the bus.
+gooien,to throw,Gooi de bal.,Throw the ball.
+vangen,to catch,Vang de bal!,Catch the ball!
+duwen,to push,Niet duwen!,Do not push!
+trekken,to pull,Trek aan de deur.,Pull the door.
+stelen,to steal,Hij heeft mijn tas gestolen.,He stole my bag.
+liegen,to lie,Lieg niet tegen mij.,Do not lie to me.
+beloven,to promise,Ik beloof het je.,I promise you.
+vinden,to think / find,Wat vind je ervan?,What do you think of it?
+verliezen,to lose,Ik heb mijn sleutels verloren.,I lost my keys.
+zoeken,to look for,Ik zoek mijn bril.,I am looking for my glasses.
+vinden,to find,Ik heb het gevonden!,I found it!
+dragen,to carry / wear,Ik draag een zware doos.,I am carrying a heavy box.
+houden,to keep / hold,Hou dit even vast.,Hold this for a moment.
+brengen,to bring,Breng me de krant.,Bring me the newspaper.
+halen,to fetch / get,Haal wat melk bij de winkel.,Get some milk at the shop.
+sturen,to send,Stuur me een bericht.,Send me a message.
+krijgen,to get / receive,Ik krijg een cadeau.,I am getting a gift.
+geven,to give,Geef me een hand.,Give me a hand.
+verkopen,to sell,Ik verkoop mijn auto.,I am selling my car.
+huren,to rent,Wij huren een huis.,We are renting a house.
+betalen,to pay,Je moet nu betalen.,You have to pay now.
+lenen,to borrow / lend,Mag ik geld lenen?,May I borrow money?
+bewaren,to keep / save,Bewaar dit goed.,Keep this safe.
+stoppen,to stop,Stop de auto.,Stop the car.
+beginnen,to start,Wanneer beginnen we?,When do we start?
+doorgaan,to continue,Laten we doorgaan.,Let's continue.
+afmaken,to finish,Ik moet mijn werk afmaken.,I have to finish my work.
+gebeuren,to happen,Wat is er gebeurd?,What happened?
+veranderen,to change,Het weer verandert.,The weather is changing.
+helpen,to help,Kan ik je helpen?,Can I help you?
+nodig hebben,to need,Ik heb hulp nodig.,I need help.
+durven,to dare,Ik durf het niet.,I don't dare to do it.
+laten,to let / leave,Laat me met rust.,Leave me alone.
+moeten,to must / have to,Ik moet nu gaan.,I have to go now.
+mogen,to be allowed to,Mag ik hier zitten?,May I sit here?
+kunnen,to be able to,Ik kan zwemmen.,I can swim.
+willen,to want,Ik wil een ijsje.,I want an ice cream.
+zullen,will / shall,Ik zal je helpen.,I will help you.
+dier,animal,Ik hou van elk dier.,I love every animal.
+paard,horse,Het paard loopt in de wei.,The horse is walking in the meadow.
+koe,cow,De koe geeft melk.,The cow gives milk.
+varken,pig,Een varken houdt van modder.,A pig loves mud.
+schaap,sheep,Het schaap heeft witte wol.,The sheep has white wool.
+konijn,rabbit,Mijn konijn eet wortels.,My rabbit eats carrots.
+muis,mouse,Er zit een muis in de keuken.,There is a mouse in the kitchen.
+rat,rat,De rat rent weg.,The rat runs away.
+olifant,elephant,Een olifant is erg groot.,An elephant is very big.
+leeuw,lion,De leeuw is de koning van de jungle.,The lion is the king of the jungle.
+tijger,tiger,Een tijger heeft strepen.,A tiger has stripes.
+aap,monkey,De aap klimt in de boom.,The monkey climbs in the tree.
+slang,snake,Ik ben bang voor die slang.,I am afraid of that snake.
+spin,spider,Er zit een spin op de muur.,There is a spider on the wall.
+vlieg,fly,Die vlieg is irritant.,That fly is annoying.
+bij,bee,Een bij maakt honing.,A bee makes honey.
+vlinder,butterfly,Kijk naar die mooie vlinder.,Look at that beautiful butterfly.
+mier,ant,Mieren werken samen.,Ants work together.
+vleugel,wing,De vogel slaat met zijn vleugels.,The bird flaps its wings.
+snavel,beak,De vogel heeft een gele snavel.,The bird has a yellow beak.
+staart,tail,De hond kwispelt met zijn staart.,The dog wags its tail.
+poot,paw/leg (animal),De kat heeft vier poten.,The cat has four paws.
+vacht,fur,De vacht van de hond is zacht.,The dog's fur is soft.
+eend,duck,De eend zwemt in de sloot.,The duck swims in the ditch.
+zwaan,swan,Een witte zwaan op het meer.,A white swan on the lake.
+uil,owl,De uil jaagt 's nachts.,The owl hunts at night.
+vos,fox,De vos is erg slim.,The fox is very clever.
+wolf,wolf,De wolf huilt naar de maan.,The wolf howls at the moon.
+hert,deer,Ik zag een hert in het bos.,I saw a deer in the forest.
+walvis,whale,De walvis is een groot zoogdier.,The whale is a large mammal.
+haai,shark,Pas op voor de haai.,Watch out for the shark.
+dolfijn,dolphin,Dolfijnen zijn erg intelligent.,Dolphins are very intelligent.
+krab,crab,De krab loopt op het strand.,The crab walks on the beach.
+garnaal,shrimp,Ik eet graag garnalen.,I like eating shrimp.
+schildpad,turtle,De schildpad is erg langzaam.,The turtle is very slow.
+kikker,frog,De kikker springt in het water.,The frog jumps into the water.
+hagedis,lizard,De hagedis zit in de zon.,The lizard is sitting in the sun.
+insect,insect,Er zijn veel insecten in de tuin.,There are many insects in the garden.
+worm,worm,De vogel eet een worm.,The bird eats a worm.
+mug,mosquito,Een mug heeft me geprikt.,A mosquito bit me.
+pan,pan,De soep zit in de pan.,The soup is in the pan.
+deksel,lid,Doe de deksel op de pan.,Put the lid on the pan.
+vergiet,colander,Gebruik een vergiet voor de pasta.,Use a colander for the pasta.
+snijplank,cutting board,Snijd de groente op de snijplank.,Cut the vegetables on the cutting board.
+waterkoker,kettle,De waterkoker is klaar.,The kettle is ready.
+koffiezetapparaat,coffee maker,Het koffiezetapparaat is nieuw.,The coffee maker is new.
+broodrooster,toaster,Doe het brood in de broodrooster.,Put the bread in the toaster.
+schaal,bowl/dish,Een schaal vol fruit.,A bowl full of fruit.
+kom,bowl,Ik eet soep uit een kom.,I eat soup from a bowl.
+dienblad,tray,Alles staat op het dienblad.,Everything is on the tray.
+servet,napkin,Heb je een servet nodig?,Do you need a napkin?
+tafelkleed,tablecloth,Het tafelkleed is wit.,The tablecloth is white.
+kaars,candle,Steek de kaars aan.,Light the candle.
+vaas,vase,De bloemen staan in de vaas.,The flowers are in the vase.
+kussen,pillow,Ik heb een zacht kussen.,I have a soft pillow.
+deken,blanket,Het is koud, neem een deken.,It's cold, take a blanket.
+laken,sheet,Schone lakens op het bed.,Clean sheets on the bed.
+kussensloop,pillowcase,De kussensloop is blauw.,The pillowcase is blue.
+matras,mattress,Dit matras ligt heerlijk.,This mattress is very comfortable.
+gordijn,curtain,Doe de gordijnen dicht.,Close the curtains.
+vloerkleed,rug,Er ligt een vloerkleed op de vloer.,There is a rug on the floor.
+plank,shelf,De boeken staan op de plank.,The books are on the shelf.
+kapstok,coat rack,Hang je jas aan de kapstok.,Hang your coat on the coat rack.
+wekker,alarm clock,De wekker gaat om zeven uur.,The alarm clock goes off at seven.
+batterij,battery,De batterij is leeg.,The battery is empty.
+stekker,plug,Steek de stekker in het stopcontact.,Put the plug in the socket.
+stopcontact,socket,Waar is een stopcontact?,Where is a socket?
+schakelaar,switch,Gebruik de schakelaar voor het licht.,Use the switch for the light.
+zolder,attic,Wij bewaren oude spullen op zolder.,We keep old things in the attic.
+kelder,cellar,De wijn staat in de kelder.,The wine is in the cellar.
+balkon,balcony,Wij zitten vaak op het balkon.,We often sit on the balcony.
+garage,garage,De auto staat in de garage.,The car is in the garage.
+schuur,shed,Mijn fiets staat in de schuur.,My bike is in the shed.
+hek,fence,Er staat een hek om de tuin.,There is a fence around the garden.
+brievenbus,mailbox,Zit er post in de brievenbus?,Is there mail in the mailbox?
+aardig,kind/nice,Hij is een aardige man.,He is a kind man.
+gemeen,mean,Doe niet zo gemeen.,Don't be so mean.
+slim,smart,Dat is een slimme oplossing.,That is a smart solution.
+dom,stupid,Dat was een domme fout.,That was a stupid mistake.
+dapper,brave,De brandweerman is erg dapper.,The firefighter is very brave.
+eerlijk,honest,Wees altijd eerlijk.,Always be honest.
+vals,false/mean,Die hond is vals.,That dog is mean.
+beleefd,polite,Je moet beleefd zijn.,You must be polite.
+brutaal,rude/bold,Dat kind is erg brutaal.,That child is very rude.
+rustig,quiet/calm,Het is hier erg rustig.,It is very quiet here.
+druk,busy,De stad is erg druk.,The city is very busy.
+stil,silent,Wees even stil.,Be silent for a moment.
+luid,loud,De muziek is te luid.,The music is too loud.
+saai,boring,Deze film is saai.,This movie is boring.
+grappig,funny,Dat is een grappig verhaal.,That is a funny story.
+serieus,serious,Dit is een serieuze zaak.,This is a serious matter.
+streng,strict,De leraar is erg streng.,The teacher is very strict.
+lief,sweet/nice,Wat een lief kind.,What a sweet child.
+stout,naughty,Je bent een stout jongetje.,You are a naughty boy.
+rijk,rich,Hij is erg rijk.,He is very rich.
+arm,poor,Zij zijn erg arm.,They are very poor.
+beroemd,famous,Een beroemde zanger.,A famous singer.
+onbekend,unknown,De schrijver is onbekend.,The author is unknown.
+veilig,safe,Is het hier veilig?,Is it safe here?
+gevaarlijk,dangerous,Dit is een gevaarlijke weg.,This is a dangerous road.
+ongezond,unhealthy,Roken is ongezond.,Smoking is unhealthy.
+bedorven,spoiled,De melk is bedorven.,The milk is spoiled.
+diep,deep,Het water is hier erg diep.,The water is very deep here.
+ondiep,shallow,Het zwembad is ondiep.,The pool is shallow.
+breed,wide,De rivier is erg breed.,The river is very wide.
+smal,narrow,Een smalle straat.,A narrow street.
+dik,fat/thick,Dit boek is erg dik.,This book is very thick.
+dun,thin,Een dunne jas.,A thin coat.
+vet,fat/greasy,Friet is erg vet.,Fries are very greasy.
+mager,thin/lean,Mager vlees.,Lean meat.
+sterk,strong,Hij is erg sterk.,He is very strong.
+zwak,weak,Ik voel me zwak.,I feel weak.
+glad,slippery,De weg is glad.,The road is slippery.
+ruw,rough,De muur voelt ruw aan.,The wall feels rough.
+scherp,sharp,Het mes is erg scherp.,The knife is very sharp.
+bot,blunt,Dit mes is bot.,This knife is blunt.
+recht,straight,Een rechte lijn.,A straight line.
+krom,crooked/bent,De stok is krom.,The stick is bent.
+rond,round,De tafel is rond.,The table is round.
+vierkant,square,Een vierkant blok.,A square block.
+driehoekig,triangular,Een driehoekig bord.,A triangular sign.
+hamer,hammer,Ik heb een hamer nodig.,I need a hammer.
+spijker,nail,Sla de spijker in de muur.,Hit the nail into the wall.
+schroef,screw,Draai de schroef vast.,Tighten the screw.
+schroevendraaier,screwdriver,Waar is de schroevendraaier?,Where is the screwdriver?
+zaag,saw,Ik zaag het hout.,I am sawing the wood.
+boor,drill,Heb je een boor?,Do you have a drill?
+tang,pliers,Gebruik een tang.,Use pliers.
+ladder,ladder,Klim op de ladder.,Climb the ladder.
+verf,paint,De verf is nog nat.,The paint is still wet.
+kwast,brush,Een kwast voor de verf.,A brush for the paint.
+lijm,glue,De lijm plakt goed.,The glue sticks well.
+schaar,scissors,Knip het met een schaar.,Cut it with scissors.
+meetlint,tape measure,Gebruik het meetlint.,Use the tape measure.
+koper,copper,Een koperen munt.,A copper coin.
+rubber,rubber,Banden zijn van rubber.,Tires are made of rubber.
+printer,printer,De printer heeft geen papier.,The printer has no paper.
+kabel,cable,De kabel is te kort.,The cable is too short.
+usb-stick,USB stick,Sla het op op de usb-stick.,Save it on the USB stick.
+harde schijf,hard drive,Mijn harde schijf is vol.,My hard drive is full.
+map,folder,Doe het papier in de map.,Put the paper in the folder.
+ordner,binder,Een blauwe ordner.,A blue binder.
+nietmachine,stapler,Waar is de nietmachine?,Where is the stapler?
+perforator,hole punch,Gebruik de perforator.,Use the hole punch.
+plakband,tape,Heb je plakband?,Do you have tape?
+liniaal,ruler,Trek een lijn met de liniaal.,Draw a line with the ruler.
+rekenmachine,calculator,Gebruik je rekenmachine.,Use your calculator.
+land,country,Nederland is een klein land.,The Netherlands is a small country.
+provincie,province,In welke provincie woon je?,Which province do you live in?
+hoofdstad,capital,Amsterdam is de hoofdstad.,Amsterdam is the capital.
+grens,border,We gaan over de grens.,We are crossing the border.
+vlag,flag,De Nederlandse vlag.,The Dutch flag.
+koning,king,De koning spreekt.,The king is speaking.
+koningin,queen,De koningin zwaait.,The queen is waving.
+regering,government,De regering maakt plannen.,The government is making plans.
+wet,law,Je moet je aan de wet houden.,You must follow the law.
+politiek,politics,Ik volg de politiek.,I follow politics.
+maatschappij,society,Een moderne maatschappij.,A modern society.
+economie,economy,De economie groeit.,The economy is growing.
+geschiedenis,history,Ik leer over geschiedenis.,I am learning about history.
+toekomst,future,De toekomst is onzeker.,The future is uncertain.
+verleden,past,Denk niet aan het verleden.,Don't think about the past.
+heden,present,Focus op het heden.,Focus on the present.
+afmaken,to finish,Ik moet mijn werk afmaken.,I have to finish my work.
+teruggeven,to give back,Ik zal het boek morgen teruggeven.,I will give the book back tomorrow.
+weggooien,to throw away,Gooi het afval niet weg op straat.,Don't throw the trash away on the street.
+sparen,to save,Ik spaar voor mijn pensioen.,I am saving for my retirement.
+kosten,to cost,Hoeveel gaat dat kosten?,How much is that going to cost?
+duren,to last (time),Hoe lang gaat het duren?,How long will it last?
+uitkijken,to watch out,Kijk uit voor die auto!,Watch out for that car!
+opkijken,to look up (in surprise),Hij zal daar zeker heel erg van opkijken.,He will definitely look up in surprise from that.
+nakijken,to check,De leraar moet alle toetsen vanavond nog nakijken.,The teacher has to check all tests tonight.
+meenemen,to take along,Neem een paraplu mee.,Take an umbrella with you.
+afhalen,to pick up/collect,Ik ga de kinderen van school halen.,I am going to pick up the children from school.
+aankomen,to arrive,Hoe laat kom je aan?,What time do you arrive?
+vertrekken,to depart,De trein vertrekt om tien uur.,The train departs at ten o'clock.
+overstappen,to transfer,Je moet op Utrecht overstappen.,You have to transfer at Utrecht.
+parkeren,to park,Je mag hier niet parkeren.,You are not allowed to park here.
+tanken,to refuel,Ik moet eerst nog even tanken.,I need to refuel first.
+sturen,to steer/send,Ik zal je een bericht sturen.,I will send you a message.
+ontvangen,to receive,Heeft u het pakket ontvangen?,Did you receive the package?
+beloven,to promise,Ik beloof dat ik zal komen.,I promise that I will come.
+liegen,to lie,Je mag niet liegen.,You are not allowed to lie.
+stelen,to steal,Hij heeft mijn fiets gestolen.,He stole my bike.
+vechten,to fight,De kinderen zijn aan het vechten.,The children are fighting.
+winnen,to win,Wij gaan de wedstrijd winnen.,We are going to win the match.
+verliezen,to lose,Ik wil de wedstrijd niet verliezen.,I don't want to lose the match.
+oefenen,to practice,Je moet je Nederlands oefenen.,You have to practice your Dutch.
+herhalen,to repeat,Kun je dat nog een keer herhalen?,Can you repeat that one more time?
+uitleggen,to explain,Kan je dat even uitleggen?,Can you explain that for a moment?
+begrijpen,to understand,Ik begrijp het nu.,I understand it now.
+onthouden,to remember,Ik kan die naam niet onthouden.,I cannot remember that name.
+vergeten,to forget,Vergeet je sleutels niet.,Don't forget your keys.
+herinneren,to remind/remember,Dat herinnert me aan vroeger.,That reminds me of the past.
+hopen,to hope,Ik hoop dat het gaat regenen.,I hope it's going to rain.
+geloven,to believe,Ik geloof je niet.,I don't believe you.
+durven,to dare,Ik durf niet te springen.,I don't dare to jump.
+proberen,to try,Ik ga het proberen.,I am going to try it.
+lukken,to succeed,Het gaat je lukken.,You are going to succeed.
+falen,to fail,Ik wil niet falen.,I don't want to fail.
+beslissen,to decide,Je moet nu beslissen.,You have to decide now.
+kiezen,to choose,Welke kleur kies je?,Which color do you choose?
+weigeren,to refuse,Hij weigert te eten.,He refuses to eat.
+accepteren,to accept,Ik accepteer je verontschuldiging.,I accept your apology.
+verwachten,to expect,Ik verwacht dat hij komt.,I expect him to come.
+verbazaen,to surprise,Dat verbaast me.,That surprises me.
+irriteren,to irritate,Dat lawaai irriteert me.,That noise irritates me.
+vervelen,to bore,Ik verveel me.,I am bored.
+amuseren,to amuse,Wij hebben ons goed geamuseerd.,We had a good time.
+lachen,to laugh,We moesten erg lachen.,We had to laugh a lot.
+huilen,to cry,Waarom moet je huilen?,Why do you have to cry?
+schreeuwen,to scream/shout,Niet zo schreeuwen!,Don't shout like that!
+fluisteren,to whisper,Ze zaten te fluisteren.,They were whispering.
+zingen,to sing,Zing een mooi liedje.,Sing a beautiful song.
+dansen,to dance,Wil je met me dansen?,Do you want to dance with me?
+springen,to jump,De kat springt op de tafel.,The cat jumps on the table.
+vallen,to fall,Pas op dat je niet valt.,Watch out that you don't fall.
+klimmen,to climb,Hij klimt in de boom.,He is climbing the tree.
+zwemmen,to swim,Ik ga elke morgen zwemmen.,I go swimming every morning.
+vliegen,to fly,Vogels kunnen vliegen.,Birds can fly.
+kruipen,to crawl,De baby kruipt over de vloer.,The baby is crawling on the floor.
+rennen,to run,Hij kan erg hard rennen.,He can run very fast.
+wandelen,to walk,We gaan een stukje wandelen.,We are going for a short walk.
+fietsen,to cycle,In Nederland fietsen we veel.,In the Netherlands we cycle a lot.
+rijden,to drive,Ik rijd in een rode auto.,I drive a red car.
+varen,to sail,We gaan varen op het meer.,We are going to sail on the lake.
+reizen,to travel,Wij reizen graag.,We like to travel.
+bezoeken,to visit,Ik ga mijn oma bezoeken.,I am going to visit my grandma.
+uitnodigen,to invite,Ik wil je uitnodigen voor mijn feestje.,I want to invite you to my party.
+ontmoeten,to meet,Leuk om je te ontmoeten.,Nice to meet you.
+voorstellen,to introduce/imagine,Mag ik me even voorstellen?,May I introduce myself?
+groeten,to greet,Hij groette me vriendelijk.,He greeted me kindly.
+bedanken,to thank,Ik wil je bedanken voor je hulp.,I want to thank you for your help.
+verontschuldigen,to apologize,Ik moet me verontschuldigen.,I must apologize.
+feliciteren,to congratulate,Gefeliciteerd met je verjaardag!,Congratulations on your birthday!
+vieren,to celebrate,We gaan een feestje vieren.,We are going to have a party.
+organiseren,to organize,Wie organiseert het uitje?,Who is organizing the trip?
+plannen,to plan,We moeten de vakantie plannen.,We need to plan the holiday.
+regelen,to arrange,Ik zal alles regelen.,I will arrange everything.
+voorbereiden,to prepare,Je moet je goed voorbereiden.,You have to prepare well.
+beginnen,to begin,Wanneer begint de film?,When does the movie start?
+stoppen,to stop,Stop met dat lawaai!,Stop that noise!
+doorgaan,to continue,We gaan gewoon door.,We just keep going.
+eindigen,to end,De les eindigt om drie uur.,The lesson ends at three o'clock.
+duren,to last,Hoe lang duurt de rit?,How long does the ride take?
+gebeuren,to happen,Wat is er gebeurd?,What happened?
+veranderen,to change,Alles gaat veranderen.,Everything is going to change.
+blijven,to stay,Blijf je hier?,Are you staying here?
+wachten,to wait,Ik sta op de bus te wachten.,I am waiting for the bus.
+rusten,to rest,Ik moet even uitrusten.,I need to rest for a bit.
+sorry,sorry,Sorry ik was een beetje laat.,Sorry I was a little late.
+pardon,pardon / excuse me,Pardon mag ik er even langs?,Pardon may I get past?
+excuus,excuse me,Mijn excuus voor deze vervelende fout.,My excuses for this annoying mistake.
+gefeliciteerd,congratulations,Gefeliciteerd met je verjaardag!,Congratulations on your birthday!
+succes,good luck / success,Succes met je examen!,Good luck with your exam!
+proost,cheers,Proost op je nieuwe baan!,Cheers to your new job!
+alstublieft,please / here you go (formal),Alstublieft hier is uw koffie.,Here you go here is your coffee.
+alsjeblieft,please / here you go (informal),Alsjeblieft hier is je boek.,Here you go here is your book.
+bedankt,thanks,Bedankt voor de hulp.,Thanks for the help.
+dank u wel,thank you (formal),Dank u wel voor de uitnodiging.,Thank you for the invitation.
+dank je wel,thank you (informal),Dank je wel voor het cadeau.,Thank you for the gift.
+geen dank,you're welcome,Geen dank het was een kleine moeite.,You're welcome it was no trouble.
+graag gedaan,my pleasure,Graag gedaan tot de volgende keer.,My pleasure see you next time.
+welkom,welcome,Welkom in ons nieuwe huis.,Welcome to our new house.
+eet smakelijk,enjoy your meal,Eet smakelijk allemaal.,Enjoy your meal everyone.
+goede reis,have a good trip,Goede reis en kom veilig aan.,Have a good trip and arrive safely.
+tot ziens,goodbye,Tot ziens en een fijne dag verder.,Goodbye and have a nice day.
+tot straks,see you later (today),Tot straks bij de afspraak.,See you later at the appointment.
+tot morgen,see you tomorrow,Tot morgen op school.,See you tomorrow at school.
+doei,bye,Doei ik ga nu weg.,Bye I'm leaving now.
+informatie,information,Ik zoek informatie over de trein.,I am looking for information about the train.
+bericht,message,Ik heb je bericht gelezen.,I read your message.
+telefoontje,phone call,Ik moet even een telefoontje plegen.,I need to make a phone call.
+gesprek,conversation,We hadden een goed gesprek.,We had a good conversation.
+uitleg,explanation,Bedankt voor de duidelijke uitleg.,Thanks for the clear explanation.
+advies,advice,Kan je me advies geven?,Can you give me advice?
+tip,tip / hint,Heb je een goede tip voor mij?,Do you have a good tip for me?
+verhaal,story,Dat is een heel lang verhaal.,That is a very long story.
+nieuws,news,Heb je het laatste nieuws gehoord?,Have you heard the latest news?
+krant,newspaper,De krant ligt op tafel.,The newspaper is on the table.
+artikel,article,Ik lees een interessant artikel.,I am reading an interesting article.
+tijdschrift,magazine,Dit tijdschrift verschijnt wekelijks.,This magazine appears weekly.
+advertentie,advertisement,Ik zag een advertentie in de krant.,I saw an advertisement in the newspaper.
+reclame,commercial / advertising,Er is te veel reclame op tv.,There is too much advertising on TV.
+kanaal,channel,Op welk kanaal is de film?,On which channel is the movie?
+programma,program,Wat is je favoriete programma?,What is your favorite program?
+radio,radio,Ik luister naar de radio.,I am listening to the radio.
+internet,internet,Het internet werkt niet goed.,The internet is not working well.
+website,website,De website is erg gebruiksvriendelijk.,The website is very user-friendly.
+link,link,Klik op de link in de mail.,Click on the link in the email.
+wachtwoord,password,Vergeet je wachtwoord niet.,Don't forget your password.
+gebruikersnaam,username,Wat is je gebruikersnaam?,What is your username?
+inloggen,to log in,Je moet eerst inloggen.,You have to log in first.
+uitloggen,to log out,Vergeet niet uit te loggen.,Don't forget to log out.
+downloaden,to download,Ik ga de foto downloaden.,I am going to download the photo.
+uploaden,to upload,Kan je dit bestand uploaden?,Can you upload this file?
+bestand,file,Het bestand is te groot.,The file is too big.
+map,folder,Sla het op in de juiste map.,Save it in the right folder.
+e-mail,email,Ik stuur je een e-mail.,I will send you an email.
+bijlage,attachment,De bijlage zit in de mail.,The attachment is in the email.
+sociale media,social media,Zit jij op sociale media?,Are you on social media?
+profiel,profile,Pas je profiel aan.,Adjust your profile.
+delen,to share,Ik wil deze foto met je delen.,I want to share this photo with you.
+plaatsen,to post / place,Ik ga een bericht plaatsen.,I am going to post a message.
+reageren,to react / reply,Ik zal snel reageren.,I will react/reply soon.
+liken,to like (social media),Vergeet niet te liken!,Don't forget to like!
+volgen,to follow,Ik volg hem op internet.,I follow him on the internet.
+app,app,Ik gebruik een handige app.,I use a handy app.
+scherm,screen,Kijk niet te veel naar het scherm.,Don't look at the screen too much.
+toetsenbord,keyboard,Mijn toetsenbord is vies.,My keyboard is dirty.
+muis,mouse,De muis reageert niet.,The mouse is not responding.
+laptop,laptop,Ik neem mijn laptop mee.,I am taking my laptop with me.
+tablet,tablet,Ik lees op mijn tablet.,I read on my tablet.
+printer,printer,De printer heeft geen inkt meer.,The printer has no more ink.
+kopiëren,to copy,Kan je dit document kopiëren?,Can you copy this document?
+scannen,to scan,Ik moet dit formulier scannen.,I need to scan this form.
+foto,photo,Maak een mooie foto.,Take a beautiful photo.
+camera,camera,Mijn camera maakt goede foto's.,My camera takes good photos.
+video,video,Ik bekijk een korte video.,I am watching a short video.
+geluid,sound,Het geluid is te hard.,The sound is too loud.
+hoofdtelefoon,headphones,Ik gebruik een hoofdtelefoon.,I am using headphones.
+speaker,speaker,De speakers zijn van goede kwaliteit.,The speakers are of good quality.
+batterij,battery,Mijn batterij is bijna leeg.,My battery is almost empty.
+oplader,charger,Waar is mijn oplader?,Where is my charger?
+stopcontact,socket,Ik zoek een stopcontact.,I am looking for a socket.
+wifi,wifi,Wat is het wachtwoord van de wifi?,What is the wifi password?
+signaal,signal,Ik heb hier geen signaal.,I have no signal here.
+overheid,government,De overheid maakt nieuwe wetten.,The government is making new laws.
+gemeente,municipality,Ik moet naar de gemeente.,I have to go to the municipality.
+stadhuis,city hall,Het stadhuis staat op het plein.,The city hall is on the square.
+burgemeester,mayor,De burgemeester hield een toespraak.,The mayor gave a speech.
+wet,law,Je moet je aan de wet houden.,You must obey the law.
+recht,right / law,Iedereen heeft recht op onderwijs.,Everyone has the right to education.
+plicht,duty / obligation,Het is je plicht om te stemmen.,It is your duty to vote.
+belasting,tax,Ik moet veel belasting betalen.,I have to pay a lot of tax.
+verzekering,insurance,Heb je een goede verzekering?,Do you have a good insurance?
+paspoort,passport,Mijn paspoort is verlopen.,My passport has expired.
+identiteitskaart,ID card,Laat je identiteitskaart zien.,Show your ID card.
+visum,visa,Ik heb een visum nodig.,I need a visa.
+vergunning,permit,Heb je een vergunning voor dit?,Do you have a permit for this?
+formulier,form,Vul dit formulier in.,Fill in this form.
+handtekening,signature,Zet hier je handtekening.,Put your signature here.
+stempel,stamp,De brief heeft een stempel.,The letter has a stamp.
+envelop,envelope,Doe de brief in de envelop.,Put the letter in the envelope.
+postzegel,postage stamp,Plak een postzegel op de kaart.,Stick a postage stamp on the card.
+brievenbus,mailbox,Gooi het in de brievenbus.,Throw it in the mailbox.
+pakket,package,Ik verwacht een pakket.,I am expecting a package.
+postbode,mailman,De postbode komt elke dag.,The mailman comes every day.
+kantoor,office,Ik werk op een kantoor.,I work in an office.
+receptie,reception,Meld je bij de receptie.,Report to the reception.
+wachtkamer,waiting room,Neem plaats in de wachtkamer.,Take a seat in the waiting room.
+afspraak,appointment,Ik heb een afspraak om drie uur.,I have an appointment at three o'clock.
+agenda,calendar / agenda,Kijk in je agenda.,Look in your agenda.
+notitie,note,Maak een korte notitie.,Make a short note.
+vergadering,meeting,De vergadering duurt lang.,The meeting lasts long.
+collega,colleague,Mijn collega is erg behulpzaam.,My colleague is very helpful.
+baas,boss,Mijn baas is tevreden.,My boss is satisfied.
+werknemer,employee,Hij is een goede werknemer.,He is a good employee.
+werkgever,employer,Zij is een fijne werkgever.,She is a nice employer.
+bedrijf,company,Het bedrijf groeit snel.,The company is growing fast.
+afdeling,department,Op welke afdeling werk je?,In which department do you work?
+functie,position / function,Wat is je nieuwe functie?,What is your new position?
+salaris,salary,Mijn salaris wordt gestort.,My salary is being deposited.
+contract,contract,Ik heb het contract getekend.,I signed the contract.
+ontslag,dismissal / resignation,Hij heeft ontslag genomen.,He has resigned.
+werkloos,unemployed,Hij is al een jaar werkloos.,He has been unemployed for a year.
+pensioen,pension,Mijn opa geniet van zijn pensioen.,My grandpa is enjoying his pension.
+ervaring,experience,Heb je veel ervaring?,Do you have a lot of experience?
+vaardigheid,skill,Dat is een belangrijke vaardigheid.,That is an important skill.
+diploma,diploma,Ik heb mijn diploma gehaald.,I got my diploma.
+cursus,course,Ik volg een cursus Nederlands.,I am following a Dutch course.
+opleiding,education / training,Zij volgt een zware opleiding.,She is following a tough education.
+examen,exam,Het examen was erg moeilijk.,The exam was very difficult.
+toets,test,We hebben straks een wiskunde toets.,We have a math test later.
+cijfer,grade / number,Ik heb een goed cijfer voor mijn test.,I have a good grade for my test.
+succes,success,Ik wens je veel succes.,I wish you much success.
+mislukking,failure,Het was een grote mislukking.,It was a big failure.
+kans,chance / opportunity,Dit is een unieke kans.,This is a unique opportunity.
+mogelijkheid,possibility,Er is een mogelijkheid.,There is a possibility.
+besluit,decision,Het besluit is genomen.,The decision is made.
+keuze,choice,Je hebt een moeilijke keuze.,You have a difficult choice.
+gefeliciteerd,congratulations,Gefeliciteerd met het resultaat.,Congratulations on the result.
+hout,wood,De tafel is van hout.,The table is made of wood.
+metaal,metal,De kast is van metaal.,The cupboard is made of metal.
+ijzer,iron,Het hek is van ijzer.,The fence is made of iron.
+staal,steel,Een sterke stalen constructie.,A strong steel construction.
+koper,copper,Koperen leidingen.,Copper pipes.
+goud,gold,Een gouden ring.,A gold ring.
+zilver,silver,Zilveren bestek.,Silver cutlery.
+plastic,plastic,Een plastic tasje.,A plastic bag.
+kunststof,synthetic material / plastic,De ramen zijn van kunststof.,The windows are made of synthetic material.
+glas,glass,Pas op voor het gebroken glas.,Watch out for the broken glass.
+papier,paper,Schrijf het op papier.,Write it on paper.
+karton,cardboard,Een doos van karton.,A box made of cardboard.
+steen,stone,Een muur van steen.,A wall of stone.
+beton,concrete,De vloer is van beton.,The floor is made of concrete.
+baksteen,brick,Rode bakstenen.,Red bricks.
+zand,sand,Zand op de vloer.,Sand on the floor.
+klei,clay,Potten bakken van klei.,Making pots from clay.
+stof,fabric / dust,Er ligt veel stof op de kast.,There is a lot of dust on the cupboard.
+wol,wool,Een warme trui van wol.,A warm sweater made of wool.
+katoen,cotton,Een shirt van katoen.,A shirt made of cotton.
+zijde,silk,Een sjaal van zijde.,A scarf made of silk.
+leer,leather,Leren schoenen.,Leather shoes.
+rubber,rubber,De banden zijn van rubber.,The tires are made of rubber.
+verf,paint,De verf moet drogen.,The paint needs to dry.
+lijm,glue,De lijm plakt niet goed.,The glue is not sticking well.
+olie,oil,Olie voor de motor.,Oil for the engine.
+benzine,gasoline,Ik moet benzine tanken.,I need to refuel gasoline.
+gas,gas,Koken op gas.,Cooking on gas.
+elektriciteit,electricity,De elektriciteit is uitgevallen.,The electricity has failed.
+energie,energy,We moeten energie besparen.,We must save energy.
+kracht,power / force,Hij heeft veel kracht.,He has a lot of power.
+vorm,shape,Wat is de vorm van de tafel?,What is the shape of the table?
+rond,round,De aarde is rond.,The earth is round.
+vierkant,square,Een vierkant blok.,A square block.
+rechthoek,rectangle,Een rechthoekig vel papier.,A rectangular sheet of paper.
+driehoek,triangle,Een driehoek heeft drie hoeken.,A triangle has three corners.
+cirkel,circle,Teken een cirkel.,Draw a circle.
+lijn,line,Trek een rechte lijn.,Draw a straight line.
+punt,point / dot,Zet een punt achter de zin.,Put a dot at the end of the sentence.
+hoek,corner / angle,In de hoek van de kamer.,In the corner of the room.
+midden,middle,In het midden van de stad.,In the middle of the city.
+kant,side,Aan de andere kant van de weg.,On the other side of the road.
+rand,edge,De rand van de tafel.,The edge of the table.
+oppervlakte,surface area,De oppervlakte van de kamer.,The surface area of the room.
+inhoud,content / volume,De inhoud van de fles.,The content of the bottle.
+gewicht,weight,Wat is je gewicht?,What is your weight?
+lengte,length / height (person),Wat is je lengte?,What is your height?
+breedte,width,De breedte van de deur.,The width of the door.
+hoogte,height,De hoogte van de berg.,The height of the mountain.
+diepte,depth,De diepte van de rivier.,The depth of the river.
+maat,size,Welke maat heb je?,What size do you have?
+hoeveelheid,amount / quantity,Een grote hoeveelheid geld.,A large amount of money.
+totaal,total,Wat is het totaal?,What is the total?
+gemiddelde,average,Het gemiddelde cijfer.,The average grade.
+procent,percent,Tien procent korting.,Ten percent discount.
+helft,half,De helft van de appel.,Half of the apple.
+kwart,quarter,Een kwartier wachten.,Waiting for a quarter of an hour.
+stuk,piece,Een stuk taart.,A piece of cake.
+beetje,bit / little,Een beetje suiker graag.,A little sugar please.
+genoeg,enough,Dat is genoeg.,That is enough.
+veel,much / many,Ik heb veel werk.,I have much work.
+weinig,little / few,Er is weinig tijd.,There is little time.
+meer,more,Ik wil meer weten.,I want to know more.
+minder,less,Minder praten en meer doen.,Talk less and do more.
+enkele,some / a few,Enkele mensen kwamen opdagen.,A few people showed up.
+sommige,some,Sommige honden bijten.,Some dogs bite.
+elkaar,each other,Wij helpen elkaar.,We help each other.
+beide,both,Ik wil ze beide hebben.,I want to have them both.
+allemaal,all (of us/them),We gaan allemaal mee.,We are all going along.
+iedereen,everyone,Iedereen is welkom.,Everyone is welcome.
+alles,everything,Ik heb alles gedaan.,I have done everything.
+niemand,nobody,Er was niemand thuis.,Nobody was home.
+niets,nothing,Ik weet niets.,I know nothing.
+iets,something,Ik wil iets vragen.,I want to ask something.
+ergens,somewhere,Het moet ergens liggen.,It must lie somewhere.
+nergens,nowhere,Ik kan het nergens vinden.,I can find it nowhere.
+overal,everywhere,Het ligt overal.,It lies everywhere.
+interessant,interesting,Een interessant boek.,An interesting book.
+saai,boring,Een saaie film.,A boring film.
+belangrijk,important,Een belangrijke afspraak.,An important appointment.
+nodig,necessary,Hulp is nodig.,Help is necessary.
+mogelijk,possible,Alles is mogelijk.,Everything is possible.
+onmogelijk,impossible,Dat is onmogelijk.,That is impossible.
+waarschijnlijk,probable,Het gaat waarschijnlijk regenen.,It is probably going to rain.
+zeker,certain / sure,Ik weet het zeker.,I know for sure.
+duidelijk,clear,Een duidelijke uitleg.,A clear explanation.
+onduidelijk,unclear,De tekst is onduidelijk.,The text is unclear.
+simpel,simple,Een simpel antwoord.,A simple answer.
+ingewikkeld,complicated,Een ingewikkelde som.,A complicated sum.
+handig,handy / convenient,Een handige tas.,A handy bag.
+onhandig,clumsy,Hij is erg onhandig.,He is very clumsy.
+gevaarlijk,dangerous,Een gevaarlijke weg.,A dangerous road.
+veilig,safe,Een veilige buurt.,A safe neighborhood.
+gezond,healthy,Gezond eten.,Healthy food.
+ongezond,unhealthy,Een ongezonde gewoonte.,An unhealthy habit.
+vers,fresh,Vers brood.,Fresh bread.
+vies,dirty / disgusting,Een vies bord.,A dirty plate.
+lekker,tasty / nice,Lekker weer.,Nice weather.
+warm,warm,Warme thee.,Warm tea.
+koud,cold,Koud water.,Cold water.
+heet,hot,Hete soep.,Hot soup.
+fris,cool / fresh,Frisse lucht.,Fresh air.
+milieu,environment,We moeten beter voor het milieu zorgen.,We must take better care of the environment.
+natuur,nature,Ik geniet van de rust in de natuur.,I enjoy the peace in nature.
+klimaat,climate,Het klimaat verandert snel.,The climate is changing fast.
+duurzaam,sustainable,Dit is een duurzame oplossing.,This is a sustainable solution.
+energie,energy,Zet de verwarming laag om energie te besparen.,Turn the heating down to save energy.
+vervuiling,pollution,Luchtvervuiling is een groot probleem.,Air pollution is a big problem.
+afval,waste / trash,Gooi je afval in de prullenbak.,Throw your waste in the trash can.
+recyclen,to recycle,Wij moeten ons papier recyclen.,We must recycle our paper.
+plastic,plastic,Er zit te veel plastic in de oceaan.,There is too much plastic in the ocean.
+bos,forest / woods,Het bos is prachtig in de herfst.,The forest is beautiful in the autumn.
+boom,tree,De bladeren vallen van de boom.,The leaves are falling from the tree.
+plant,plant,De plant heeft elke dag water nodig.,The plant needs water every day.
+bloem,flower,Zij kreeg een bos bloemen.,She received a bunch of flowers.
+gras,grass,Het gras is altijd groener bij de buren.,The grass is always greener at the neighbors'.
+park,park,Laten we gaan wandelen in het park.,Let's go for a walk in the park.
+landschap,landscape,Het Nederlandse landschap is erg plat.,The Dutch landscape is very flat.
+polder,polder,Een polder is land dat is drooggelegd.,A polder is land that has been drained.
+dijk,dike / levee,De dijk beschermt ons tegen het water.,The dike protects us against the water.
+kanaal,canal,Er varen veel boten in het kanaal.,Many boats sail in the canal.
+sloot,ditch,De eendjes zwemmen in de sloot.,The ducks are swimming in the ditch.
+zee,sea,De Noordzee is vaak erg koud.,The North Sea is often very cold.
+strand,beach,Op het strand kun je lekker uitrusten.,On the beach you can rest well.
+duin,dune,Wij wandelen graag door de duinen.,We like to walk through the dunes.
+wind,wind,Er staat vandaag een harde wind.,There is a strong wind today.
+storm,storm,De storm heeft veel schade aangericht.,The storm caused a lot of damage.
+onweer,thunderstorm,Ik hou niet van onweer.,I don't like thunderstorms.
+bliksem,lightning,De bliksem sloeg in de boom.,The lightning struck the tree.
+regen,rain,Het regent al de hele dag.,It has been raining all day.
+sneeuw,snow,De kinderen spelen in de sneeuw.,The children are playing in the snow.
+zon,sun,De zon schijnt eindelijk.,The sun is finally shining.
+wolk,cloud,Er hangt een donkere wolk in de lucht.,There is a dark cloud in the sky.
+lucht,sky / air,De lucht is helder blauw.,The sky is clear blue.
+temperatuur,temperature,De temperatuur gaat morgen omhoog.,The temperature will go up tomorrow.
+graden,degrees,Het is vandaag twintig graden.,It is twenty degrees today.
+voorspelling,forecast,De weersvoorspelling is goed.,The weather forecast is good.
+zich wassen,to wash oneself,Ik was me elke ochtend.,I wash myself every morning.
+zich scheren,to shave oneself,Hij scheert zich om de dag.,He shaves every other day.
+zich aankleden,to get dressed,Ik moet me nog snel aankleden.,I still need to get dressed quickly.
+zich douchen,to shower,Zij doucht zich na het sporten.,She showers after exercising.
+zich haasten,to hurry,We moeten ons haasten voor de trein.,We have to hurry for the train.
+zich vergissen,to be mistaken,Ik heb me vergist in de tijd.,I was mistaken about the time.
+zich herinneren,to remember,Ik herinner me dat verhaal nog.,I still remember that story.
+zich vervelen,to be bored,De kinderen vervelen zich nooit.,The children are never bored.
+zich voelen,to feel,Hoe voel je je vandaag?,How do you feel today?
+zich voorstellen,to imagine / introduce oneself,Stel je voor dat we winnen!,Imagine that we win!
+zich afvragen,to wonder,Ik vraag me af waar zij is.,I wonder where she is.
+zich amuseren,to enjoy oneself,Wij hebben ons goed geamuseerd.,We enjoyed ourselves well.
+zich gedragen,to behave,Je moet je goed gedragen.,You must behave well.
+zich klaarmaken,to get ready,Ik maak me klaar voor het feest.,I am getting ready for the party.
+opstaan,to stand up / get up,Ik sta elke dag om zeven uur op.,I get up every day at seven o'clock.
+meenemen,to take along,Vergeet niet je paraplu mee te nemen.,Don't forget to take your umbrella along.
+schoonmaken,to clean,Ik moet de keuken nog schoonmaken.,I still need to clean the kitchen.
+afwassen,to do the dishes,Wie gaat er vanavond afwassen?,Who is going to do the dishes tonight?
+opruimen,to tidy up,Ruim je kamer nu op!,Tidy up your room now!
+invullen,to fill in,Kunt u dit formulier invullen?,Can you fill in this form?
+uitleggen,to explain,Kan de leraar het nog eens uitleggen?,Can the teacher explain it again?
+afmaken,to finish,Ik moet dit werk vandaag afmaken.,I have to finish this work today.
+uitnodigen,to invite,Zij heeft al haar vrienden uitgenodigd.,She invited all her friends.
+aankomen,to arrive / gain weight,Hoe laat komt de trein aan?,What time does the train arrive?
+vertrekken,to depart,De bus vertrekt over vijf minuten.,The bus departs in five minutes.
+overstappen,to transfer,U moet in Utrecht overstappen.,You have to transfer in Utrecht.
+opzoeken,to look up,Ik moet dat woord even opzoeken.,I need to look up that word for a moment.
+terugkomen,to come back,Wanneer kom je weer terug?,When are you coming back again?
+meegaan,to go along,Wil je met ons meegaan?,Do you want to go along with us?
+ophouden,to stop / cease,Hou eens op met dat lawaai!,Stop that noise!
+doorgaan,to continue,Laten we doorgaan met de les.,Let's continue with the lesson.
+uitgaan,to go out,Wij gaan dit weekend uit.,We are going out this weekend.
+meevallen,to be better than expected,De toets viel gelukkig mee.,The test was better than expected.
+tegenvallen,to be disappointing,Het weer viel erg tegen.,The weather was very disappointing.
+afspreken,to make an appointment / meet up,Zullen we morgen iets afspreken?,Shall we meet up tomorrow?
+aanzetten,to turn on,Zet de televisie maar aan.,Just turn on the television.
+uitzetten,to turn off,Vergeet niet het licht uit te zetten.,Don't forget to turn off the light.
+altijd,always,Ik ben altijd op tijd.,I am always on time.
+meestal,usually,Meestal ga ik met de fiets.,Usually I go by bike.
+vaak,often,Wij gaan vaak naar de bioscoop.,We often go to the cinema.
+regelmatig,regularly,Hij sport regelmatig.,He exercises regularly.
+soms,sometimes,Soms eet ik buiten de deur.,Sometimes I eat out.
+zelden,seldom / rarely,Ik kijk zelden televisie.,I rarely watch television.
+nooit,never,Ik heb dat nooit gezegd.,I never said that.
+al,already,Ben je nu al klaar?,Are you already finished now?
+nog,still / yet,Ik ben nog niet klaar.,I am not ready yet.
+alweer,again / once more,Is het alweer maandag?,Is it Monday again?
+pas,only / just,Ik ben pas net wakker.,I just woke up.
+eerst,first,Eerst gaan we eten.,First we are going to eat.
+daarna,afterwards,Daarna gaan we slapen.,Afterwards we are going to sleep.
+toen,then / at that time,Toen was alles anders.,Then everything was different.
+dan,then,Als het regent, dan blijf ik thuis.,If it rains, then I stay home.
+later,later,Ik bel je later wel.,I'll call you later.
+vroeger,in the past / earlier,Vroeger was er geen internet.,In the past there was no internet.
+straks,later (today),Ik zie je straks.,I'll see you later today.
+daarnet,just now,Ik zag hem daarnet nog.,I saw him just now.
+onlangs,recently,Ik heb hem onlangs nog gesproken.,I spoke to him recently.
+tegelijkertijd,at the same time,Je kunt niet twee dingen tegelijkertijd doen.,You cannot do two things at the same time.
+plotseling,suddenly,Plotseling begon het te regenen.,Suddenly it started to rain.
+eindelijk,finally,Eindelijk ben je er!,Finally you are here!
+onderweg,on the way,Ik ben nu onderweg naar huis.,I am on my way home now.
+overmorgen,day after tomorrow,Ik kom overmorgen bij je langs.,I will visit you the day after tomorrow.
+eergisteren,day before yesterday,Eergisteren was het prachtig weer.,The day before yesterday the weather was beautiful.
+dagelijks,daily,Dit is een dagelijkse bezigheid.,This is a daily activity.
+wekelijks,weekly,Wij doen wekelijks boodschappen.,We do groceries weekly.
+maandelijks,monthly,Ik betaal maandelijks de huur.,I pay the rent monthly.
+jaarlijks,yearly,Het is een jaarlijks evenement.,It is a yearly event.
+samenleving,society,Iedereen maakt deel uit van de samenleving.,Everyone is part of society.
+cultuur,culture,Nederland heeft een rijke cultuur.,The Netherlands has a rich culture.
+traditie,tradition,Het is een oude traditie.,It is an old tradition.
+geloof,faith / belief,Ieder heeft zijn eigen geloof.,Everyone has their own faith.
+religie,religion,Welke religie heeft zij?,Which religion does she have?
+kerk,church,De kerk staat in het midden van het dorp.,The church stands in the middle of the village.
+moskee,mosque,Er is een moskee in de stad.,There is a mosque in the city.
+vrijheid,freedom,Vrijheid van meningsuiting.,Freedom of speech.
+vrede,peace,Wij willen vrede in de wereld.,We want peace in the world.
+oorlog,war,Oorlog is verschrikkelijk.,War is terrible.
+veiligheid,safety,Veiligheid staat voorop.,Safety comes first.
+gevaar,danger,Kijk uit voor het gevaar!,Watch out for the danger!
+hulp,help,Heeft u hulp nodig?,Do you need help?
+recht,right / justice,Iedereen heeft recht op een eerlijk proces.,Everyone has a right to a fair trial.
+onrecht,injustice,Dit is een groot onrecht.,This is a great injustice.
+wet,law,Je moet je aan de wet houden.,You must obey the law.
+politie,police,Bel de politie bij een noodgeval.,Call the police in case of an emergency.
+boete,fine,Ik kreeg een boete voor te hard rijden.,I got a fine for speeding.
+gevangenis,prison,Hij moet naar de gevangenis.,He has to go to prison.
+misdaad,crime,Misdaad loont niet.,Crime doesn't pay.
+slachtoffer,victim,Zij is het slachtoffer van een diefstal.,She is the victim of a theft.
+getuige,witness,Ben jij getuige geweest van het ongeluk?,Were you a witness to the accident?
+advocaat,lawyer,Ik heb een advocaat nodig.,I need a lawyer.
+rechter,judge,De rechter doet morgen uitspraak.,The judge will give a verdict tomorrow.
+overheid,government,De overheid neemt nieuwe maatregelen.,The government is taking new measures.
+politiek,politics,Zij is geïnteresseerd in politiek.,She is interested in politics.
+verkiezingen,elections,Er zijn binnenkort verkiezingen.,There are elections soon.
+stemmen,to vote,Ik ga morgen stemmen.,I am going to vote tomorrow.
+partij,party (political),Op welke partij stem jij?,Which party do you vote for?
+leider,leader,Hij is de leider van de groep.,He is the leader of the group.
+macht,power,Hij heeft veel macht.,He has a lot of power.
+invloed,influence,Zij heeft veel invloed op hem.,She has a lot of influence on him.
+verschil,difference,Wat is het verschil tussen deze twee?,What is the difference between these two?
+overeenkomst,agreement / similarity,Er is een grote overeenkomst.,There is a great similarity.
+verhouding,relationship / ratio,De verhouding is één op drie.,The ratio is one to three.
+mening,opinion,Wat is jouw mening daarover?,What is your opinion on that?
+discussie,discussion,Wij hadden een lange discussie.,We had a long discussion.
+afspraak,agreement / appointment,We hebben een afspraak gemaakt.,We made an agreement.
+belofte,promise,Houd je aan je belofte.,Keep your promise.
+geheim,secret,Dit is een groot geheim.,This is a big secret.
+waarheid,truth,Vertel altijd de waarheid.,Always tell the truth.
+leugen,lie,Dat is een grote leugen.,That is a big lie.
+vertrouwen,trust,Ik heb vertrouwen in je.,I have trust in you.
+respect,respect,Toon respect voor anderen.,Show respect for others.
+verantwoordelijkheid,responsibility,Dat is jouw verantwoordelijkheid.,That is your responsibility.
+plicht,duty,Het is je plicht om te helpen.,It is your duty to help.
+keuze,choice,Je hebt een moeilijke keuze.,You have a difficult choice.
+beslissing,decision,Ik heb mijn beslissing genomen.,I have made my decision.
+gevolg,consequence,Dat heeft grote gevolgen.,That has great consequences.
+oorzaak,cause,Wat is de oorzaak van het probleem?,What is the cause of the problem?
+doel,goal,Wat is je doel in het leven?,What is your goal in life?
+plan,plan,Ik heb een goed plan.,I have a good plan.
+succes,success,Ik wens je veel succes!,I wish you much success!
+geluk,happiness / luck,Ik wens je veel geluk.,I wish you much happiness.
+pech,bad luck,Wat een pech!,What bad luck!
+toeval,coincidence,Dat is puur toeval.,That is pure coincidence.
+ervaring,experience,Hij heeft veel ervaring.,He has a lot of experience.
+kennis,knowledge,Kennis is macht.,Knowledge is power.
+vaardigheid,skill,Dat is een belangrijke vaardigheid.,That is an important skill.
+talent,talent,Zij heeft veel talent voor muziek.,She has a lot of talent for music.
+mogelijkheid,possibility,Er is een mogelijkheid.,There is a possibility.
+kans,chance,Grijp je kans!,Seize your chance!
+probleem,problem,Dat is een groot probleem.,That is a big problem.
+oplossing,solution,We moeten een oplossing vinden.,We must find a solution.
+hulp,help,Bedankt voor je hulp.,Thanks for your help.
+samenwerking,cooperation,Ik bedank u voor de samenwerking.,I thank you for the cooperation.
+vriendschap,friendship,Onze vriendschap is belangrijk.,Our friendship is important.
+liefde,love,Liefde is alles wat je nodig hebt.,Love is all you need.
+haat,hate,Haat lost niets op.,Hate doesn't solve anything.
+pijn,pain,Ik heb veel pijn.,I have a lot of pain.
+angst,fear,Angst is een slechte raadgever.,Fear is a bad advisor.
+verdriet,sadness / grief,Zij heeft veel verdriet.,She has a lot of grief.
+vreugde,joy,Het was een moment van grote vreugde.,It was a moment of great joy.
+boosheid,anger,Zijn boosheid was begrijpelijk.,His anger was understandable.
+verbazing,surprise,Tot mijn verbazing was hij er.,To my surprise he was there.
+bewondering,admiration,Ik heb veel bewondering voor haar.,I have a lot of admiration for her.
+twijfel,doubt,Er is geen twijfel mogelijk.,There is no doubt possible.
+zekerheid,certainty,Ik wil meer zekerheid.,I want more certainty.
+hoop,hope,Er is altijd hoop.,There is always hope.
+geduld,patience,Je moet een beetje geduld hebben.,You must have a little patience.
+moed,courage,Hij verzamelde al zijn moed.,He gathered all his courage.
+trots,pride,Zij keek met trots naar haar zoon.,She looked with pride at her son.
+spijt,regret,Ik heb nergens spijt van.,I don't regret anything.
+schuld,guilt / debt,Het is niet mijn schuld.,It is not my fault.
+schaamte,shame,Zij voelde grote schaamte.,She felt great shame.
+nieuwsgierigheid,curiosity,Nieuwsgierigheid is goed.,Curiosity is good.
+aandacht,attention,Schenk meer aandacht aan je werk.,Pay more attention to your work.
+interesse,interest,Ik heb geen interesse.,I have no interest.
+verbeelding,imagination,Hij heeft veel verbeelding.,He has a lot of imagination.
+geheugen,memory,Ik heb een slecht geheugen.,I have a bad memory.
+gedachte,thought,Dat was een mooie gedachte.,That was a beautiful thought.
+idee,idea,Ik heb een goed idee!,I have a good idea!
+mening,opinion,Iedereen heeft een mening.,Everyone has an opinion.
+overtuiging,conviction,Dat is mijn vaste overtuiging.,That is my firm conviction.
+twijfel,doubt,Zonder enige twijfel.,Without any doubt.
+begrip,understanding,Bedankt voor uw begrip.,Thank you for your understanding.
+verwachting,expectation,Dat is boven verwachting.,That is above expectation.
+verbazing,surprise,Groot was mijn verbazing.,Great was my surprise.
+herinnering,memory / recollection,Dat is een mooie herinnering.,That is a beautiful memory.
+droom,dream,Ik had een nare droom.,I had a bad dream.
+wens,wish,Dat is mijn grootste wens.,That is my greatest wish.
+gevoel,feeling,Ik heb er een goed gevoel over.,I have a good feeling about it.
+stemming,mood,Zij is in een goede stemming.,She is in a good mood.
+karakter,character,Hij heeft een sterk karakter.,He has a strong character.
+persoonlijkheid,personality,Zij heeft een boeiende persoonlijkheid.,She has a fascinating personality.
+gedrag,behavior,Zijn gedrag was vreemd.,His behavior was strange.
+gewoonte,habit,Dat is een slechte gewoonte.,That is a bad habit.
+traditie,tradition,Het is een familietraditie.,It is a family tradition.
+cultuur,culture,Ik hou van de Franse cultuur.,I love French culture.
+geschiedenis,history,Ik ben dol op geschiedenis.,I am fond of history.
+toekomst,future,De toekomst ziet er rooskleurig uit.,The future looks bright.
+verleden,past,Denk niet te veel aan het verleden.,Don't think too much about the past.
+heden,present,We leven in het heden.,We live in the present.
+werkelijkheid,reality,Dat is de harde werkelijkheid.,That is the harsh reality.
+waarheid,truth,Vertel me de hele waarheid.,Tell me the whole truth.
+leugen,lie,Dat is een gemene leugen.,That is a mean lie.
+feit,fact,Dat is een bekend feit.,That is a known fact.
+mening,opinion,Dat is slechts mijn mening.,That is just my opinion.
+bewijs,proof,Heb je daar bewijs voor?,Do you have proof for that?
+reden,reason,Wat is de reden van je komst?,What is the reason for your visit?
+doel,purpose,Wat is het doel van dit onderzoek?,What is the purpose of this research?
+betekenis,meaning,Wat is de betekenis van dit woord?,What is the meaning of this word?
+waarde,value,Dit horloge heeft grote waarde.,This watch has great value.
+kwaliteit,quality,De kwaliteit is erg goed.,The quality is very good.
+hoeveelheid,quantity,Een grote hoeveelheid water.,A large quantity of water.
+omgeving,environment / surroundings,In een rustige omgeving.,In a quiet environment.
+bevolking,population,De bevolking groeit.,The population is growing.
+maatschappij,society,Een moderne maatschappij.,A modern society.
+voorziening,facility / provision,Er zijn veel voorzieningen.,There are many facilities.
+verkeer,traffic,Het verkeer staat vast.,The traffic is stuck.
+vervoer,transportation,Openbaar vervoer is belangrijk.,Public transportation is important.
+veiligheid,safety,Veiligheid is prioriteit.,Safety is priority.
+ongeluk,accident,Er is een ongeluk gebeurd.,An accident happened.
+gevaar,danger,Kijk uit voor het gevaar.,Watch out for the danger.
+hulpverlening,emergency services,De hulpverlening was snel ter plaatse.,The emergency services were quickly on site.
+brandweer,fire department,De brandweer blust het vuur.,The fire department is putting out the fire.
+ziekenauto,ambulance,De ziekenauto rijdt met zwaailicht.,The ambulance is driving with flashing lights.
+politiebureau,police station,Het politiebureau is om de hoek.,The police station is around the corner.
+stadhuis,city hall,Ik moet naar het stadhuis.,I have to go to city hall.
+belastingdienst,tax office,Een brief van de belastingdienst.,A letter from the tax office.
+douane,customs,We moeten door de douane.,We have to go through customs.
+paspoortcontrole,passport control,De rij bij de paspoortcontrole is lang.,The queue at passport control is long.
+luchthaven,airport,Schiphol is een grote luchthaven.,Schiphol is a large airport.
+vliegtuig,airplane,Het vliegtuig vertrekt op tijd.,The airplane departs on time.
+piloot,pilot,De piloot begroet de passagiers.,The pilot greets the passengers.
+stewardess,flight attendant,De stewardess brengt koffie.,The flight attendant brings coffee.
+bagage,luggage,Waar is mijn bagage?,Where is my luggage?
+instapkaart,boarding pass,Houd uw instapkaart bij de hand.,Keep your boarding pass ready.
+perron,platform,De trein staat op perron vier.,The train is on platform four.
+spoor,track,De trein rijdt op het spoor.,The train runs on the track.
+conducteur,conductor,De conducteur controleert de kaartjes.,The conductor checks the tickets.
+vertraging,delay,De trein heeft tien minuten vertraging.,The train has a ten-minute delay.
+dienstregeling,timetable,Kijk in de dienstregeling.,Look at the timetable.
+reisweg,route,Wat is de snelste reisweg?,What is the fastest route?
+bestemming,destination,We hebben onze bestemming bereikt.,We have reached our destination.
+wetenschap,science,Zij houdt van wetenschap.,She loves science.
+onderzoek,research,Wetenschappelijk onderzoek.,Scientific research.
+experiment,experiment,Een gevaarlijk experiment.,A dangerous experiment.
+theorie,theory,Dat is een interessante theorie.,That is an interesting theory.
+feit,fact,Het is een bekend feit.,It is a known fact.
+gegevens,data,We verzamelen gegevens.,We are collecting data.
+analyse,analysis,Een grondige analyse.,A thorough analysis.
+resultaat,result,Wat is het resultaat?,What is the result?
+ontdekking,discovery,Een belangrijke ontdekking.,An important discovery.
+uitvinding,invention,Een nieuwe uitvinding.,A new invention.
+technologie,technology,Moderne technologie.,Modern technology.
+techniek,technique / engineering,Hij studeert techniek.,He is studying engineering.
+machine,machine,De machine werkt goed.,The machine works well.
+apparaat,device,Een handig apparaat.,A handy device.
+gereedschap,tools,Waar is mijn gereedschap?,Where are my tools?
+onderdeel,part / component,Een kapot onderdeel.,A broken part.
+energie,energy,Duurzame energie.,Sustainable energy.
+elektriciteit,electricity,De elektriciteit is uitgevallen.,The electricity has failed.
+spanning,tension / voltage,Er staat spanning op.,There is voltage/tension on it.
+stroom,current / power,De stroom is terug.,The power is back.
+batterij,battery,De batterij moet worden opgeladen.,The battery needs to be charged.
+netwerk,network,Een sociaal netwerk.,A social network.
+verbinding,connection,De verbinding is slecht.,The connection is poor.
+signaal,signal,Ik heb geen signaal.,I have no signal.
+systeem,system,Het systeem start op.,The system is starting up.
+software,software,Nieuwe software installeren.,Installing new software.
+hardware,hardware,De hardware is verouderd.,The hardware is outdated.
+database,database,De gegevens staan in de database.,The data is in the database.
+beveiliging,security,De beveiliging is streng.,The security is strict.
+privacy,privacy,Wij respecteren uw privacy.,We respect your privacy.
+gebruiker,user,Een nieuwe gebruiker aanmaken.,Create a new user.
+wachtwoord,password,Uw wachtwoord is geheim.,Your password is secret.
+toegang,access,U heeft geen toegang.,You have no access.
+foutmelding,error message,Ik krijg een foutmelding.,I am getting an error message.
+update,update,Er is een software update.,There is a software update.
+instelling,setting,Pas de instellingen aan.,Adjust the settings.
+bestand,file,Sla het bestand op.,Save the file.
+document,document,Print dit document.,Print this document.
+kopie,copy,Maak een kopie.,Make a copy.
+map,folder,Doe het in de map.,Put it in the folder.
+bijlage,attachment,De bijlage zit in de mail.,The attachment is in the email.
+onderwerp,subject,Wat is het onderwerp?,What is the subject?
+inhoud,content,De inhoud van de brief.,The content of the letter.
+betekenis,meaning,Wat is de betekenis?,What is the meaning?
+definitie,definition,Geef een definitie.,Give a definition.
+uitleg,explanation,Een duidelijke uitleg.,A clear explanation.
+voorbeeld,example,Geef een voorbeeld.,Give an example.
+samenvatting,summary,Schrijf een samenvatting.,Write a summary.
+conclusie,conclusion,Wat is de conclusie?,What is the conclusion?
+advies,advice,Kan ik u advies geven?,Can I give you advice?
+tip,tip,Bedankt voor de tip.,Thanks for the tip.
+waarschuwing,warning,Een laatste waarschuwing.,A last warning.
+bevestiging,confirmation,Ik wacht op bevestiging.,I am waiting for confirmation.
+besluit,decision,Het besluit is genomen.,The decision is made.
+keuze,choice,U heeft een keuze.,You have a choice.
+mogelijkheid,possibility,Er is een mogelijkheid.,There is a possibility.
+kans,chance,Een grote kans.,A big chance.
+risico,risk,Dat is een groot risico.,That is a big risk.
+probleem,problem,Er is een probleem.,There is a problem.
+oplossing,solution,We zoeken een oplossing.,We are looking for a solution.
+succes,success,Veel succes!,Much success!
+fout,mistake,Ik heb een fout gemaakt.,I made a mistake.
+mislukking,failure,Het was een mislukking.,It was a failure.
+oorzaak,cause,Wat is de oorzaak?,What is the cause?
+gevolg,consequence,Dat heeft grote gevolgen.,That has big consequences.
+doel,goal,Wat is je doel?,What is your goal?
+plan,plan,Ik heb een goed plan.,I have a good plan.
+strategie,strategy,Een nieuwe strategie.,A new strategy.
+project,project,Ik werk aan een project.,I am working on a project.
+taak,task,Dat is jouw taak.,That is your task.
+opdracht,assignment,Maak de opdracht.,Do the assignment.
+verantwoordelijkheid,responsibility,Neem je verantwoordelijkheid.,Take your responsibility.
+plicht,duty,Het is je plicht.,It is your duty.
+recht,right,Je hebt het recht.,You have the right.
+vrijheid,freedom,Vrijheid is belangrijk.,Freedom is important.
+vrede,peace,Wij willen vrede.,We want peace.
+oorlog,war,Er is oorlog.,There is war.
+crisis,crisis,Een economische crisis.,An economic crisis.
+verandering,change,Verandering is nodig.,Change is needed.
+ontwikkeling,development,Een goede ontwikkeling.,A good development.
+groei,growth,De groei stopt.,The growth stops.
+verbetering,improvement,Ik zie verbetering.,I see improvement.
+achteruitgang,decline,Er is sprake van achteruitgang.,There is talk of decline.
+toekomst,future,De toekomst is onzeker.,The future is uncertain.
+verleden,past,Denk niet aan het verleden.,Don't think about the past.
+heden,present,Focus op het heden.,Focus on the present.
+tijdperk,era,Een nieuw tijdperk.,A new era.
+geschiedenis,history,Zij studeert geschiedenis.,She studies history.
+cultuur,culture,De Nederlandse cultuur.,Dutch culture.
+traditie,tradition,Het is een traditie.,It is a tradition.
+gewoonte,habit,Dat is een gewoonte.,That is a habit.
+ervaring,experience,Ik heb veel ervaring.,I have a lot of experience.
+kennis,knowledge,Zij heeft veel kennis.,She has a lot of knowledge.
+wijsheid,wisdom,Wijsheid komt met de jaren.,Wisdom comes with age.
+talent,talent,Hij heeft talent.,He has talent.
+vaardigheid,skill,Dat is een vaardigheid.,That is a skill.
+kwaliteit,quality,Kwaliteit boven kwantiteit.,Quality over quantity.
+waarde,value,Dat heeft veel waarde.,That has a lot of value.
+norm,norm / standard,Wat is de norm?,What is the norm?
+waarde,value / worth,Wat is de waarde?,What is the value?
+principe,principle,Het is een principe.,It is a principle.
+mening,opinion,Wat is jouw mening?,What is your opinion?
+standpunt,point of view,Ik begrijp je standpunt.,I understand your point of view.
+overtuiging,conviction,Een sterke overtuiging.,A strong conviction.
+twijfel,doubt,Er is geen twijfel.,There is no doubt.
+geloof,faith / belief,Het christelijk geloof.,The Christian faith.
+religie,religion,Vrijheid van religie.,Freedom of religion.
+filosofie,philosophy,Hij leest filosofie.,He reads philosophy.
+kunst,art,Ik hou van kunst.,I love art.
+literatuur,literature,Klassieke literatuur.,Classical literature.
+muziek,music,Zij maakt muziek.,She makes music.
+architectuur,architecture,Moderne architectuur.,Modern architecture.
+schilderkunst,painting (art),De Nederlandse schilderkunst.,Dutch painting.
+beeldhouwkunst,sculpture,Een museum voor beeldhouwkunst.,A museum for sculpture.
+theater,theater,Gaan we naar het theater?,Are we going to the theater?
+bioscoop,cinema,Een film in de bioscoop.,A movie in the cinema.
+concert,concert,Ik heb een kaartje voor het concert.,I have a ticket for the concert.
+festival,festival,Een groot muziekfestival.,A big music festival.
+evenement,event,Het is een jaarlijks evenement.,It is a yearly event.
+publiek,audience,Het publiek klapt.,The audience is clapping.
+succes,success,Het was een groot succes.,It was a great success.
+roem,fame,Hij zoekt geen roem.,He is not looking for fame.
+invloed,influence,Zij heeft veel invloed.,She has a lot of influence.
+macht,power,Geld is macht.,Money is power.
+autoriteit,authority,Hij heeft autoriteit.,He has authority.
+respect,respect,Toon respect.,Show respect.
+vertrouwen,trust,Ik heb vertrouwen in je.,I have trust in you.
+eerlijkheid,honesty,Eerlijkheid duurt het langst.,Honesty lasts longest.
+vriendschap,friendship,Onze vriendschap is sterk.,Our friendship is strong.
+liefde,love,Liefde overwint alles.,Love conquers all.
+geluk,happiness,Ik wens je veel geluk.,I wish you much happiness.
+verdriet,sadness,Zij heeft veel verdriet.,She has a lot of sadness.
+pijn,pain,Ik heb veel pijn.,I have a lot of pain.
+angst,fear,Angst voor het donker.,Fear of the dark.
+boosheid,anger,Zijn boosheid was groot.,His anger was great.
+verbazing,surprise,Tot mijn verbazing.,To my surprise.
+bewondering,admiration,Ik heb bewondering voor haar.,I have admiration for her.
+geduld,patience,Heb een beetje geduld.,Have a little patience.
+moed,courage,Hij heeft veel moed.,He has a lot of courage.
+trots,pride,Ik ben trots op je.,I am proud of you.
+spijt,regret,Ik heb nergens spijt van.,I regret nothing.
+schuld,guilt / debt,Het is niet mijn schuld.,It is not my fault.
+schaamte,shame,Zij voelt geen schaamte.,She feels no shame.
+nieuwsgierigheid,curiosity,Nieuwsgierigheid is goed.,Curiosity is good.
+aandacht,attention,Schenk meer aandacht.,Pay more attention.
+interesse,interest,Ik heb geen interesse.,I have no interest.
+enthousiasme,enthusiasm,Met veel enthousiasme.,With much enthusiasm.
+motivatie,motivation,Ik mis motivatie.,I lack motivation.
+concentratie,concentration,Ik heb geen concentratie.,I have no concentration.
+herinnering,memory,Een mooie herinnering.,A beautiful memory.
+geheugen,memory (faculty),Ik heb een goed geheugen.,I have a good memory.
+verbeelding,imagination,Gebruik je verbeelding.,Use your imagination.
+gedachte,thought,Wat een mooie gedachte.,What a beautiful thought.
+idee,idea,Ik heb een idee.,I have an idea.
+plan,plan,Wat is het plan?,What is the plan?
+wens,wish,Het is mijn wens.,It is my wish.
+droom,dream,Ik had een droom.,I had a dream.
+hoop,hope,Er is altijd hoop.,There is always hope.
+verwachting,expectation,Boven verwachting.,Above expectation.
+oordeel,judgment,Vorm je eigen oordeel.,Form your own judgment.
+kritiek,criticism,Ik accepteer kritiek.,I accept criticism.
+compliment,compliment,Bedankt voor het compliment.,Thanks for the compliment.
+advies,advice,Bedankt voor het advies.,Thanks for the advice.
+voorstel,proposal,Ik heb een voorstel.,I have a proposal.
+afspraak,agreement / appointment,We hebben een afspraak.,We have an agreement.
+belofte,promise,Houd je aan je belofte.,Keep your promise.
+geheim,secret,Het is een geheim.,It is a secret.
+waarheid,truth,Vertel de waarheid.,Tell the truth.
+leugen,lie,Dat is een leugen.,That is a lie.
+feit,fact,Dat is een feit.,That is a fact.
+mening,opinion,Dat is mijn mening.,That is my opinion.
+bewijs,proof,Heb je bewijs?,Do you have proof?
+reden,reason,Wat is de reden?,What is the reason?
+oorzaak,cause,Wat is de oorzaak?,What is the cause?
+gevolg,consequence,Wat is het gevolg?,What is the consequence?
+doel,purpose,Wat is het doel?,What is the purpose?
+resultaat,result,Het resultaat is goed.,The result is good.
+betekenis,meaning,Wat is de betekenis?,What is the meaning?
+waarde,value,Het heeft geen waarde.,It has no value.
+kwaliteit,quality,De kwaliteit is slecht.,The quality is poor.
+hoeveelheid,amount,Een grote hoeveelheid.,A large amount.
+totaal,total,Wat is het totaal?,What is the total?
+gemiddelde,average,Boven het gemiddelde.,Above average.
+maximum,maximum,De maximum snelheid.,The maximum speed.
+minimum,minimum,Het minimum loon.,The minimum wage.
+niveau,level,Een hoog niveau.,A high level.
+graad,degree,Het is dertig graden.,It is thirty degrees.
+procent,percent,Tien procent korting.,Ten percent discount.
+deel,part,Het grootste deel.,The largest part.
+stuk,piece,Een stukje taart.,A piece of cake.
+helft,half,De helft van de tijd.,Half of the time.
+kwart,quarter,Een kwartier wachten.,Waiting for a quarter of an hour.
+rest,rest,De rest is voor jou.,The rest is for you.
+vorm,shape,Een ronde vorm.,A round shape.
+formaat,format / size,Een groot formaat.,A large format.
+maat,size,Welke maat heb je?,What size do you have?
+gewicht,weight,Wat is het gewicht?,What is the weight?
+lengte,length / height,Wat is je lengte?,What is your height?
+breedte,width,De breedte van de kast.,The width of the cupboard.
+hoogte,height,De hoogte van de berg.,The height of the mountain.
+diepte,depth,De diepte van de zee.,The depth of the sea.
+afstand,distance,De afstand is groot.,The distance is large.
+oppervlakte,surface area,De oppervlakte van de kamer.,The surface area of the room.
+bakkerij,bakery,De bakkerij is een winkel waar je vers brood kunt kopen.,The bakery is a shop where you can buy fresh bread.
+slagerij,butcher shop,Bij de slagerij koop je het beste vlees.,At the butcher shop you buy the best meat.
+groenteboer,greengrocer,De groenteboer verkoopt verse groenten en fruit.,The greengrocer sells fresh vegetables and fruit.
+kapper,hairdresser,Ik ga naar de kapper om mijn haar te knippen.,I go to the hairdresser to cut my hair.
+bibliotheek,library,In de bibliotheek kun je boeken lenen.,In the library you can borrow books.
+postkantoor,post office,Ik moet een pakketje wegbrengen naar het postkantoor.,I have to bring a package to the post office.
+politiebureau,police station,Hij doet aangifte bij het politiebureau.,He reports it at the police station.
+haven,harbor,De schepen liggen in de haven.,The ships are in the harbor.
+vliegveld,airport,We moeten drie uur van tevoren op het vliegveld zijn.,We have to be at the airport three hours in advance.
+parkeerplaats,parking lot,Er is geen vrije parkeerplaats meer.,There are no more free parking spots.
+terras,terrace,Zullen we op het terras gaan zitten?,Shall we sit on the terrace?
+dak,roof,Er ligt sneeuw op het dak.,There is snow on the roof.
+plafond,ceiling,De lamp hangt aan het plafond.,The lamp hangs from the ceiling.
+trap,stairs,Ik loop de trap op naar boven.,I walk up the stairs.
+lift,elevator,De lift is buiten gebruik.,The elevator is out of order.
+gang,hallway,Mijn jas hangt in de gang.,My coat is in the hallway.
+poort,gate,Doe de poort achter je dicht.,Close the gate behind you.
+bel,bell,Ik hoorde de bel niet.,I didn't hear the bell.
+brief,letter,Ik schrijf een brief aan mijn oma.,I am writing a letter to my grandma.
+kaart,card,Stuur je me een kaartje?,Will you send me a card?
+postcode,zip code,Vergeet de postcode niet te vermelden.,Don't forget to mention the zip code.
+prins,prince,De prins speelt in de tuin.,The prince is playing in the garden.
+prinses,princess,De prinses zwaait naar de mensen.,The princess waves to the people.
+leger,army,Het leger wordt ingezet bij rampen.,The army is deployed during disasters.
+soldaat,soldier,De soldaat staat op wacht.,The soldier is on guard.
+dief,thief,De dief is door de politie gepakt.,The thief was caught by the police.
+straf,punishment,Hij kreeg een zware straf.,He received a heavy punishment.
+redding,rescue,De redding kwam net op tijd.,The rescue came just in time.
+brand,fire,Er is brand uitgebroken in de keuken.,A fire has broken out in the kitchen.
+rook,smoke,Ik zie zwarte rook uit de schoorsteen komen.,I see black smoke coming from the chimney.
+aarde,earth,De aarde draait om de zon.,The earth revolves around the sun.
+vuur,fire,Maak een vuur om warm te blijven.,Make a fire to stay warm.
+planeet,planet,Mars is de rode planeet.,Mars is the red planet.
+volk,people/nation,Het volk kiest de nieuwe regering.,The people choose the new government.
+seconde,second,Het duurt maar een seconde.,It only takes a second.
+minuut,minute,Ik ben over vijf minuten terug.,I'll be back in five minutes.
+eeuw,century,We leven in de eenentwintigste eeuw.,We live in the twenty-first century.
+zelden,rarely,Ik kijk zelden televisie.,I rarely watch television.
+regelmatig,regularly,Hij sport regelmatig.,He exercises regularly.
+bijna,almost,We zijn er bijna.,We are almost there.
+zelfs,even,Het was zelfs in de winter warm.,It was warm even in the winter.
+vooral,especially,Ik hou vooral van chocola.,I especially like chocolate.
+hopelijk,hopefully,Hopelijk is het morgen mooi weer.,Hopefully the weather will be nice tomorrow.
+gelukkig,luckily,Gelukkig was de trein op tijd.,Luckily the train was on time.
+helaas,unfortunately,Helaas kan ik niet komen.,Unfortunately I cannot come.
+eigenlijk,actually,Wat wil je eigenlijk zeggen?,What do you actually want to say?
+precies,exactly,Het is nu precies acht uur.,It is exactly eight o'clock now.
+ongeveer,approximately,De reis duurt ongeveer een uur.,The journey takes about an hour.
+bijvoorbeeld,for example,Ik hou van fruit, bijvoorbeeld appels.,I love fruit, for example apples.
+namelijk,namely,Ik heb drie broers, namelijk Jan, Piet en Klaas.,I have three brothers, namely Jan, Piet and Klaas.
+zulk,such,Ik heb nog nooit zulk mooi weer gezien.,I have never seen such beautiful weather.
+dergelijk,suchlike,Ik heb geen dergelijke plannen.,I have no such plans.
+ander,other,Wil je een ander koekje?,Do you want another cookie?
+alle,all,Alle kinderen spelen buiten.,All children are playing outside.
+elke,every,Ik ga elke dag naar mijn werk.,I go to my work every day.
+iedere,every,Iedereen is welkom.,Everyone is welcome.
+enkele,some,Er zijn nog enkele kaarten beschikbaar.,There are still some tickets available.
+voldoende,sufficient,Je hebt voldoende punten gehaald.,You have achieved sufficient points.
+zeer,very,Dat is een zeer goed resultaat.,That is a very good result.
+nadat,after,Nadat we gegeten hadden, gingen we wandelen.,After we had eaten, we went for a walk.
+voordat,before,Poets je tanden voordat je gaat slapen.,Brush your teeth before you go to sleep.
+terwijl,while,Ik luister naar muziek terwijl ik werk.,I listen to music while I work.
+zodra,as soon as,Bel me zodra je thuis bent.,Call me as soon as you are home.
+totdat,until,Wacht hier totdat ik terug ben.,Wait here until I am back.
+sinds,since,Ik woon hier sinds vorig jaar.,I have been living here since last year.
+hoewel,although,Hoewel het regende, gingen we toch naar buiten.,Although it was raining, we still went outside.
+tenzij,unless,Ik kom morgen, tenzij het heel hard gaat regenen.,I'll come tomorrow, unless it's going to rain very hard.
+mits,provided that,Je mag mee, mits je je goed gedraagt.,You may come along, provided you behave well.
+daarom,therefore,Het regende, daarom bleven we binnen.,It was raining, therefore we stayed inside.
+dus,so,Het is al laat, dus ik ga nu naar huis.,It is already late, so I am going home now.
+toch,yet/still,Het was koud, maar we gingen toch wandelen.,It was cold, but we still went for a walk.
+terug,back,Wanneer kom je weer terug?,When are you coming back?
+heen,there/away,Waar ga je heen?,Where are you going?
+weg,away,Ga weg!,Go away!
+af,off/finished,Het werk is eindelijk af.,The work is finally finished.
+op,up/finished,Het geld is bijna op.,The money is almost gone.
+langs,along/past,We rijden langs de rivier.,We are driving along the river.
+tegen,against/to,Hij leunt tegen de muur.,He is leaning against the wall.
+vandaag,today,Ik doe het vandaag.,I will do it today.
+morgen,tomorrow,Tot morgen.,See you tomorrow.
+gisteren,yesterday,Ik was er gisteren.,I was there yesterday.
+altijd,always,Hij is altijd te laat.,He is always late.
+vaak,often,Ik kom hier vaak.,I come here often.
+soms,sometimes,Soms ga ik hardlopen.,Sometimes I go running.
+nooit,never,Ik drink nooit koffie.,I never drink coffee.
+hier,here,Kom hier.,Come here.
+daar,there,Het ligt daar.,It lies there.
+ergens,somewhere,Het is ergens in huis.,It is somewhere in the house.
+overal,everywhere,Ik heb overal gezocht.,I have searched everywhere.
+niemand,nobody,Er is niemand.,There is nobody.
+iemand,someone,Is er iemand?,Is there someone?
+alles,everything,Ik wil alles weten.,I want to know everything.
+niets,nothing,Ik doe niets.,I am doing nothing.
+iets,something,Wil je iets eten?,Do you want to eat something?
+huis,house,Dit is mijn huis.,This is my house.
+kamer,room,De kamer is groot.,The room is big.
+keuken,kitchen,Wij koken in de keuken.,We are cooking in the kitchen.
+badkamer,bathroom,De badkamer is schoon.,The bathroom is clean.
+slaapkamer,bedroom,Mijn slaapkamer is koud.,My bedroom is cold.
+woonkamer,living room,We zitten in de woonkamer.,We are sitting in the living room.
+tafel,table,Het ligt op tafel.,It is on the table.
+stoel,chair,Neem een stoel.,Take a chair.
+bed,bed,Ik ga naar bed.,I am going to bed.
+kast,cupboard,De borden staan in de kast.,The plates are in the cupboard.
+deur,door,Doe the deur dicht.,Close the door.
+raam,window,Het raam is open.,The window is open.
+vloer,floor,De vloer is nat.,The floor is wet.
+muur,wall,De muur is wit.,The wall is white.
+licht,light,Doe het licht aan.,Turn on the light.
+lamp,lamp,De lamp is kapot.,The lamp is broken.
+sleutel,key,Waar is mijn sleutel?,Where is my key?
+slot,lock,Het slot is oud.,The lock is old.
+tas,bag,Mijn tas is zwaar.,My bag is heavy.
+koffer,suitcase,Ik pak mijn koffer.,I pack my suitcase.
+boek,book,Ik lees een mooi boek.,I am reading a beautiful book.
+pen,pen,Mag ik je pen lenen?,May I borrow your pen?
+papier,paper,Ik heb papier nodig.,I need paper.
+computer,computer,De computer is traag.,The computer is slow.
+laptop,laptop,Mijn laptop staat aan.,My laptop is on.
+telefoon,phone,Mijn telefoon gaat af.,My phone is ringing.
+oplader,charger,Ik zoek mijn oplader.,I am looking for my charger.
+televisie,TV,De televisie staat aan.,The television is on.
+afstandsbediening,remote,Geef me de afstandsbediening.,Give me the remote.
+koelkast,fridge,Het bier staat in de koelkast.,The beer is in the fridge.
+oven,oven,De pizza zit in de oven.,The pizza is in the oven.
+magnetron,microwave,Warm het op in de magnetron.,Warm it up in the microwave.
+fornuis,stove,De pan staat op het fornuis.,The pan is on the stove.
+bord,plate,Jouw bord is leeg.,Your plate is empty.
+glas,glass,Een glas water graag.,A glass of water please.
+kopje,cup,Een kopje thee graag.,A cup of tea please.
+mes,knife,Ik heb een mes nodig.,I need a knife.
+vork,fork,Hier is een vork.,Here is a fork.
+lepel,spoon,Waar is de soeplepel?,Where is the soup spoon?
+handdoek,towel,Geef me een handdoek.,Give me a towel.
+zeep,soap,Was je handen met zeep.,Wash your hands with soap.
+shampoo,shampoo,Mijn shampoo is op.,My shampoo is gone.
+spiegel,mirror,Kijk in de spiegel.,Look in the mirror.
+wasmachine,washing machine,De wasmachine is vol.,The washing machine is full.
+droger,dryer,De droger is klaar.,The dryer is ready.
+vuilnis,trash,Breng het vuilnis weg.,Take the trash away.
+vuilnisbak,trash can,Gooi het in de vuilnisbak.,Throw it in the trash can.
+schoon,clean,Alles is schoon.,Everything is clean.
+vies,dirty,Mijn handen zijn vies.,My hands are dirty.
+warm,warm,Het is warm vandaag.,It is warm today.
+koud,cold,Het is erg koud.,It is very cold.
+groot,big,Dat is een groot huis.,That is a big house.
+klein,small,Hij is nog klein.,He is still small.
+nieuw,new,Ik heb een nieuwe auto.,I have a new car.
+oud,old,Die fiets is oud.,That bike is old.
+duur,expensive,Dat horloge is duur.,That watch is expensive.
+goedkoop,cheap,Die appels zijn goedkoop.,Those apples are cheap.
+zwaar,heavy,Deze doos is zwaar.,This box is heavy.
+licht (gewicht),light (weight),Het is heel licht.,It is very light.
+open,open,De winkel is open.,The shop is open.
+dicht,closed,De deur is dicht.,The door is closed.
+vol,full,Het glas is vol.,The glass is full.
+leeg,empty,Mijn kopje is leeg.,My cup is empty.
+nat,wet,Mijn kleren zijn nat.,My clothes are wet.
+droog,dry,De was is droog.,The laundry is dry.
+snel,fast,Hij rent snel.,He runs fast.
+langzaam,slow,Je praat te langzaam.,You talk too slowly.
+makkelijk,easy,Die test was makkelijk.,That test was easy.
+moeilijk,difficult,Nederlands is moeilijk.,Dutch is difficult.
+mooi,beautiful,Wat een mooie bloem.,What a beautiful flower.
+lelijk,ugly,Dat gebouw is lelijk.,That building is ugly.
+goed,good,Dat is een goed idee.,That is a good idea.
+slecht,bad,Het weer is slecht.,The weather is bad.
+beter,better,Dit is veel beter.,This is much better.
+best,best,Jij bent de beste.,You are the best.
+hetzelfde,same,Wij dragen hetzelfde.,We are wearing the same.
+anders,different,Dit is anders.,This is different.
+dichtbij,near,Het is hier dichtbij.,It is near here.
+ver,far,Is het nog ver?,Is it still far?
+klaar,ready,Ik ben er klaar voor.,I am ready for it.
+eten,food,Het eten is klaar.,The food is ready.
+drinken,drink,Wat wil je drinken?,What do you want to drink?
+water,water,Ik wil graag water.,I would like water.
+koffie,coffee,Twee koffie alstublieft.,Two coffees please.
+thee,tea,Ik drink groene thee.,I drink green tea.
+melk,milk,Met melk en suiker.,With milk and sugar.
+sap,juice,Appelsap of sinaasappelsap?,Apple juice or orange juice?
+bier,beer,Een koud bier graag.,A cold beer please.
+wijn,wine,Rode of witte wijn?,Red or white wine?
+brood,bread,Ik eet vers brood.,I eat fresh bread.
+boter,butter,Met een beetje boter.,With a little butter.
+kaas,cheese,Hollandse kaas is lekker.,Dutch cheese is tasty.
+ei,egg,Ik kook een ei.,I am boiling an egg.
+vlees,meat,Ik eet geen vlees.,I do not eat meat.
+kip,chicken,Wij eten kip vanavond.,We are eating chicken tonight.
+vis,fish,De vis is erg vers.,The fish is very fresh.
+rijst,rice,Kip met rijst.,Chicken with rice.
+pasta,pasta,Ik maak pasta.,I am making pasta.
+aardappel,potato,Gekookte aardappels.,Boiled potatoes.
+groente,vegetables,Je moet groente eten.,You have to eat vegetables.
+fruit,fruit,Eet meer fruit.,Eat more fruit.
+appel,apple,Ik eet een appel.,I eat an apple.
+banaan,banana,Een gele banaan.,A yellow banana.
+sinaasappel,orange,Een zoete sinaasappel.,A sweet orange.
+tomaat,tomato,Tomaten in de salade.,Tomatoes in the salad.
+komkommer,cucumber,Ik snijd de komkommer.,I am cutting the cucumber.
+ui,onion,Met een beetje ui.,With a little onion.
+sla,lettuce,De sla is groen.,The lettuce is green.
+suiker,sugar,Geen suiker voor mij.,No sugar for me.
+zout,salt,Een beetje extra zout.,A little extra salt.
+peper,pepper,Peper en zout.,Pepper and salt.
+saus,sauce,Welke saus wil je?,Which sauce do you want?
+soep,soup,Tomatensoep vooraf.,Tomato soup as a starter.
+salade,salad,Ik bestel een salade.,I am ordering a salad.
+ontbijt,breakfast,Het ontbijt is om acht uur.,Breakfast is at eight o'clock.
+lunch,lunch,Wat eten we voor de lunch?,What are we eating for lunch?
+diner,dinner,Het diner was heerlijk.,The dinner was delicious.
+restaurant,restaurant,Een goed restaurant.,A good restaurant.
+menu,menu,Mag ik het menu zien?,May I see the menu?
+bestelling,order,Wat is uw bestelling?,What is your order?
+rekening,bill,De rekening alstublieft.,The bill please.
+betalen,to pay,Kan ik betalen?,Can I pay?
+reservering,reservation,Ik heb een reservering.,I have a reservation.
+honger,hunger,Ik heb honger.,I am hungry.
+dorst,thirst,Ik heb dorst.,I am thirsty.
+lekker,tasty,Dat was erg lekker.,That was very tasty.
+vies (eten),disgusting,Dat smaakt vies.,That tastes disgusting.
+vers,fresh,Vers brood is het beste.,Fresh bread is the best.
+oud (eten),stale,Dit brood is oud.,This bread is stale.
+koken,to cook,Wie kookt er vanavond?,Who is cooking tonight?
+bakken,to bake,Koekjes bakken is leuk.,Baking cookies is fun.
+snijden,to cut,Kan je de ui snijden?,Can you cut the onion?
+mengen,to mix,Je moet alles mengen.,You have to mix everything.
+proeven,to taste,Wil je even proeven?,Do you want to taste?
+serveren,to serve,We serveren het warm.,We serve it warm.
+etenstijd,mealtime,Het is etenstijd.,It is mealtime.
+snack,snack,Ik neem een snack.,I am taking a snack.
+friet,fries,Friet met mayonaise.,Fries with mayonnaise.
+saas,sauce,Lekker veel saus.,Nice and lots of sauce.
+pizza,pizza,Ik bestel een pizza.,I am ordering a pizza.
+hamburger,burger,Een hamburger met kaas.,A burger with cheese.
+ijs,ice cream,Ik wil een ijsje.,I want an ice cream.
+chocolade,chocolate,Pure chocolade is lekker.,Dark chocolate is tasty.
+koekje,cookie,Neem een koekje.,Take a cookie.
+taart,cake,Gefeliciteerd hier is taart.,Congratulations here is cake.
+fles,bottle,Een fles water.,A bottle of water.
+glas,glass,Een glas melk.,A glass of milk.
+kop,cup,Een kop koffie.,A cup of coffee.
+blik,can,Een blik soep.,A can of soup.
+verpakking,package,De verpakking is leeg.,The packaging is empty.
+winkel,shop,De winkel is dicht.,The shop is closed.
+supermarkt,supermarket,Ik ga naar de supermarkt.,I am going to the supermarket.
+markt,market,Op zaterdag is er markt.,On Saturday there is a market.
+prijs,price,Wat is de prijs?,What is the price?
+korting,discount,Je krijgt korting.,You get a discount.
+aanbieding,offer,Dit is een goede aanbieding.,This is a good offer.
+betalen,to pay,Waar kan ik betalen?,Where can I pay?
+pinnen,to pay by card,Kan ik hier pinnen?,Can I pay by card here?
+contant,cash,Ik betaal contant.,I am paying cash.
+wisselgeld,change,Houd het wisselgeld maar.,Keep the change.
+straat,street,Deze straat is lang.,This street is long.
+weg,road,De weg is afgesloten.,The road is closed.
+plein,square,We ontmoeten elkaar op het plein.,We will meet at the square.
+stad,city,Amsterdam is een mooie stad.,Amsterdam is a beautiful city.
+dorp,village,Ik woon in een klein dorp.,I live in a small village.
+station,station,Het centraal station.,The central station.
+halte,stop,De volgende halte.,The next stop.
+bus,bus,De bus vertrekt zo.,The bus is leaving soon.
+trein,train,De trein naar Utrecht.,The train to Utrecht.
+metro,metro,Neem de metro.,Take the metro.
+tram,tram,De tram stopt hier.,The tram stops here.
+fiets,bicycle,Waar is mijn fiets?,Where is my bike?
+auto,car,Wij gaan met de auto.,We are going by car.
+taxi,taxi,Bel een taxi.,Call a taxi.
+vliegtuig,airplane,Het vliegtuig landt zo.,The airplane is landing soon.
+ticket,ticket,Heb je een ticket?,Do you have a ticket?
+kaart,card/ticket,Een enkele kaart alstublieft.,A single ticket please.
+OV-chipkaart,transport card,Vergeet je OV-chipkaart niet.,Do not forget your transport card.
+rijden,to drive,Wie gaat er rijden?,Who is going to drive?
+parkeren,to park,Mag ik hier parkeren?,May I park here?
+tanken,to refuel,Ik moet eerst nog tanken.,I have to refuel first.
+vliegen,to fly,Vogels kunnen vliegen.,Birds can fly.
+varen,to sail,Zullen we gaan varen?,Shall we go sailing?
+reizen,to travel,Zij reizen de hele wereld rond.,They travel around the whole world.
+vakantie,holiday,Ik heb zin in de vakantie.,I am looking forward to the holiday.
+hotel,hotel,We slapen in een hotel.,We sleep in a hotel.
+camping,campsite,Gaan jullie naar de camping?,Are you going to the campsite?
+tent,tent,Slapen in een tent.,Sleeping in a tent.
+strand,beach,Laten we naar het strand gaan.,Let's go to the beach.
+zee,sea,De zee is erg koud.,The sea is very cold.
+bergen,mountains,Wandelen in de bergen.,Walking in the mountains.
+bos,forest,Ik loop graag in het bos.,I like walking in the forest.
+meer,lake,Zwemmen in het meer.,Swimming in the lake.
+rivier,river,De rivier stroomt snel.,The river flows fast.
+eiland,island,Wij wonen op een eiland.,We live on an island.
+wereld,world,De wereld is groot.,The world is big.
+land,country,Nederland is een klein land.,The Netherlands is a small country.
+reispas,passport,Vergeet je paspoort niet.,Do not forget your passport.
+visum,visa,Ik heb een visum nodig.,I need a visa.
+koffer,suitcase,Mijn koffer is erg zwaar.,My suitcase is very heavy.
+tas,bag,Ik heb een kleine tas.,I have a small bag.
+rugzak,backpack,Neem je rugzak mee.,Take your backpack with you.
+souvenir,souvenir,Ik koop een souvenir.,I buy a souvenir.
+groeten,greetings,De hartelijke groeten.,Best regards.
+ja,yes,Ja dat klopt.,Yes that is right.
+nee,no,Nee dank je.,No thank you.
+misschien,maybe,Misschien regent het.,Maybe it will rain.
+oké,okay,Oké tot later.,Okay see you later.
+tot ziens,goodbye,Tot ziens en een fijne dag.,Goodbye and have a nice day.
+dag,bye,Dag tot de volgende keer.,Bye until next time.
+hallo,hello,Hallo hoe gaat het?,Hello how are you?
+hoi,hi,Hoi wat leuk om je te zien.,Hi how nice to see you.
+goedemorgen,good morning,Goedemorgen lekker geslapen?,Good morning did you sleep well?
+goedemiddag,good afternoon,Goedemiddag wat kan ik voor u doen?,Good afternoon what can I do for you?
+goedenavond,good evening,Goedenavond wilt u alvast iets drinken?,Good evening would you like something to drink already?
+goedenacht,good night,Goedenacht slaap lekker.,Good night sleep well.
+welkom,welcome,Welkom in ons huis.,Welcome to our house.
+alstublieft,please (formal),Alstublieft hier is uw koffie.,Please here is your coffee.
+alsjeblieft,please (informal),Alsjeblieft hier is je boek.,Please here is your book.
+bedankt,thanks,Bedankt voor je hulp.,Thanks for your help.
+dank u wel,thank you (formal),Dank u wel voor de uitnodiging.,Thank you for the invitation.
+dank je wel,thank you (informal),Dank je wel voor het cadeau.,Thank you for the gift.
+geen dank,you're welcome,Geen dank graag gedaan.,You're welcome my pleasure.
+graag gedaan,my pleasure,Graag gedaan tot ziens.,My pleasure goodbye.
+sorry,sorry,Sorry ik was een beetje laat.,Sorry I was a little late.
+pardon,excuse me,Pardon mag ik er even langs?,Excuse me may I get past?
+excuus,excuse me,Mijn excuus voor de fout.,My excuse for the mistake.
+hoe gaat het?,how are you?,Hoe gaat het met jou?,How are you doing?
+goed,good,Met mij gaat het goed.,I am doing well.
+niet zo goed,not so good,Het gaat vandaag niet zo goed.,It's not going so well today.
+gefeliciteerd,congratulations,Gefeliciteerd met je verjaardag.,Congratulations on your birthday.
+succes,good luck,Succes met je examen.,Good luck with your exam.
+proost,cheers,Proost op je nieuwe baan.,Cheers to your new job.
+eet smakelijk,enjoy your meal,Eet smakelijk allemaal.,Enjoy your meal everyone.
+goede reis,have a good trip,Goede reis en kom veilig aan.,Have a good trip and arrive safely.
+ik begrijp het,I understand,Ik begrijp het nu eindelijk.,I finally understand it now.
+ik weet het niet,I don't know,Ik weet het echt niet.,I really don't know.
+wacht even,wait a moment,Wacht even ik kom eraan.,Wait a moment I'm coming.
+kom binnen,come in,Kom binnen en ga zitten.,Come in and sit down.
+tot straks,see you later,Tot straks bij de afspraak.,See you later at the appointment.
+tot morgen,see you tomorrow,Tot morgen op school.,See you tomorrow at school.
+ik hou van jou,I love you,Ik hou heel veel van jou.,I love you very much.
+wat is dat?,what is that?,Wat is dat voor een geluid?,What kind of sound is that?
+waar is het?,where is it?,Waar is het station precies?,Where is the station exactly?
+hoe laat is het?,what time is it?,Hoe laat is het nu?,What time is it now?
+hoeveel kost het?,how much does it cost?,Hoeveel kost deze appel?,How much does this apple cost?
+mag ik iets vragen?,may I ask something?,Mag ik u iets korts vragen?,May I ask you something short?
+kunt u mij helpen?,can you help me?,Kunt u mij even helpen?,Can you help me for a moment?
+spreekt u engels?,do you speak english?,Spreekt u ook een beetje Engels?,Do you also speak a little English?
+ik leer nederlands,I am learning dutch,Ik leer elke dag Nederlands.,I learn Dutch every day.
+ik kom uit...,I am from...,Ik kom uit de Verenigde Staten.,I am from the United States.
+hoe heet je?,what is your name?,Hoe heet je en waar kom je vandaan?,What is your name and where are you from?
+ik heet...,my name is...,Ik heet Jan en ik ben dertig.,My name is Jan and I am thirty.
+leuk je te ontmoeten,nice to meet you,Leuk je vandaag te ontmoeten.,Nice to meet you today.
+hoe oud ben je?,how old are you?,Hoe oud ben je precies?,How old are you exactly?
+ik ben ... jaar oud,I am ... years old,Ik ben vijfentwintig jaar oud.,I am twenty-five years old.
+waar woon je?,where do you live?,Waar woon je in Nederland?,Where do you live in the Netherlands?
+ik woon in...,I live in...,Ik woon nu in Amsterdam.,I live in Amsterdam now.
+wat doe je?,what do you do?,Wat doe je voor werk?,What do you do for work?
+ik ben een...,I am a...,Ik ben een student.,I am a student.
+het spijt me,I am sorry,Het spijt me verschrikkelijk.,I am terribly sorry.
+geen probleem,no problem,Geen probleem ik help je graag.,No problem I am happy to help you.
+natuurlijk,of course,Natuurlijk kom ik naar je feestje.,Of course I am coming to your party.
+echt?,really?,Echt waar is dat zo?,Really is that so?
+misschien,maybe,Misschien gaan we morgen.,Maybe we are going tomorrow.
+ik denk het wel,I think so,Ik denk het wel hoor.,I think so indeed.
+ik denk het niet,I don't think so,Ik denk het eerlijk gezegd niet.,To be honest I don't think so.
+ik hoop het,I hope so,Ik hoop het ook voor je.,I hope so for you too.
+ik ben moe,I am tired,Ik ben erg moe vandaag.,I am very tired today.
+ik ben ziek,I am sick,Ik ben een beetje ziek.,I am a little sick.
+ik heb honger,I am hungry,Ik heb nu echt honger.,I am really hungry now.
+ik heb dorst,I am thirsty,Ik heb een beetje dorst.,I am a little thirsty.
+het is koud,it is cold,Het is buiten erg koud.,It is very cold outside.
+het is warm,it is warm,Het is vandaag heerlijk warm.,It is wonderfully warm today.
+het regent,it is raining,Het regent al de hele dag.,It has been raining all day.
+de zon schijnt,the sun is shining,De zon schijnt eindelijk weer.,The sun is finally shining again.
+ik ben klaar,I am finished,Ik ben klaar met mijn werk.,I am finished with my work.
+het is laat,it is late,Het is al erg laat.,It is already very late.
+ik moet gaan,I have to go,Ik moet nu echt gaan.,I really have to go now.
+tot ziens,goodbye,Tot ziens en een fijne dag.,Goodbye and a nice day.
+houdoe,bye (regional),Houdoe en bedankt.,Bye and thanks.
+tot de volgende keer,until next time,Tot de volgende keer maar weer.,Until next time again.

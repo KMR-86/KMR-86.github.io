@@ -1,25 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K. M. Rahman | Blog</title>
+    <title>My Lab | K. M. Rahman</title>
 
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Calibre:wght@400;500;600&family=SF+Mono&display=swap" rel="stylesheet">
 
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
-    <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet">
 </head>
 
 <body>
-<!-- Navigation -->
 <header class="navbar">
     <nav>
         <div class="logo">
@@ -33,7 +28,7 @@
                     <li><a href="index.html#work-experience">Experience</a></li>
                     <li><a href="index.html#blog">Blog</a></li>
                     <li><a href="index.html#achievements">Achievements</a></li>
-                    <li><a href="my-lab.html">My Lab</a></li>
+                    <li><a href="my-lab.html" class="active">My Lab</a></li>
                 </ol>
             </div>
             <div class="theme-toggle">
@@ -45,17 +40,21 @@
     </nav>
 </header>
 
-<main class="blog-listing-container">
-    <h1 class="page-title">Blog</h1>
+<main class="lab-page">
+    <section class="lab-intro">
+        <h1 class="page-title">My Lab</h1>
+        <p>A growing place for interactive JavaScript tools, experiments, and bite-sized learning experiences.</p>
+    </section>
 
-    <div class="blog-listing">
-        <!-- All blog items will be loaded here -->
-    </div>
+    <section class="lab-grid" aria-label="Lab categories">
+        <a class="lab-card" href="lab-learn-dutch.html">
+            <h2 class="lab-card-title">Learn Dutch with me</h2>
+            <p>Practice Dutch in a friendly way with small tools designed for repeat learning and quick progress.</p>
+        </a>
+    </section>
 </main>
 
-<!-- Custom JS -->
 <script src="js/jquery.js"></script>
 <script src="js/main.js"></script>
-<script src="js/blogs.js"></script>
 </body>
 </html>
