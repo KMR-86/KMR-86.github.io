@@ -1251,7 +1251,7 @@ h2.big-heading {
 .flashcards-card-actions {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 80px;
     margin-top: 20px;
 }
 
@@ -1259,11 +1259,11 @@ h2.big-heading {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 54px;
-    height: 54px;
+    width: 72px;
+    height: 72px;
     border-radius: 50%;
     border: 1px solid transparent;
-    font-size: 22px;
+    font-size: 28px;
     transition: var(--transition);
 }
 
@@ -1387,7 +1387,7 @@ h4.team-member-name {
 }
 
 h4.team-member-designation {
-    color: #34c6d3;
+    color: var(--green);
     font-size: 15px;
     font-weight: 700;
     font-style: italic;
@@ -1529,37 +1529,58 @@ h4.team-member-designation {
 
 /* Light Theme Variables */
 [data-theme="light"] {
-    --navy: #d8dae0;
-    --light-navy: #c8cad2;
-    --lightest-navy: #b8bac2;
-    --slate: #3d4055;
-    --light-slate: #2d2f42;
-    --lightest-slate: #1d1f32;
-    --white: #0a192f;
-    --green: #095e4f;
+    --navy: #ffffff;
+    --light-navy: #f8f9fb;
+    --lightest-navy: #eef1f6;
+    --slate: #556270;
+    --light-slate: #3b4553;
+    --lightest-slate: #1e2a3a;
+    --white: #111827;
+    --green: #0891b2;
+    --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 /* Light theme specific overrides */
 [data-theme="light"] .navbar {
-    background-color: rgba(228, 230, 235, 0.95); /* Updated to match new light-navy */
-    border-bottom: 2px solid rgba(10, 110, 92, 0.15); /* Updated to match new green */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.88);
+    border-bottom: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(12px);
 }
 
-/* Add these additional light theme overrides */
-[data-theme="light"] .service-item,
+/* Card and panel overrides for light mode */
 [data-theme="light"] .content,
 [data-theme="light"] .blog-card,
-[data-theme="light"] .lab-card,
-[data-theme="light"] .lab-tool-shell,
 [data-theme="light"] .team-member,
 [data-theme="light"] .team-member-info {
-    background-color: var(--light-navy);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .service-item,
+[data-theme="light"] .lab-card,
+[data-theme="light"] .flashcards-deck-card {
+    background-color: #e8edf3;
+    border: 1px solid #d5dbe5;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+[data-theme="light"] .lab-tool-shell {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 [data-theme="light"] .service-item:hover {
-    background-color: var(--lightest-navy);
+    background-color: #dde3ec;
+    border-color: #c8d0dc;
+}
+
+[data-theme="light"] .lab-card:hover,
+[data-theme="light"] .flashcards-deck-card:hover {
+    background-color: #dde3ec;
+    border-color: rgba(8, 145, 178, 0.3);
 }
 
 /* Improve text readability in light mode */
@@ -1575,8 +1596,8 @@ h4.team-member-designation {
 
 [data-theme="light"] .resume-link:hover,
 [data-theme="light"] .blog-all-link:hover {
-    background-color: rgba(10, 110, 92, 0.1);
-    box-shadow: 0 0 15px rgba(10, 110, 92, 0.3);
+    background-color: rgba(8, 145, 178, 0.08);
+    box-shadow: 0 0 12px rgba(8, 145, 178, 0.15);
 }
 
 /* Improve timeline appearance in light mode */
@@ -1585,13 +1606,89 @@ h4.team-member-designation {
 }
 
 [data-theme="light"] .timeline-item::before {
-    background: var(--navy);
-    border: 4px solid var(--green);
+    background: #ffffff;
+    border: 3px solid var(--green);
 }
 
 /* Profile picture in light mode */
 [data-theme="light"] .about-pic img {
-    filter: brightness(0.95) contrast(1.05);
+    filter: brightness(1) contrast(1);
+}
+
+/* Theme toggle button in light mode */
+[data-theme="light"] #theme-toggle-btn {
+    color: var(--green);
+}
+
+[data-theme="light"] #theme-toggle-btn:hover {
+    background-color: rgba(8, 145, 178, 0.1);
+}
+
+/* Owl carousel slider in light mode */
+[data-theme="light"] .owl-theme .owl-nav [class*=owl-] {
+    background: #eef1f6;
+    color: var(--green);
+    border: 1px solid #e5e7eb;
+}
+
+[data-theme="light"] .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #dde2ea;
+    color: var(--green);
+}
+
+[data-theme="light"] .owl-theme .owl-dots .owl-dot span {
+    background: #cbd5e1;
+}
+
+[data-theme="light"] .owl-theme .owl-dots .owl-dot.active span,
+[data-theme="light"] .owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--green);
+}
+
+/* Flashcard overrides for light mode */
+[data-theme="light"] .flashcards-card-face {
+    background-color: #e8edf3;
+    border: 1px solid #d5dbe5;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="light"] .flashcards-card-face::after {
+    border-color: rgba(8, 145, 178, 0.06);
+}
+
+[data-theme="light"] .flashcards-deck-card {
+    border: 1px solid #e5e7eb;
+}
+
+[data-theme="light"] .flashcards-deck-card:hover {
+    border-color: rgba(8, 145, 178, 0.35);
+    background-color: #f8f9fb;
+}
+
+[data-theme="light"] .flashcards-icon-button--right {
+    color: #059669;
+    background-color: rgba(5, 150, 105, 0.08);
+    border-color: rgba(5, 150, 105, 0.25);
+}
+
+[data-theme="light"] .flashcards-icon-button--wrong {
+    color: #dc2626;
+    background-color: rgba(220, 38, 38, 0.06);
+    border-color: rgba(220, 38, 38, 0.2);
+}
+
+[data-theme="light"] .flashcards-progress-bar {
+    background-color: #e5e7eb;
+}
+
+[data-theme="light"] .flashcards-retry-banner {
+    background-color: rgba(220, 38, 38, 0.06);
+    color: #dc2626;
+    border-color: rgba(220, 38, 38, 0.15);
+}
+
+[data-theme="light"] .flashcards-summary {
+    border-color: #e5e7eb;
 }
 
 /* ==========================================================================
