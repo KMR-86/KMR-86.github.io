@@ -205,7 +205,7 @@ const renderCompletionView = () => {
         <div class="flashcards-panel flashcards-completion-panel">
             <span class="lab-card-label">${flashcardsState.selectedDeck.title}</span>
             <h2 class="flashcards-heading">Deck Completed!</h2>
-            <p class="flashcards-supporting-text">Nice work — you cleared all ${flashcardsState.selectedDeck.cards.length} cards in this deck. Use the Change Deck button below to start another one.</p>
+            <p class="flashcards-supporting-text">Nice work — you cleared all ${flashcardsState.selectedDeck.cards.length} cards in this deck. Use the Restart Deck button to go again, or Change Deck to pick another.</p>
         </div>
     `;
 };
@@ -405,7 +405,9 @@ const bindFlashcardsEvents = () => {
 
     if (pageResetButton) {
         pageResetButton.addEventListener('click', function() {
-            resetToDeckSelection();
+            if (flashcardsState.selectedDeck) {
+                startDeckStudy(flashcardsState.selectedDeck.id);
+            }
         });
     }
 
