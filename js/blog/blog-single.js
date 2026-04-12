@@ -7,25 +7,25 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 'load-balancers',
             title: 'All about load balancers',
             date: 'April 14, 2023',
-            file: 'blogs/load-balancers.md'
+            file: '../blogs/load-balancers.md'
         },
         {
             id: 'migrating-rows',
             title: 'How we migrated 7.1 million rows in place',
             date: 'March 22, 2023',
-            file: 'blogs/migrating-rows.md'
+            file: '../blogs/migrating-rows.md'
         },
         {
             id: 'live-product-migration',
             title: 'How to migrate a live product',
             date: 'February 10, 2023',
-            file: 'blogs/live-product-migration.md'
+            file: '../blogs/live-product-migration.md'
         },
         {
             id: 'pre-mortem-document',
             title: 'What is a pre-mortem document',
             date: 'January 18, 2023',
-            file: 'blogs/pre-mortem-document.md'
+            file: '../blogs/pre-mortem-document.md'
         }
     ];
 
