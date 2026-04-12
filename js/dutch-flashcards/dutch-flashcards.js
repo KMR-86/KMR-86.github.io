@@ -1,4 +1,4 @@
-const FLASHCARD_SOURCE_PATH = 'data/dutch-flashcards.txt';
+const FLASHCARD_DEFAULT_SOURCE = '../data/dutch-flashcards.txt';
 const FLASHCARD_DECK_SIZE = 25;
 
 const flashcardsState = {
@@ -85,7 +85,29 @@ const escapeHtml = (value) => String(value)
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 
-const fetchAndParseFlashcards = async (filePath = FLASHCARD_SOURCE_PATH) => {
+const ALLOWED_SOURCES = [
+    '../data/dutch-flashcards.txt',
+    '../data/dutch-flashcards-exam-1.text'
+];
+
+const getUrlParams = () => new URLSearchParams(window.location.search);
+
+const getFlashcardSourcePath = () => {
+    const params = getUrlParams();
+    const requested = params.get('source');
+    if (requested && ALLOWED_SOURCES.includes(requested)) {
+        return requested;
+    }
+    return FLASHCARD_DEFAULT_SOURCE;
+};
+
+const getPageTitle = () => {
+    const params = getUrlParams();
+    return params.get('title') || 'Dutch Flashcards Tool Area';
+};
+
+const fetchAndParseFlashcards = async () => {
+    const filePath = getFlashcardSourcePath();
     const response = await fetch(filePath);
 
     if (!response.ok) {
@@ -415,6 +437,11 @@ const bindFlashcardsEvents = () => {
 };
 
 const initializeFlashcardData = async () => {
+    const titleElement = document.getElementById('flashcards-page-title');
+    if (titleElement) {
+        titleElement.textContent = getPageTitle();
+    }
+
     const { cards, source } = await fetchAndParseFlashcards();
 
     flashcardsState.cards = cards;

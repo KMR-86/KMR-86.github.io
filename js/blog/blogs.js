@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
         blogCards.forEach(card => {
             card.addEventListener('click', () => {
                 const blogId = card.getAttribute('data-blog');
-                window.location.href = `blog-single.html?id=${blogId}`;
+                window.location.href = `blog/blog-single.html?id=${blogId}`;
             });
         });
     }
