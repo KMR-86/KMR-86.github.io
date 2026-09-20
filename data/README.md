@@ -9,9 +9,21 @@
 One card per line:
 
 ```
-Dutch word,English meaning,Dutch sentence,English sentence
-een,"a, an; one",Ik heb een vraag over de cursus.,I have a question about the course.
+Dutch word,English meaning,Dutch sentence,English sentence,Topic,Level
+appel,apple,Ik eet een appel.,I eat an apple.,Eten & drinken,1
 ```
+
+`Topic` is one of the twenty categories used throughout the list (`Basis &
+grammatica`, `Werkwoorden`, `Eten & drinken`, `Werk & solliciteren`, …) and
+`Level` runs from 1 (easiest) to 5 (hardest). The page shows both on the back
+of a card and uses them to label each deck.
+
+The exam-1 list keeps the older four-column form without a topic or level, and
+still loads: the last two columns are optional.
+
+Cards are stored easiest first — sorted by level, then by topic within a level,
+then by how often the word appears in the practice exams. The build script does
+not re-sort, so a word added at the end of the file becomes the last card.
 
 Wrap a field in double quotes when it contains a comma. A backtick, a
 backslash or a `${` cannot appear anywhere in the list.

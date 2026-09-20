@@ -73,14 +73,48 @@ const parseFlashcardText = (rawText) => {
                 return null;
             }
 
+            // Lists may carry two extra columns: topic and level (1-5). Older
+            // four-column lists were written unquoted, so anything past the
+            // third comma there still belongs to the English sentence.
+            const level = fields.length >= 6 ? Number.parseInt(fields[5], 10) : NaN;
+            const hasTopicAndLevel = fields.length >= 6 && Number.isInteger(level);
+
             return {
                 word: fields[0].trim(),
                 meaning: fields[1].trim(),
                 sentence: fields[2].trim(),
-                sentenceEn: fields.slice(3).join(',').trim()
+                sentenceEn: hasTopicAndLevel ? fields[3].trim() : fields.slice(3).join(',').trim(),
+                topic: hasTopicAndLevel ? fields[4].trim() : '',
+                level: hasTopicAndLevel ? level : null
             };
         })
         .filter(card => card && card.word && card.meaning && card.sentence);
+};
+
+const describeDeck = (cards) => {
+    const levels = [...new Set(cards.map(card => card.level).filter(Boolean))].sort();
+    const topicCounts = cards.reduce((counts, card) => {
+        if (card.topic) {
+            counts[card.topic] = (counts[card.topic] || 0) + 1;
+        }
+        return counts;
+    }, {});
+    const topics = Object.keys(topicCounts).sort((a, b) => topicCounts[b] - topicCounts[a]);
+
+    if (!levels.length && !topics.length) {
+        return 'Serial chunk of words ready for a focused study session.';
+    }
+
+    const levelLabel = levels.length === 1
+        ? `Level ${levels[0]}`
+        : `Levels ${levels[0]}–${levels[levels.length - 1]}`;
+    const topicLabel = topics.length === 0
+        ? ''
+        : topics.length === 1
+            ? topics[0]
+            : `${topics[0]} + ${topics.length - 1} more`;
+
+    return [levelLabel, topicLabel].filter(Boolean).join(' · ');
 };
 
 const chunkWordsIntoDecks = (cards, deckSize = FLASHCARD_DECK_SIZE) => {
@@ -88,11 +122,13 @@ const chunkWordsIntoDecks = (cards, deckSize = FLASHCARD_DECK_SIZE) => {
 
     for (let index = 0; index < cards.length; index += deckSize) {
         const deckNumber = Math.floor(index / deckSize) + 1;
+        const deckCards = cards.slice(index, index + deckSize);
 
         decks.push({
             id: `deck-${deckNumber}`,
             title: `Deck ${deckNumber}`,
-            cards: cards.slice(index, index + deckSize)
+            summary: describeDeck(deckCards),
+            cards: deckCards
         });
     }
 
@@ -217,7 +253,7 @@ const renderDeckSelectionView = () => {
             <button class="lab-card flashcards-deck-card" type="button" data-deck-id="${deck.id}">
                 <span class="lab-card-label">${deck.title}</span>
                 <h3 class="lab-card-title">${deck.cards.length} cards</h3>
-                <p>Serial chunk of words ready for a focused study session.</p>
+                <p>${escapeHtml(deck.summary)}</p>
                 <ul class="flashcards-preview-list">${previewWords}</ul>
                 <span class="lab-card-arrow">Start studying →</span>
             </button>
@@ -309,6 +345,7 @@ const renderStudySessionView = () => {
                         <span class="flashcards-card-face flashcards-card-back">
                             <span class="flashcards-card-copy">
                                 <span class="lab-card-label">Back</span>
+                                ${currentWord.topic ? `<span class="flashcards-card-meta">${escapeHtml(currentWord.topic)}${currentWord.level ? ` · Level ${currentWord.level}` : ''}</span>` : ''}
                                 <span class="flashcards-meaning">${escapeHtml(currentWord.meaning)}</span>
                                 <span class="flashcards-sentence">${escapeHtml(currentWord.sentence)}</span>
                                 ${currentWord.sentenceEn ? `<span class="flashcards-sentence-en">${escapeHtml(currentWord.sentenceEn)}</span>` : ''}
@@ -529,6 +566,7 @@ if (typeof window !== 'undefined') {
         FLASHCARD_DECK_SIZE,
         parseFlashcardText,
         chunkWordsIntoDecks,
+        describeDeck,
         shuffleCards,
         loadFlashcards
     };
