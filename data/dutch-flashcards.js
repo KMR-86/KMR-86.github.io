@@ -1,0 +1,1803 @@
+// Dutch flashcard word list — curated A2 vocabulary from the 12 official DUO practice exams
+//
+// One card per line: Dutch word,English meaning,Dutch sentence,English sentence
+// Wrap a field in double quotes when it contains a comma, e.g. "a, an; one".
+// This is a .js file rather than a .txt so the page also works when opened
+// straight from disk (file://), where browsers refuse to fetch local files.
+
+window.dutchFlashcardData = window.dutchFlashcardData || {};
+
+window.dutchFlashcardData['default'] = `
+de,the (de-words),De man werkt in de winkel.,The man works in the shop.
+een,"a, an; one",Ik heb een vraag over de cursus.,I have a question about the course.
+het,the (het-words); it,Het kind speelt in de tuin.,The child plays in the garden.
+van,"of, from",De brief is van de gemeente.,The letter is from the municipality.
+op,"on, at",De folder ligt op de tafel.,The leaflet is on the table.
+en,and,Ik werk en ik studeer.,I work and I study.
+in,in,Wij wonen in Nederland.,We live in the Netherlands.
+is,is,Mijn buurvrouw is ziek.,My neighbour is ill.
+met,with,Ik ga met de bus naar mijn werk.,I go to work by bus.
+hij,he,Hij komt morgen naar de les.,He is coming to the lesson tomorrow.
+wat,what,Wat moet ik meenemen?,What do I have to bring?
+naar,to,Ik ga naar de huisarts.,I am going to the doctor.
+dat,that,Ik weet dat de winkel gesloten is.,I know that the shop is closed.
+voor,for; before,Deze brief is voor u.,This letter is for you.
+zijn,to be; his,De kinderen zijn op school.,The children are at school.
+bij,"at, near, with",Ik meld me ziek bij mijn baas.,I report sick to my boss.
+moet,"must, has to",Je moet de tekst eerst lezen.,You have to read the text first.
+ze,she; they,Ze werkt in een supermarkt.,She works in a supermarket.
+dan,then,"Lees eerst de vraag, dan de tekst.","Read the question first, then the text."
+je,you; your,Wat doe je in het weekend?,What do you do at the weekend?
+lees,read (imperative),Lees eerst de vraag.,Read the question first.
+als,"if, when; as","Als je ziek bent, moet je bellen.","If you are ill, you have to call."
+uur,"hour, o'clock",De les begint om negen uur.,The lesson starts at nine o'clock.
+ik,I,Ik kom uit Bangladesh.,I come from Bangladesh.
+kan,"can, is able to",Ik kan vandaag niet komen.,I cannot come today.
+te,too; to,Het water is te koud om te zwemmen.,The water is too cold to swim in.
+tekst,text,Lees de tekst goed door.,Read the text carefully.
+wil,want(s),Ik wil een afspraak maken.,I want to make an appointment.
+niet,not,Ik kan vandaag niet werken.,I cannot work today.
+aan,"on, to, at","Doe je jas aan, het is koud.","Put your coat on, it is cold."
+vragen,questions; to ask,Je moet 25 vragen beantwoorden.,You have to answer 25 questions.
+of,or; whether,Wil je koffie of thee?,Would you like coffee or tea?
+heeft,has,Mijn zoon heeft een nieuwe baan.,My son has a new job.
+over,about; over,Deze folder gaat over de cursus.,This leaflet is about the course.
+om,at (time); in order to,De bus vertrekt om half acht.,The bus leaves at half past seven.
+daarna,"after that, then",Lees eerst de vraag en daarna de tekst.,Read the question first and then the text.
+ook,"also, too",Mijn man komt ook naar het feest.,My husband is coming to the party too.
+wanneer,when,Wanneer moet ik de auto weghalen?,When do I have to move the car?
+doen,to do,Wat gaan we dit weekend doen?,What are we going to do this weekend?
+we,we,We beginnen om negen uur.,We start at nine o'clock.
+vraag,question,Ik heb een vraag aan de docent.,I have a question for the teacher.
+eerst,first,Lees eerst de tekst.,Read the text first.
+haar,her,Haar dochter gaat naar de basisschool.,Her daughter goes to primary school.
+kunt,can (formal/plural),U kunt ons bellen tussen negen en twaalf uur.,You can call us between nine and twelve.
+vertel,tell (imperative),Vertel iets over jezelf.,Tell us something about yourself.
+er,there,Er staat een fiets voor de deur.,There is a bicycle in front of the door.
+mag,"may, is allowed to",Je mag hier niet parkeren.,You are not allowed to park here.
+plaatjes,pictures,Kijk goed naar de plaatjes.,Look carefully at the pictures.
+cursus,course,Ik volg een cursus Nederlands.,I am taking a Dutch course.
+tot,"until, to",De winkel is open tot zes uur.,The shop is open until six o'clock.
+dit,this,Dit is mijn nieuwe adres.,This is my new address.
+gaat,goes,Mijn zoon gaat naar school.,My son goes to school.
+waarom,why,Waarom krijgen de bewoners deze brief?,Why do the residents get this letter?
+die,"that, those, who",De man die daar staat is mijn buurman.,The man standing there is my neighbour.
+volgende,"next, following",Volgende week begint de cursus.,The course starts next week.
+nog,"still, yet",Ik moet nog boodschappen doen.,I still have to do the shopping.
+dag,day,Het is een mooie dag vandaag.,It is a beautiful day today.
+gaan,to go,We gaan zaterdag naar de markt.,We are going to the market on Saturday.
+hoe,how,Hoe laat begint de les?,What time does the lesson start?
+waar,where; true,Waar is de bushalte?,Where is the bus stop?
+maken,to make,Ik wil een afspraak maken.,I want to make an appointment.
+werken,to work,Ik moet zaterdag werken.,I have to work on Saturday.
+werk,"work, job",Ik ga met de fiets naar mijn werk.,I cycle to work.
+welke,which,Welke cursus past het beste bij u?,Which course suits you best?
+deze,"this, these",Deze folder is gratis.,This leaflet is free.
+plaatje,picture,Kijk naar het plaatje en vertel wat je ziet.,Look at the picture and say what you see.
+doet,does,Wat doet u voor werk?,What do you do for a living?
+vrijdag,Friday,Op vrijdag is de praktijk gesloten.,The practice is closed on Friday.
+winkel,"shop, store",De winkel gaat om negen uur open.,The shop opens at nine o'clock.
+zie,see (I see),Ik zie drie mensen op het plaatje.,I see three people in the picture.
+iets,something,Wil je iets drinken?,Would you like something to drink?
+krijgt,"gets, receives",Zij krijgt een brief van de gemeente.,She receives a letter from the municipality.
+nieuwe,new,Ik heb een nieuwe baan gevonden.,I have found a new job.
+uw,your (formal),Wij hebben uw brief ontvangen.,We have received your letter.
+jaar,year,Ik woon al drie jaar in Nederland.,I have lived in the Netherlands for three years.
+kijk,look (imperative),Kijk goed naar het filmpje.,Watch the video carefully.
+werkt,works,Mijn vrouw werkt bij een ingenieursbureau.,My wife works at an engineering firm.
+wij,we,Wij hopen op een gezellige dag.,We hope for a pleasant day.
+alleen,only; alone,Ik ben vandaag alleen thuis.,I am home alone today.
+graag,"gladly, please",Ik wil graag een afspraak maken.,I would like to make an appointment.
+leren,"to learn, to teach",Ik wil beter Nederlands leren.,I want to learn Dutch better.
+onze,our,Onze buren zijn heel aardig.,Our neighbours are very nice.
+vertelt,tells,Hij vertelt over zijn werk.,He talks about his work.
+twee,two,Ik heb twee kinderen.,I have two children.
+video,video,Bekijk de video en beantwoord de vraag.,Watch the video and answer the question.
+week,week,Volgende week heb ik een examen.,Next week I have an exam.
+zij,she; they,Zij werkt op een kantoor.,She works in an office.
+geen,"no, not any",Ik heb vandaag geen tijd.,I have no time today.
+les,"lesson, class",De les duurt twee uur.,The lesson lasts two hours.
+wilt,want (formal/plural),Wilt u een kopje koffie?,Would you like a cup of coffee?
+drie,three,De cursus bestaat uit drie delen.,The course consists of three parts.
+wie,who,Wie is uw leidinggevende?,Who is your manager?
+hebt,have (informal),Je hebt nog tien minuten.,You have ten minutes left.
+maar,but; only,"Ik wil komen, maar ik moet werken.","I want to come, but I have to work."
+alle,all,Alle bewoners krijgen een brief.,All residents receive a letter.
+geven,to give,We willen een cadeau geven.,We want to give a present.
+nederland,the Netherlands,Ik woon sinds 2024 in Nederland.,I have lived in the Netherlands since 2024.
+meer,more,Ik wil meer weten over de cursus.,I want to know more about the course.
+ziek,"ill, sick",Mijn dochter is vandaag ziek.,My daughter is ill today.
+afspraak,appointment,Ik heb een afspraak bij de tandarts.,I have an appointment at the dentist.
+bellen,"to call, to phone",U kunt ons bellen op dit nummer.,You can call us on this number.
+beste,best; dear (in a letter),"Beste collega's, volgende week is er een feest.","Dear colleagues, next week there is a party."
+bus,bus,De bus rijdt elke tien minuten.,The bus runs every ten minutes.
+elke,"every, each",Elke dag een beetje leren is beter.,Learning a little every day is better.
+kunnen,"to be able to, can",We kunnen morgen niet komen.,We cannot come tomorrow.
+veel,"much, many",Er zijn veel mensen op het feest.,There are many people at the party.
+hebben,to have,We hebben nog twee weken de tijd.,We still have two weeks.
+weten,to know,Ik wil weten hoe laat de bus komt.,I want to know what time the bus comes.
+lessen,"lessons, classes",De lessen beginnen in september.,The classes start in September.
+mensen,people,Er staan veel mensen bij de bushalte.,There are many people at the bus stop.
+want,"because, for","Ik ga naar huis, want ik ben moe.","I am going home, because I am tired."
+al,already,Ik woon al vijf jaar in deze straat.,I have lived in this street for five years already.
+altijd,always,De praktijk is altijd open op maandag.,The practice is always open on Monday.
+dagen,days,De cursus duurt tien dagen.,The course lasts ten days.
+nederlands,Dutch (language),Ik spreek een beetje Nederlands.,I speak a little Dutch.
+ons,us; our,Kom naar ons kantoor voor meer informatie.,Come to our office for more information.
+uit,"out, from",Ik kom uit Bangladesh.,I come from Bangladesh.
+willen,to want,We willen graag met de bus mee.,We would like to come along on the bus.
+bent,are (you),Bent u vandaag ziek?,Are you ill today?
+andere,other,Ik zoek een andere baan.,I am looking for another job.
+baan,job,Zij zoekt een nieuwe baan.,She is looking for a new job.
+goed,"good, well",Het gaat goed met mijn familie.,My family is doing well.
+maakt,makes,Hij maakt een lijstje met boodschappen.,He makes a shopping list.
+samen,together,We doen de boodschappen samen.,We do the shopping together.
+collega,colleague,Mijn collega helpt me met het werk.,My colleague helps me with the work.
+daar,there,Daar staat de bushalte.,The bus stop is over there.
+donderdag,Thursday,Op donderdag heb ik Nederlandse les.,On Thursday I have a Dutch lesson.
+dus,"so, therefore","Het regent, dus ik neem de bus.","It is raining, so I am taking the bus."
+eerste,first,Wat moet hij volgens de tekst het eerste doen?,"According to the text, what does he have to do first?"
+informatie,information,Op de website staat meer informatie.,There is more information on the website.
+kinderen,children,De kinderen spelen in het park.,The children are playing in the park.
+komen,to come,Kunt u morgen naar ons kantoor komen?,Can you come to our office tomorrow?
+mijn,my,Mijn man werkt bij een bouwbedrijf.,My husband works at a construction company.
+vind,find; think,Ik vind deze cursus heel leuk.,I think this course is very nice.
+één,one (stressed),Er is nog maar één plaats vrij.,There is only one place left.
+alles,everything,Alles is klaar voor het feest.,Everything is ready for the party.
+dingen,things,Er zijn nog een paar dingen te doen.,There are still a few things to do.
+e-mail,email,Ik stuur u vandaag nog een e-mail.,I will send you an email today.
+ja,yes,"Ja, ik kom graag naar het feest.","Yes, I would love to come to the party."
+jullie,"you (plural), your",Kunnen jullie zaterdag komen?,Can you come on Saturday?
+man,man; husband,De man van Halima kan niet meedoen.,Halima's husband cannot take part.
+open,open,De winkel is op zondag open.,The shop is open on Sunday.
+tijd,time,Ik heb vandaag geen tijd.,I have no time today.
+weken,weeks,De levertijd is twee weken.,The delivery time is two weeks.
+ziet,sees,Hij ziet zijn buurman op straat.,He sees his neighbour in the street.
+helpen,to help,Kunt u mij even helpen?,Could you help me for a moment?
+nee,no,"Nee, ik kan morgen niet.","No, I can't make it tomorrow."
+nu,now,Ik zit nu in de trein.,I am on the train now.
+spreken,to speak,Ik wil de leidinggevende spreken.,I would like to speak to the manager.
+vaak,often,Ik ga vaak met de fiets naar mijn werk.,I often cycle to work.
+vier,four,Het gezin heeft vier kinderen.,The family has four children.
+weer,again; weather,Lees de tekst nog een keer weer door.,Read the text through once again.
+woorden,words,Leer elke dag tien nieuwe woorden.,Learn ten new words every day.
+eten,to eat; food,We gaan om zes uur eten.,We are going to eat at six o'clock.
+heb,have (I),Ik heb een vraag over mijn contract.,I have a question about my contract.
+maandag,Monday,Op maandag is de praktijk open.,The practice is open on Monday.
+moeten,"must, to have to",We moeten om negen uur beginnen.,We have to start at nine o'clock.
+nemen,to take,Wij nemen niet alle spullen mee.,We do not take all the items.
+zes,six,De cursus bestaat uit zes bijeenkomsten.,The course consists of six meetings.
+extra,extra,Neem extra kleding mee.,Bring extra clothes.
+fijn,"nice, pleasant",Ik vind het fijn om hier te wonen.,I find it pleasant to live here.
+hand,hand,Geef de docent een hand.,Shake the teacher's hand.
+keer,time (occasion),Lees de tekst nog een keer.,Read the text one more time.
+mee,"along, with",Mag mijn man ook mee?,May my husband come along too?
+praten,to talk,We praten over het werk.,We are talking about the work.
+school,school,Mijn dochter zit op een basisschool.,My daughter is at a primary school.
+weekend,weekend,In het weekend zijn wij gesloten.,We are closed at the weekend.
+zaterdag,Saturday,Op zaterdag 13 juni is de wedstrijd.,The race is on Saturday 13 June.
+zo,so; like this; shortly,Ik kom er zo aan.,I will be there shortly.
+april,April,De open dag is op 20 april.,The open day is on 20 April.
+leert,"learns, teaches",Deze cursus leert u hoe u kunt helpen.,This course teaches you how to help.
+pauze,break,Na de pauze is er een voetbaltoernooi.,After the break there is a football tournament.
+vertellen,to tell,Wij willen u vertellen wat er die dag anders is.,We want to tell you what is different that day.
+weg,"road, way; away",Ik weet de weg naar het station niet.,I do not know the way to the station.
+beter,better,U onthoudt de informatie dan beter.,You then remember the information better.
+brief,letter,Alle bewoners krijgen een brief.,All residents receive a letter.
+geld,money,Ik heb geen geld bij me.,I have no money on me.
+half,half,De bus vertrekt om half elf.,The bus leaves at half past ten.
+hoeveel,"how much, how many",Hoeveel moet hij betalen?,How much does he have to pay?
+kijken,"to look, to watch",We gaan naar de hardlopers kijken.,We are going to watch the runners.
+oktober,October,De herfstvakantie begint in oktober.,The autumn holiday starts in October.
+was,was,Het was gisteren erg druk.,It was very busy yesterday.
+weet,know(s),Ik weet niet hoe laat het is.,I do not know what time it is.
+antwoord,answer,Geef antwoord op de vraag.,Give an answer to the question.
+dinsdag,Tuesday,Op dinsdag werkt de tandarts.,The dentist works on Tuesday.
+door,"through, by",De brief is door de gemeente gestuurd.,The letter was sent by the municipality.
+elk,"each, every",Elk jaar kiezen we een goed doel.,Every year we choose a charity.
+geef,give (imperative),Geef uw spullen aan ons.,Give your things to us.
+hele,"whole, entire",Ik heb de hele dag gewerkt.,I worked the whole day.
+kijkt,"looks, watches",Zij kijkt naar het filmpje.,She is watching the video.
+klaar,"ready, finished",Ben je klaar met de opdracht?,Are you finished with the assignment?
+nederlandse,Dutch (adjective),Ik volg de Nederlandse les op donderdag.,I take the Dutch lesson on Thursday.
+staat,stands; is written,In de krant staat een tekst over de winkel.,There is a text about the shop in the newspaper.
+thuis,at home,Ik ben vandaag thuis.,I am at home today.
+vakantie,"holiday, vacation",In augustus heb ik vakantie.,I have a holiday in August.
+website,website,U kunt op onze website zien wanneer wij bezorgen.,You can see on our website when we deliver.
+welk,which,Welk cadeau gaan we geven?,Which present are we going to give?
+woord,word,Ik ken dit woord nog niet.,I do not know this word yet.
+eet,eat(s),"Als u geen vlees eet, geef dit dan door.","If you do not eat meat, please let us know."
+kun,can (you),Kun je me even helpen?,Can you help me for a moment?
+misschien,"maybe, perhaps",Misschien kom ik iets later.,Maybe I will come a bit later.
+omdat,because,"Ik kom niet, omdat ik ziek ben.","I am not coming, because I am ill."
+paar,"pair; couple, few",Wacht een paar minuten.,Wait a few minutes.
+staan,to stand,Er staan veel auto's op straat.,There are many cars in the street.
+terug,back,Ik ben om zes uur terug.,I will be back at six o'clock.
+woont,lives,Hij woont in de Flamingostraat.,He lives in Flamingo Street.
+druk,busy,Het is erg druk in de winkel.,It is very busy in the shop.
+hem,him,Ik geef hem de folder.,I give him the leaflet.
+jij,"you (informal, stressed)",Kom jij ook naar het feest?,Are you coming to the party too?
+mei,May,De bruiloft is in mei.,The wedding is in May.
+rijdt,"drives, rides, runs",De bus rijdt elk kwartier.,The bus runs every quarter of an hour.
+woensdag,Wednesday,Op woensdag werkt de kindertandarts.,The children's dentist works on Wednesday.
+worden,to become,Wanneer kunt u weer beter worden?,When can you get better again?
+zit,"sits, is",Mijn laptop zit in de tas.,My laptop is in the bag.
+zoeken,"to look for, to search",Ik ben een nieuwe woning aan het zoeken.,I am looking for a new home.
+zondag,Sunday,Op zondag zijn de winkels gesloten.,The shops are closed on Sunday.
+baas,boss,Ik meld me ziek bij mijn baas.,I report sick to my boss.
+bericht,message,Stuur me een bericht als je de tas hebt.,Send me a message when you have the bag.
+feest,"party, celebration",Vrijdag is er een feest op het werk.,There is a party at work on Friday.
+ga,go (I go / imperative),Ik ga morgen naar de dokter.,I am going to the doctor tomorrow.
+huis,"house, home",Ik ga na het werk naar huis.,I go home after work.
+lang,long,De les duurt niet lang.,The lesson does not last long.
+leest,reads,Hij leest de folder van de tandarts.,He reads the dentist's leaflet.
+leuk,"nice, fun",Het was een heel leuk feest.,It was a very nice party.
+luister,listen (imperative),Luister goed naar het gesprek.,Listen carefully to the conversation.
+luistert,listens,Zij luistert naar de radio.,She is listening to the radio.
+me,me,Kun je me bellen vanavond?,Can you call me tonight?
+mij,me (stressed),Geef het formulier aan mij.,Give the form to me.
+nooit,never,Ik ben nog nooit in Amsterdam geweest.,I have never been to Amsterdam.
+nummers,numbers,Schrijf de nummers in de goede volgorde.,Write the numbers in the right order.
+schrijven,to write,Ik moet een sollicitatiebrief schrijven.,I have to write an application letter.
+stad,"city, town",Ik woon in een grote stad.,I live in a big city.
+tas,bag,In de tas zit mijn laptop.,My laptop is in the bag.
+zoekt,"looks for, searches",Zij zoekt een andere baan.,She is looking for another job.
+auto,car,Ik moet mijn auto weghalen.,I have to move my car.
+ben,am,Ik ben vandaag ziek.,I am ill today.
+even,"for a moment, just",Kunt u even wachten?,Could you wait a moment?
+hun,their,Hun kinderen gaan naar dezelfde school.,Their children go to the same school.
+juni,June,De sportdag is op 13 juni.,The sports day is on 13 June.
+kies,choose (imperative),Kies het juiste antwoord.,Choose the correct answer.
+langer,longer,Leer niet langer dan een half uur.,Do not study for longer than half an hour.
+leer,learn (I learn / imperative),Ik leer elke dag nieuwe woorden.,I learn new words every day.
+lezen,to read,Ik vind het moeilijk om snel te lezen.,I find it difficult to read quickly.
+maand,month,Volgende maand ga ik verhuizen.,Next month I am going to move.
+mogen,"may, to be allowed to",De kinderen mogen ook mee.,The children are allowed to come too.
+snel,"fast, quick",Meld u zo snel mogelijk ziek.,Report sick as soon as possible.
+tegen,against; to (a person),Zeg dit tegen uw docent.,Say this to your teacher.
+zien,to see,Ik wil de nieuwe meubels zien.,I want to see the new furniture.
+foto,photo,Op de foto zie je mijn familie.,In the photo you see my family.
+geeft,gives,De docent geeft ons huiswerk.,The teacher gives us homework.
+heel,very; whole,Het is heel druk in de stad.,It is very busy in the city.
+hier,here,Hier mag u niet parkeren.,You are not allowed to park here.
+komt,comes,De bus komt over vijf minuten.,The bus is coming in five minutes.
+krijgen,"to get, to receive",De bewoners krijgen een brief.,The residents receive a letter.
+na,after,Na de pauze gaan we verder.,After the break we continue.
+neemt,takes,Hij neemt de bus naar zijn werk.,He takes the bus to work.
+nummer,number,Bel dit nummer bij spoed.,Call this number in an emergency.
+oude,old,Breng uw oude kleding naar de kringloopwinkel.,Take your old clothes to the second-hand shop.
+praat,talks,Hij praat met zijn leidinggevende.,He is talking to his manager.
+schrijft,writes,Zij schrijft haar werkervaring op haar cv.,She writes her work experience on her CV.
+telefoon,telephone,Mijn telefoon zit in mijn tas.,My phone is in my bag.
+tien,ten,De bus rijdt elke tien minuten.,The bus runs every ten minutes.
+vrouw,woman; wife,Mijn vrouw is verkeersingenieur.,My wife is a traffic engineer.
+wachten,to wait,Kunt u niet wachten tot maandag?,Can you not wait until Monday?
+begint,"begins, starts",De les begint om negen uur.,The lesson starts at nine o'clock.
+ligt,"lies, is (located)",De folder ligt op de balie.,The leaflet is on the counter.
+maanden,months,Het contract duurt zes maanden.,The contract lasts six months.
+september,September,De cursus begint in september.,The course starts in September.
+tweede,second,Ik woon op de tweede verdieping.,I live on the second floor.
+vraagt,asks,Zij vraagt hoe laat de bus komt.,She asks what time the bus comes.
+winkels,shops,De winkels zijn op zondag gesloten.,The shops are closed on Sunday.
+zeggen,to say,Wat wilt u tegen de dokter zeggen?,What do you want to say to the doctor?
+zet,"puts, places",Zet uw naam op het formulier.,Put your name on the form.
+adres,address,Mijn adres is veranderd.,My address has changed.
+bel,call (imperative); doorbell,Bel de klantenservice voor meer informatie.,Call customer service for more information.
+belt,"calls, phones",Zij belt de tandarts voor een afspraak.,She calls the dentist for an appointment.
+buiten,outside,De kinderen spelen buiten.,The children are playing outside.
+december,December,De kerstvakantie begint in december.,The Christmas holiday starts in December.
+denkt,thinks,Wanneer denkt u weer te kunnen werken?,When do you think you can work again?
+doe,do (I do / imperative),Ik doe de boodschappen op zaterdag.,I do the shopping on Saturday.
+dokter,doctor,De dokter geeft mij een recept.,The doctor gives me a prescription.
+erg,very; bad,Het is erg koud vandaag.,It is very cold today.
+fiets,bicycle,Mijn fiets staat voor de deur.,My bicycle is in front of the door.
+fijne,"nice, pleasant",Ik wens u een fijne dag.,I wish you a pleasant day.
+hard,hard; loud; fast,Hij werkt heel hard.,He works very hard.
+kamer,room,De woonkamer is groot en licht.,The living room is big and light.
+kind,child,Het kind is gewond en moet naar de dokter.,The child is injured and must see a doctor.
+kost,costs,De cursus kost 124 euro.,The course costs 124 euros.
+laatste,"last, latest",Dit is de laatste vraag van het examen.,This is the last question of the exam.
+maak,make (I make / imperative),Maak eerst een planning.,First make a plan.
+minder,"less, fewer",Ik werk nu minder uren.,I work fewer hours now.
+niets,nothing,Zeg niets tegen Nadia!,Do not say anything to Nadia!
+ouders,parents,Deze cursus is geschikt voor ouders.,This course is suitable for parents.
+soep,soup,We eten tomatensoep als voorgerecht.,We are having tomato soup as a starter.
+trein,train,Ik zit in de trein naar huis.,I am on the train home.
+vijf,five,Ik woon op de vijfde verdieping.,I live on the fifth floor.
+vinden,to find; to think,Wij vinden het leuk om u te helpen.,We like helping you.
+zitten,to sit; to be (in),Er zitten een boek en een bril in de tas.,There are a book and glasses in the bag.
+zonder,without,Ik ga zonder mijn man naar het feest.,I am going to the party without my husband.
+achter,behind,De fiets staat achter het huis.,The bicycle is behind the house.
+ander,"other, another",Ga even iets anders doen.,Go and do something else.
+beginnen,"to begin, to start",Wilt u met het examen beginnen?,Would you like to start the exam?
+blijven,"to stay, to remain",Ik wil nog een uur blijven.,I want to stay another hour.
+brood,bread,U moet zelf uw brood meenemen.,You have to bring your own bread.
+dicht,closed; near,De winkel is vandaag dicht.,The shop is closed today.
+echt,"real, really",Dat is echt een goed idee.,That is really a good idea.
+goede,good,Dit zijn goede tips om te leren.,These are good tips for studying.
+helpt,helps,Mijn buurman helpt mij met verhuizen.,My neighbour helps me move house.
+januari,January,De open dag is op 26 januari.,The open day is on 26 January.
+juli,July,Onze sportdag is op 9 juli.,Our sports day is on 9 July.
+koffie,coffee,Om half twaalf is er koffie.,There is coffee at half past eleven.
+kom,come (I come / imperative),Kom regelmatig kijken in onze winkel.,Come and look in our shop regularly.
+koopt,buys,Hij koopt een nieuwe fiets.,He buys a new bicycle.
+mail,"mail, email",Ik heb je mail gelezen.,I have read your email.
+minuten,minutes,De bus komt over tien minuten.,The bus comes in ten minutes.
+moeilijk,difficult,Nederlands is soms moeilijk.,Dutch is sometimes difficult.
+moeilijke,difficult,Dit is een moeilijke vraag.,This is a difficult question.
+mooi,"beautiful, nice",Wat een mooi schilderij!,What a beautiful painting!
+muziek,music,Ik luister graag naar muziek.,I like listening to music.
+naam,name,Schrijf uw naam op het formulier.,Write your name on the form.
+neem,take (imperative),Neem daarna een pauze.,Then take a break.
+nieuw,new,Ik heb een nieuw contract getekend.,I have signed a new contract.
+november,November,In november wordt het vroeg donker.,In November it gets dark early.
+spreekt,speaks,Hij spreekt goed Nederlands.,He speaks Dutch well.
+straat,street,Ik woon in een rustige straat.,I live in a quiet street.
+twaalf,twelve,U kunt bellen tot twaalf uur.,You can call until twelve o'clock.
+vandaag,today,Vandaag ben ik ziek.,I am ill today.
+wonen,"to live, to reside",Wij wonen in een huurwoning.,We live in a rented house.
+zegt,says,Hij zegt dat hij morgen komt.,He says he is coming tomorrow.
+zomer,summer,In de zomer gaan we naar zee.,In summer we go to the sea.
+acht,eight,De winkel opent om acht uur.,The shop opens at eight o'clock.
+augustus,August,De zomervakantie duurt tot eind augustus.,The summer holiday lasts until the end of August.
+baby,baby,Mijn zus heeft een baby gekregen.,My sister has had a baby.
+banaan,banana,Ik eet elke dag een banaan.,I eat a banana every day.
+beetje,"a little, a bit",Ik spreek een beetje Nederlands.,I speak a little Dutch.
+bijna,almost,Het is bijna tijd om te beginnen.,It is almost time to start.
+blij,"happy, glad",Ik ben blij met mijn nieuwe baan.,I am happy with my new job.
+boek,book,Er zit een boek in de tas.,There is a book in the bag.
+boeken,books; to book,Wij verkopen boeken en tijdschriften.,We sell books and magazines.
+boven,"above, upstairs",De slaapkamers zijn boven.,The bedrooms are upstairs.
+brengen,"to bring, to take",Wij kunnen uw spullen naar u toe brengen.,We can bring your things to you.
+computer,computer,Ik maak mijn cv op de computer.,I make my CV on the computer.
+denk,think (I think / imperative),Denk na over de inhoud van de tekst.,Think about the content of the text.
+derde,third,Ik woon op de derde verdieping.,I live on the third floor.
+dertig,thirty,De cursus kost dertig euro.,The course costs thirty euros.
+engels,English,Ik spreek Engels en een beetje Nederlands.,I speak English and a little Dutch.
+examen,exam,Volgende week heb ik een belangrijk examen.,Next week I have an important exam.
+gisteren,yesterday,Gisteren was ik ziek.,Yesterday I was ill.
+groen,green,"Het licht is groen, u mag oversteken.","The light is green, you may cross."
+groene,green,De Groene Cirkel geeft EHBO-cursussen.,The Green Circle gives first-aid courses.
+groot,"big, large",Wij wonen in een groot huis.,We live in a big house.
+halen,"to get, to fetch",Ik moet mijn medicijnen halen.,I have to collect my medicine.
+jouw,your (informal),Is dit jouw fiets?,Is this your bicycle?
+klein,small,Wij wonen in een klein appartement.,We live in a small flat.
+leuke,"nice, fun",We hadden een leuke dag samen.,We had a nice day together.
+loopt,walks; runs,Zij loopt elke dag naar school.,She walks to school every day.
+luisteren,to listen,Ik moet goed luisteren naar het gesprek.,I have to listen carefully to the conversation.
+lunch,lunch,Om half twaalf is er lunch.,Lunch is at half past eleven.
+maart,March,De voorjaarsvakantie is in maart.,The spring holiday is in March.
+makkelijk,easy,Deze oefening is makkelijk.,This exercise is easy.
+morgen,tomorrow; morning,Morgen ga ik naar de tandarts.,Tomorrow I am going to the dentist.
+naast,"next to, beside",De apotheek is naast de huisarts.,The pharmacy is next to the GP.
+negen,nine,De les begint om negen uur.,The lesson starts at nine o'clock.
+oud,old,Mijn opa is tachtig jaar oud.,My grandfather is eighty years old.
+papier,paper,Schrijf het antwoord op het papier.,Write the answer on the paper.
+park,park,De kinderen spelen in het park.,The children play in the park.
+schrijf,write (imperative),Schrijf uw naam en adres op.,Write down your name and address.
+stopt,stops,De bus stopt bij het station.,The bus stops at the station.
+thee,tea,Wij zorgen voor koffie en thee.,We take care of coffee and tea.
+twintig,twenty,De tafel weegt twintig kilo.,The table weighs twenty kilos.
+vriend,friend; boyfriend,Mijn vriend woont in Rotterdam.,My friend lives in Rotterdam.
+vrienden,friends,Ik ga met vrienden naar de bioscoop.,I am going to the cinema with friends.
+zwarte,black,Zij draagt een zwarte jas.,She is wearing a black coat.
+avond,evening,Vanavond komen mijn vrienden langs.,My friends are coming over this evening.
+bedankt,"thank you, thanks",Bedankt voor uw medewerking.,Thank you for your cooperation.
+drinkt,drinks,Hij drinkt elke ochtend koffie.,He drinks coffee every morning.
+hallo,hello,"Hallo, kan ik u helpen?","Hello, can I help you?"
+heet,is called; hot,Hoe heet u?,What is your name?
+hoi,hi,"Hoi Jasper, heb je even tijd?","Hi Jasper, do you have a moment?"
+hoor,hear (I hear),Ik hoor de bel niet.,I do not hear the doorbell.
+hotel,hotel,Wij slapen in een hotel in Utrecht.,We are sleeping in a hotel in Utrecht.
+jou,"you (informal, object)",Dit pakketje is voor jou.,This parcel is for you.
+koken,to cook,Ik vind koken heel leuk.,I really enjoy cooking.
+kopen,to buy,Ik wil nieuwe meubels kopen.,I want to buy new furniture.
+kort,short,De cursus is kort maar nuttig.,The course is short but useful.
+korte,short,U haalt uw diploma in korte tijd.,You get your diploma in a short time.
+krijg,"get, receive (I)",Ik krijg elke maand een nieuwsbrief.,I get a newsletter every month.
+land,country,Nederland is een klein land.,The Netherlands is a small country.
+laptop,laptop,In de tas zit mijn laptop.,My laptop is in the bag.
+mannen,men,De mannen spelen voetbal in het park.,The men are playing football in the park.
+mooie,"beautiful, nice",Wat een mooie dag vandaag!,What a beautiful day today!
+onder,"under, below",De sleutel ligt onder de mat.,The key is under the mat.
+schoenen,shoes,Wij verkopen kleding en schoenen.,We sell clothes and shoes.
+soms,sometimes,Soms werk ik in het weekend.,Sometimes I work at the weekend.
+sport,sport,Welke sport gaan ze doen?,Which sport are they going to do?
+start,start,Klik op 'start' om te beginnen.,Click on 'start' to begin.
+stuur,send (imperative); steering wheel,Stuur mij een bericht als je klaar bent.,Send me a message when you are ready.
+tafel,table,Er staat een tafel in de keuken.,There is a table in the kitchen.
+televisie,television,Ik kijk 's avonds televisie.,I watch television in the evening.
+vanavond,"this evening, tonight",Vanavond ga ik naar de les.,Tonight I am going to the lesson.
+volgend,"next, following",Volgend jaar ga ik verhuizen.,Next year I am going to move.
+vriendin,"friend (female), girlfriend",Mijn vriendin komt vanavond langs.,My friend is coming over tonight.
+vrouwen,women,Vrouwen mogen in Nederland sinds 1919 stemmen.,Women have been allowed to vote in the Netherlands since 1919.
+zeg,say (I say / imperative),Zeg het tegen uw docent.,Say it to your teacher.
+zeven,seven,De winkel sluit om zeven uur.,The shop closes at seven o'clock.
+begin,beginning; start (I),Begin met het maken van een planning.,Start by making a plan.
+blauwe,blue,Zij draagt een blauwe jas.,She is wearing a blue coat.
+bloemen,flowers,Ik koop bloemen voor mijn moeder.,I buy flowers for my mother.
+broer,brother,Mijn broer woont in Rotterdam.,My brother lives in Rotterdam.
+cola,cola,Ik drink liever cola dan koffie.,I prefer cola to coffee.
+drink,drink (I drink / imperative),Ik drink elke ochtend thee.,I drink tea every morning.
+drinken,to drink; drinks,Neem iets te drinken mee voor de pauze.,Bring something to drink for the break.
+euro,euro,De cursus kost 105 euro.,The course costs 105 euros.
+familie,family,Mijn familie woont in het buitenland.,My family lives abroad.
+februari,February,De voorjaarsvakantie begint in februari.,The spring holiday starts in February.
+fietsen,to cycle; bicycles,Ik ga elke dag fietsen naar mijn werk.,I cycle to work every day.
+film,"film, movie",We kijken vanavond een film.,We are watching a film tonight.
+groente,vegetable(s),Ik koop groente op de markt.,I buy vegetables at the market.
+grote,"big, large",Wij wonen in een grote stad.,We live in a big city.
+had,had,Ik had gisteren geen tijd.,I had no time yesterday.
+handen,hands,Was uw handen voor het eten.,Wash your hands before eating.
+jong,young,Mijn collega is nog heel jong.,My colleague is still very young.
+kaas,cheese,Nederlandse kaas is bekend in de hele wereld.,Dutch cheese is known all over the world.
+kleine,"small, little",Wij wonen in een kleine woning.,We live in a small home.
+koekje,"biscuit, cookie",Wilt u een koekje bij de koffie?,Would you like a biscuit with your coffee?
+koud,cold,Het water is nog te koud om in te zwemmen.,The water is still too cold to swim in.
+koude,cold,Het is een koude winter dit jaar.,It is a cold winter this year.
+lange,long,Ik heb een lange werkdag gehad.,I have had a long working day.
+later,later,Ik bel u later terug.,I will call you back later.
+lekker,"tasty, nice",Deze soep is heel lekker.,This soup is very tasty.
+radio,radio,Ik luister in de auto naar de radio.,I listen to the radio in the car.
+restaurant,restaurant,We eten vanavond in een restaurant.,We are eating in a restaurant tonight.
+rijst,rice; rises,Wij eten rijst met groenten.,We eat rice with vegetables.
+speelt,plays,Mijn zoon speelt voetbal in het park.,My son plays football in the park.
+station,station,Ik neem de bus naar het station.,I take the bus to the station.
+stoel,chair,Er staat een stoel bij het raam.,There is a chair by the window.
+taxi,taxi,Ik neem een taxi naar het station.,I take a taxi to the station.
+tuin,garden,De kinderen spelen in de tuin.,The children play in the garden.
+tv,"TV, television",Ik kijk 's avonds tv.,I watch TV in the evening.
+vis,fish,Op vrijdag eten wij vis.,On Friday we eat fish.
+wacht,wait(s),Jan wacht op ons om half elf.,Jan is waiting for us at half past ten.
+waren,were,Wij waren gisteren in Utrecht.,We were in Utrecht yesterday.
+warm,"warm, hot",Het is vandaag heel warm.,It is very warm today.
+warme,"warm, hot",Neem warme kleding mee.,Bring warm clothes.
+water,water,Het water is te koud om in te zwemmen.,The water is too cold to swim in.
+zee,sea,In de zomer gaan wij naar zee.,In summer we go to the sea.
+zwemmen,to swim,Het water is te koud om in te zwemmen.,The water is too cold to swim in.
+wordt,"becomes, is being",De keuken wordt volgende maand verbouwd.,The kitchen is being renovated next month.
+bijvoorbeeld,for example,"Neem iets warms mee, bijvoorbeeld een jas.","Bring something warm, for example a coat."
+vindt,finds; thinks,Wat vindt u van deze cursus?,What do you think of this course?
+punten,points; items,U kunt maximaal tien punten krijgen.,You can get ten points at most.
+zich,"oneself, himself, herself",Hij moet zich ziek melden.,He has to report sick.
+klik,click (imperative),Klik op 'start' om te beginnen.,Click on 'start' to begin.
+laat,late; let(s),Ik ben vandaag te laat op mijn werk.,I am late for work today.
+liever,"rather, preferably",Ik drink liever thee dan koffie.,I prefer tea to coffee.
+gemeente,"municipality, council",Ik krijg een brief van de gemeente.,I receive a letter from the municipality.
+huisarts,"general practitioner, family doctor",Ik heb een afspraak bij de huisarts.,I have an appointment with the GP.
+spullen,"things, stuff, belongings",Breng uw oude spullen naar het kringloopcentrum.,Take your old things to the second-hand centre.
+wel,"indeed, do (emphasis)","Ik kom wel, maar iets later.","I will come, but a bit later."
+gebruik,use,Maak gebruik van onze gratis transportservice.,Make use of our free transport service.
+iemand,someone,Leg het aan iemand anders uit.,Explain it to someone else.
+per,"per, by",De cursus kost 50 euro per maand.,The course costs 50 euros per month.
+vanaf,from (time/place),U kunt bellen vanaf acht uur 's ochtends.,You can call from eight in the morning.
+bedrijf,"company, business",Ik werk bij een klein bedrijf.,I work at a small company.
+thema,"theme, topic",Het thema van de les is gezondheid.,The theme of the lesson is health.
+tandarts,dentist,Ik heb kiespijn en bel de tandarts.,I have toothache and am calling the dentist.
+tijdens,during,Tijdens de pauze drinken we koffie.,During the break we drink coffee.
+activiteit,activity,Er is elke week een nieuwe activiteit.,There is a new activity every week.
+docent,"teacher, instructor",Vertel het aan uw docent.,Tell your teacher.
+gratis,free (of charge),Wij halen uw spullen gratis op.,We collect your things free of charge.
+meubels,furniture,Wij bezorgen de meubels bij u thuis.,We deliver the furniture to your home.
+zelf,"oneself, yourself",Dat moet je zelf bepalen.,You have to decide that yourself.
+daarom,"therefore, that is why",Daarom sluiten wij een aantal straten af.,That is why we are closing a number of streets.
+eigen,own,Iedereen leert op zijn eigen manier.,Everyone learns in their own way.
+elkaar,each other,We helpen elkaar met het huiswerk.,We help each other with the homework.
+nodig,"necessary, needed",Hebt u iets nodig voor weinig geld?,Do you need something for little money?
+praktijk,practice (doctor's); practice,De praktijk is elke dag geopend.,The practice is open every day.
+hoeft,need(s) to,U hoeft geen eten mee te nemen.,You do not need to bring any food.
+laten,"to let, to have (something done)",Ik wil de meubels thuis laten bezorgen.,I want to have the furniture delivered at home.
+verschillende,"various, different",U kunt verschillende cursussen volgen.,You can take various courses.
+contract,contract,Ik heb een contract voor een jaar.,I have a contract for one year.
+cv,"CV, resume",Ik stuur mijn cv naar het bedrijf.,I am sending my CV to the company.
+einde,end,Aan het einde van de cursus doet u examen.,At the end of the course you take an exam.
+opleiding,"education, training",Welke opleiding hebt u gedaan?,What education have you had?
+stadsbus,city bus,Met de stadsbus ben je er in tien minuten.,By city bus you are there in ten minutes.
+via,"via, through",U kunt zich via de website aanmelden.,You can register via the website.
+volgen,to follow; to take (a course),Ik wil een taalcursus volgen.,I want to take a language course.
+volgt,follows; takes (a course),Zij volgt een cursus Nederlands.,She is taking a Dutch course.
+aanmelden,"to register, to sign up",U kunt zich tot 25 juni aanmelden.,You can register until 25 June.
+boodschappen,"groceries, shopping",Ik doe op zaterdag boodschappen.,I do the shopping on Saturday.
+gebouw,building,De les is in het nieuwe gebouw.,The lesson is in the new building.
+sportdag,sports day,Op 9 juli is onze sportdag.,Our sports day is on 9 July.
+techniek,"technology, engineering",Mijn zoon studeert techniek.,My son studies engineering.
+afdeling,department,Hij werkt op de afdeling inkoop.,He works in the purchasing department.
+cadeau,"present, gift",We geven een cadeau aan het bruidspaar.,We are giving a present to the bride and groom.
+cursisten,"course participants, students",Nieuwe cursisten zijn welkom op de open dag.,New students are welcome at the open day.
+folder,"leaflet, brochure",In de winkel ligt een folder met informatie.,There is an information leaflet in the shop.
+gesloten,closed,Op vrijdag zijn wij gesloten.,We are closed on Friday.
+iedereen,everyone,Iedereen leert op zijn eigen manier.,Everyone learns in their own way.
+kiezen,to choose,U kunt kiezen uit drie cursussen.,You can choose from three courses.
+knippen,"to cut (hair, paper)",De kapper gaat mijn haar knippen.,The hairdresser is going to cut my hair.
+kosten,cost(s); expenses,De kosten voor de cursus zijn 105 euro.,The costs for the course are 105 euros.
+meenemen,"to bring along, to take with",Wat moet ik meenemen naar de sportdag?,What do I have to bring to the sports day?
+afspraken,"appointments, agreements",We maken afspraken over het werk.,We make agreements about the work.
+groet,greeting,"Met vriendelijke groet, Piet Jansen.","Kind regards, Piet Jansen."
+keuze,choice,U hebt de keuze uit drie cursussen.,You have a choice of three courses.
+klanten,customers,De winkel heeft veel klanten.,The shop has many customers.
+melden,"to report, to notify",U moet zich ziek melden bij uw werkgever.,You have to report sick to your employer.
+online,online,U krijgt een online cursusboek.,You get an online course book.
+plek,"place, spot",Zoek een rustige plek om te leren.,Find a quiet place to study.
+telefoonnummer,telephone number,Ons telefoonnummer staat in de folder.,Our telephone number is in the leaflet.
+verdieping,"floor, storey",Ik woon op de tweede verdieping.,I live on the second floor.
+allemaal,all (of them),De medewerkers zijn allemaal vrijwilligers.,The staff are all volunteers.
+belangrijk,important,Dit is een belangrijk examen.,This is an important exam.
+bestaat,consists of; exists,De cursus bestaat uit zes bijeenkomsten.,The course consists of six meetings.
+betalen,to pay,U moet betalen als u zich aanmeldt.,You have to pay when you register.
+bezorgen,to deliver,Wij bezorgen alles bij u thuis.,We deliver everything to your home.
+buren,neighbours,Mijn buren zijn heel aardig.,My neighbours are very nice.
+gebeurt,happens,Wat gebeurt er als ik te laat ben?,What happens if I am late?
+groeten,greetings; to greet,"Met vriendelijke groeten, Jan.","Kind regards, Jan."
+hetzelfde,the same,Lees elke dag hetzelfde stuk tekst.,Read the same piece of text every day.
+hopen,to hope,Wij hopen op een gezellige dag.,We hope for a pleasant day.
+koop,purchase; buy (I buy),In de winkel is veel te koop.,There is a lot for sale in the shop.
+let,pay attention (imperative),Let op! De school is gesloten.,Attention! The school is closed.
+persoon,person,De sportdag kost 15 euro per persoon.,The sports day costs 15 euros per person.
+rijden,"to drive, to ride",De bussen rijden elke tien minuten.,The buses run every ten minutes.
+sporten,to do sports,Ik ga twee keer per week sporten.,I do sports twice a week.
+supermarkt,supermarket,Ik werk bij een supermarkt.,I work at a supermarket.
+taak,task,We hebben alle drie een taak.,All three of us have a task.
+toets,test,De toets duurt een uur.,The test takes an hour.
+tussen,between,U kunt bellen tussen negen en twaalf uur.,You can call between nine and twelve.
+anders,different(ly); otherwise,Ga even iets heel anders doen.,Go and do something completely different.
+dozen,boxes,De dozen staan op zolder.,The boxes are in the attic.
+gedaan,done,Wat heb je vandaag gedaan?,What did you do today?
+idee,idea,Dat is een goed idee.,That is a good idea.
+internet,internet,U maakt een lijstje op internet.,You make a list on the internet.
+kleding,"clothes, clothing",Neem extra kleding mee.,Bring extra clothes.
+mogelijk,possible,Meld u zo snel mogelijk ziek.,Report sick as soon as possible.
+noem,"name, mention (imperative)",Noem drie dingen die je ziet.,Name three things you see.
+noemt,"names, mentions",Hij noemt twee redenen.,He mentions two reasons.
+oefenen,to practise,Ik wil meer Nederlands oefenen.,I want to practise Dutch more.
+route,route,De route gaat door het dorp.,The route goes through the village.
+studeren,to study,Mijn dochter wil in Amsterdam studeren.,My daughter wants to study in Amsterdam.
+taal,language,Nederlands is een moeilijke taal.,Dutch is a difficult language.
+vriendelijke,"friendly, kind","Met vriendelijke groet, de feestcommissie.","Kind regards, the party committee."
+vrij,free; off (work),Ik ben vrijdag vrij.,I am off on Friday.
+vóór,before (in time),Haal uw auto weg vóór tien uur.,Move your car before ten o'clock.
+wassen,to wash,Ik moet vandaag de kleren wassen.,I have to wash the clothes today.
+ziekenhuis,hospital,Mijn moeder ligt in het ziekenhuis.,My mother is in hospital.
+zorgen,to take care; worries,Wij zorgen voor koffie en thee.,We will take care of coffee and tea.
+betaalt,pays,Hij betaalt met de pinpas.,He pays with his debit card.
+betekent,means,EHBO betekent Eerste Hulp Bij Ongelukken.,EHBO means First Aid for Accidents.
+blijft,"stays, remains",Het cadeau blijft een verrassing.,The present remains a surprise.
+bushalte,bus stop,Ik wacht bij de bushalte op lijn 12.,I am waiting at the bus stop for line 12.
+fietst,cycles,Hij fietst elke dag naar zijn werk.,He cycles to work every day.
+gebruiken,to use,U kunt de kleedkamers niet gebruiken.,You cannot use the changing rooms.
+gewoon,"normal(ly), just",Nadia is deze week gewoon aan het werk.,Nadia is at work as usual this week.
+groep,group,We werken in een groep van vier.,We work in a group of four.
+grond,"ground, floor",Bezorging op de begane grond kost 54 euro.,Delivery on the ground floor costs 54 euros.
+huiswerk,homework,Ik maak elke dag mijn huiswerk.,I do my homework every day.
+hulp,help,EHBO betekent Eerste Hulp Bij Ongelukken.,EHBO means First Aid for Accidents.
+kapper,hairdresser,Ik ga morgen naar de kapper.,I am going to the hairdresser tomorrow.
+manier,"way, manner",Iedereen leert op zijn eigen manier.,Everyone learns in their own way.
+meedoen,"to take part, to join in",Wilt u meedoen aan de sportdag?,Do you want to take part in the sports day?
+meldt,reports,Hij meldt zich ziek bij het secretariaat.,He reports sick to the secretariat.
+meteen,"immediately, right away",Meld dit meteen aan uw werkgever.,Report this to your employer immediately.
+pas,"pass, card; just now",Laat uw klantenkaart of pas zien.,Show your customer card or pass.
+pijn,pain,Ik heb veel pijn aan mijn knie.,I have a lot of pain in my knee.
+regels,rules,Dit zijn de regels voor een ziekmelding.,These are the rules for reporting sick.
+sinds,since,Ik woon hier sinds 2024.,I have lived here since 2024.
+soort,"kind, sort",Wat voor soort werk doet u?,What kind of work do you do?
+soorten,"kinds, types",Er zijn verschillende soorten cursussen.,There are various types of courses.
+sturen,to send,Ik ga hem een berichtje sturen.,I am going to send him a message.
+vaker,more often,Ik wil vaker Nederlands praten.,I want to speak Dutch more often.
+verhuizen,to move (house),Wij gaan volgende maand verhuizen.,We are moving house next month.
+weinig,"little, few",Hebt u iets nodig voor weinig geld?,Do you need something for little money?
+zetten,"to put, to place",Wij zetten de spullen te koop in onze winkel.,We put the items up for sale in our shop.
+zorg,care,Zij werkt in de zorg.,She works in the care sector.
+zullen,"shall, will",Wij zullen handdoeken meenemen.,We will bring towels.
+af,"off, finished",De sportdag is om half zeven af.,The sports day finishes at half past six.
+barbecue,barbecue,Na de sportdag is er een barbecue.,After the sports day there is a barbecue.
+beneden,"downstairs, below",De winkel is beneden.,The shop is downstairs.
+bestellen,to order,Ik wil een nieuwe tafel bestellen.,I want to order a new table.
+bibliotheek,library,Ik leen boeken in de bibliotheek.,I borrow books at the library.
+bioscoop,cinema,We gaan vanavond naar de bioscoop.,We are going to the cinema tonight.
+datum,date,Wat is de datum van het examen?,What is the date of the exam?
+diploma,"diploma, certificate",U haalt uw diploma in korte tijd.,You get your diploma in a short time.
+direct,"immediately, directly",U moet direct geholpen worden.,You need to be helped immediately.
+drukste,busiest,Zaterdag is de drukste dag in de winkel.,Saturday is the busiest day in the shop.
+fijner,"nicer, more pleasant",Ik vind het fijner om 's ochtends te leren.,I find it nicer to study in the morning.
+gebruikt,used; uses,In de winkel liggen gebruikte spullen.,There are second-hand things in the shop.
+gekocht,bought,Hij heeft een tafel van 20 kilo gekocht.,He has bought a table weighing 20 kilos.
+gesprek,"conversation, interview",Ik heb morgen een gesprek bij een bedrijf.,I have an interview at a company tomorrow.
+gewerkt,worked,Ik heb vijf jaar in een winkel gewerkt.,I worked in a shop for five years.
+hieronder,below,De prijzen ziet u hieronder.,You can see the prices below.
+houdt,holds; likes,Zij houdt van koken.,She likes cooking.
+kaartje,ticket,Ik koop een kaartje voor de trein.,I buy a ticket for the train.
+kent,knows (a person or thing),Kent u deze winkel?,Do you know this shop?
+klant,customer,De klant wil de broek ruilen.,The customer wants to exchange the trousers.
+kledingwinkel,clothes shop,Ik werk in een kledingwinkel.,I work in a clothes shop.
+landen,countries,Mensen uit veel landen wonen in deze wijk.,People from many countries live in this district.
+legt,"lays, puts; explains",Hij legt het boek op tafel.,He puts the book on the table.
+lekkerder,"tastier, nicer",Deze soep is lekkerder dan die van gisteren.,This soup is tastier than yesterday's.
+leuker,"nicer, more fun",Samen leren is leuker dan alleen.,Learning together is more fun than alone.
+lijkt,"seems, looks like",Het lijkt me een goed plan.,It seems like a good plan to me.
+maat,size,Welke maat broek hebt u?,What size trousers do you take?
+middags,in the afternoon,'s Middags werk ik niet.,I do not work in the afternoon.
+moesten,had to (plural),We moesten twee weken wachten.,We had to wait two weeks.
+moment,moment,Op dit moment ben ik aan het werk.,At the moment I am at work.
+natuurlijk,of course; natural,Het cadeau moet natuurlijk een verrassing blijven.,The present must of course remain a surprise.
+parkeren,to park,U mag hier niet parkeren.,You are not allowed to park here.
+patat,"chips, fries",De kinderen eten graag patat.,The children like eating chips.
+planning,"plan, schedule",Begin met het maken van een planning.,Start by making a plan.
+politie,police,De politie sleept de auto's weg.,The police tow the cars away.
+reizen,to travel; travel,Ik moet elke dag een uur reizen.,I have to travel an hour every day.
+sommige,some,Sommige mensen leren 's avonds beter.,Some people learn better in the evening.
+studenten,students,De studenten maken samen het huiswerk.,The students do the homework together.
+stuk,"piece, part",Lees eerst een stuk tekst.,First read a piece of text.
+stuurt,sends,De feestcommissie stuurt deze e-mail.,The party committee sends this email.
+tips,tips,In de gids staan tips om te leren.,The guide contains tips for studying.
+toetsen,tests,De toetsen zijn in juni.,The tests are in June.
+trouwen,to get married,Mijn collega gaat volgende week trouwen.,My colleague is getting married next week.
+vast,"fixed, permanent; stuck",Ik heb een vast contract.,I have a permanent contract.
+verhalen,stories,Hij vertelt graag verhalen over vroeger.,He likes telling stories about the past.
+vrije,free,In mijn vrije tijd sport ik.,In my free time I do sports.
+werkdagen,working days,Onze werkdagen zijn maandag tot vrijdag.,Our working days are Monday to Friday.
+zoveel,"so much, so many",Hebt u zoveel pijn dat u direct hulp nodig hebt?,Are you in so much pain that you need help immediately?
+avonds,in the evening,'s Avonds leer ik het beste.,I learn best in the evening.
+basisschool,primary school,Mijn dochter zit op de basisschool.,My daughter is at primary school.
+bekijkt,"looks at, views",Hij bekijkt de foto's van de bruiloft.,He looks at the wedding photos.
+belangrijke,important,Dit zijn belangrijke afspraken.,These are important agreements.
+bureau,desk; agency,Mijn tas staat nog op mijn bureau.,My bag is still on my desk.
+buurt,"neighbourhood, area",Er wonen veel gezinnen in deze buurt.,Many families live in this neighbourhood.
+centrum,centre,Ik werk in het centrum van de stad.,I work in the city centre.
+collega's,colleagues,"Beste collega's, vrijdag is er een feest.","Dear colleagues, there is a party on Friday."
+contact,contact,Neem contact op met de gemeente.,Get in touch with the municipality.
+dames,"ladies, women",Wij verkopen kleding voor dames en heren.,We sell clothes for women and men.
+dezelfde,the same,Lees op verschillende dagen dezelfde bladzijdes.,Read the same pages on different days.
+dorp,village,Wij wonen in een klein dorp.,We live in a small village.
+draagt,"wears, carries",Zij draagt een blauwe jas.,She is wearing a blue coat.
+duur,expensive; duration,Deze schoenen zijn te duur.,These shoes are too expensive.
+eindigt,ends,Het programma eindigt om half negen.,The programme ends at half past eight.
+filmpje,"short video, clip",Bekijk het filmpje en beantwoord de vraag.,Watch the video and answer the question.
+fout,mistake; wrong,Ik heb een fout gemaakt in het formulier.,I made a mistake in the form.
+fouten,mistakes,De tekst bevat een paar fouten.,The text contains a few mistakes.
+gebeurd,happened,Wat is er gisteren gebeurd?,What happened yesterday?
+geholpen,helped,Ik ben goed geholpen in de winkel.,I was helped well in the shop.
+gemaakt,made,Ik heb een planning gemaakt.,I have made a plan.
+genoeg,enough,Ik heb genoeg tijd om te leren.,I have enough time to study.
+getrouwd,married,Wij zijn vorig jaar getrouwd.,We got married last year.
+gevonden,found,Heb je mijn tas gevonden?,Have you found my bag?
+groenten,vegetables,Ik koop groenten op de markt.,I buy vegetables at the market.
+groetjes,"regards, cheers (informal)","Groetjes, Suzanne.","Cheers, Suzanne."
+haalt,"gets, fetches",Hij haalt zijn tas bij de portier op.,He collects his bag from the porter.
+hangen,to hang,We gaan slingers ophangen voor het feest.,We are going to hang up streamers for the party.
+heren,"gentlemen, men",Wij verkopen kleding voor dames en heren.,We sell clothes for women and men.
+hoort,hears; belongs,Zij hoort de bel niet.,She does not hear the doorbell.
+houden,to hold; to keep; to like,Wij houden van gezellige feesten.,We like nice parties.
+kaart,card; map,Op de kaart zie je alle provincies.,On the map you see all the provinces.
+kaartjes,tickets,Ik koop twee kaartjes voor de bioscoop.,I buy two cinema tickets.
+kapot,broken,Mijn telefoon is kapot.,My phone is broken.
+kapotte,broken,Wat doet Bartjes met de kapotte spullen?,What does Bartjes do with the broken items?
+kiest,chooses,Hij kiest de cursus voor ouders.,He chooses the course for parents.
+kilometer,kilometre,Ik fiets vijf kilometer naar mijn werk.,I cycle five kilometres to work.
+kleren,clothes,Trek thuis uw sportkleren aan.,Put on your sports clothes at home.
+klok,clock,De klok hangt boven de deur.,The clock hangs above the door.
+lijstje,little list,U maakt een lijstje met de meubels.,You make a list of the furniture.
+meeste,most,De meeste mensen komen met de fiets.,Most people come by bike.
+meld,report (imperative),Meld u ziek voor negen uur.,Report sick before nine o'clock.
+moest,had to,Ik moest gisteren overwerken.,I had to work overtime yesterday.
+net,just; neat,Ik ben net thuisgekomen.,I have just got home.
+niemand,nobody,Er is niemand thuis.,There is nobody at home.
+ochtends,in the morning,'s Ochtends ga ik met de fiets.,In the morning I go by bike.
+ophalen,"to collect, to pick up",Wij kunnen de spullen gratis bij u ophalen.,We can collect the things from you free of charge.
+opnieuw,"again, anew",Lees de tekst opnieuw.,Read the text again.
+precies,"exactly, precise",U weet precies wat u moet doen.,You know exactly what to do.
+prijzen,prices,De prijzen ziet u hieronder.,You can see the prices below.
+proberen,to try,"Wat kapot is, proberen we te maken.","What is broken, we try to repair."
+restaurants,restaurants,In het centrum zijn veel restaurants.,There are many restaurants in the centre.
+rustige,"quiet, calm",Leer in een rustige omgeving.,Study in a quiet environment.
+saai,boring,De film was een beetje saai.,The film was a bit boring.
+schoonmaken,to clean,Ik moet het huis schoonmaken.,I have to clean the house.
+speelgoed,toys,Wij verkopen meubels en speelgoed.,We sell furniture and toys.
+sportcentrum,sports centre,Het sportcentrum is open tot tien uur.,The sports centre is open until ten o'clock.
+sportschool,gym,Ik ga twee keer per week naar de sportschool.,I go to the gym twice a week.
+stap,step,Zet de eerste stap en meld je aan.,Take the first step and sign up.
+team,team,Ons team bestaat uit vier mensen.,Our team consists of four people.
+tijden,times,De tijden van de bus staan op de website.,The bus times are on the website.
+vallen,to fall,"Pas op, u kunt vallen op het natte gras.","Careful, you can fall on the wet grass."
+vergeten,to forget; forgotten,Ik ben mijn tas vergeten.,I have forgotten my bag.
+vol,full,De bus is helemaal vol.,The bus is completely full.
+vorig,"last, previous",Vorig jaar was de barbecue alleen voor deelnemers.,Last year the barbecue was only for participants.
+vriendelijk,"friendly, kind",De medewerkers zijn heel vriendelijk.,The staff are very friendly.
+welkom,welcome,Nieuwe cursisten zijn welkom op de open dag.,New students are welcome at the open day.
+werkdag,working day,Mijn werkdag begint om negen uur.,My working day starts at nine o'clock.
+zoek,search (imperative); lost,Zoek uit wanneer u het beste kunt leren.,Find out when you can study best.
+activiteiten,activities,Er zijn veel activiteiten in de buurt.,There are many activities in the neighbourhood.
+agenda,"diary, agenda",Ik zet de afspraak in mijn agenda.,I put the appointment in my diary.
+arm,arm; poor,Mijn buurjongen valt en breekt zijn arm.,My neighbour's boy falls and breaks his arm.
+bakker,baker,Ik haal elke ochtend brood bij de bakker.,I get bread at the baker's every morning.
+bank,bank; sofa,Ik moet naar de bank voor een rekening.,I have to go to the bank for an account.
+bekers,"cups, beakers",Zet de bekers op de tafel.,Put the cups on the table.
+berichtje,short message,Stuur me een berichtje als je er bent.,Send me a message when you are there.
+bestelt,orders,Hij bestelt een nieuwe kast.,He orders a new cupboard.
+bezoek,visit; visitors,Vanavond krijgen wij bezoek.,We are having visitors tonight.
+blikje,"can, tin",Ik drink een blikje cola.,I am drinking a can of cola.
+boterham,"sandwich, slice of bread",Ik neem een boterham mee naar mijn werk.,I take a sandwich to work.
+breekt,breaks,"Als iemand zijn been breekt, belt u 112.","If someone breaks their leg, you call 112."
+bril,glasses,Er zit ook een bril in de tas.,There are also glasses in the bag.
+broek,trousers,Deze broek is te klein.,These trousers are too small.
+bussen,buses,De bussen rijden elk kwartier.,The buses run every quarter of an hour.
+buurman,neighbour (male),Mijn buurman helpt met de tuin.,My neighbour helps with the garden.
+cadeaus,"presents, gifts",Op het bureau ligt een lijstje met cadeaus.,There is a list of presents on the desk.
+café,"café, pub",We drinken iets in het café.,We are having a drink in the café.
+cursussen,courses,U kunt verschillende cursussen volgen.,You can take various courses.
+dikke,"thick, fat",De dikke map ligt op mijn bureau.,The thick folder is on my desk.
+drankjes,drinks,De barbecue is inclusief drankjes.,The barbecue includes drinks.
+drukker,busier,Het wordt drukker in de winkel.,It is getting busier in the shop.
+duurt,"lasts, takes",De cursus duurt drie uur.,The course lasts three hours.
+examens,exams,De examens zijn in juni.,The exams are in June.
+filmpjes,"videos, clips",Bekijk de filmpjes voor de les.,Watch the videos before the lesson.
+gehaald,"obtained, passed; fetched",Ik heb mijn rijbewijs gehaald.,I got my driving licence.
+geleerd,learned,Ik heb veel geleerd in deze cursus.,I have learned a lot in this course.
+gelezen,read (past participle),Leg uit wat u hebt gelezen.,Explain what you have read.
+gezond,healthy,Ik probeer gezond te eten.,I try to eat healthily.
+grijze,grey,Zij draagt een grijze jas.,She is wearing a grey coat.
+hangt,hangs,Het rooster hangt aan de muur.,The schedule hangs on the wall.
+herfst,autumn,In de herfst vallen de bladeren.,In autumn the leaves fall.
+hobby's,hobbies,Wat zijn uw hobby's?,What are your hobbies?
+hoelang,how long,Hoelang duurt de cursus?,How long does the course last?
+hoop,hope; heap,Ik hoop dat je kunt komen.,I hope you can come.
+hou,"hold, like (informal)",Ik hou van koken.,I like cooking.
+iedere,"every, each",Iedere maandag heb ik les.,Every Monday I have a lesson.
+kassa,"checkout, till",U betaalt bij de kassa.,You pay at the checkout.
+koekjes,"biscuits, cookies",Bij de koffie zijn er koekjes.,There are biscuits with the coffee.
+koffer,suitcase,Mijn koffer is te zwaar.,My suitcase is too heavy.
+kostte,cost (past tense),De cursus kostte honderd euro.,The course cost one hundred euros.
+krant,newspaper,In de krant staat een artikel over de winkel.,There is an article about the shop in the newspaper.
+leg,"lay, put (imperative)",Leg aan iemand anders uit wat u hebt gelezen.,Explain to someone else what you have read.
+leukste,"nicest, most fun",Kruis aan wat u het leukste cadeau vindt.,Tick which present you find the nicest.
+mailen,to email,Ik zal u de informatie mailen.,I will email you the information.
+meest,most,Wij geven het cadeau dat het meest gekozen is.,We give the present that was chosen most.
+meneer,"sir, Mr","Goedemorgen, meneer De Vries.","Good morning, Mr De Vries."
+natuur,nature,Ik wandel graag in de natuur.,I like walking in nature.
+nieuws,news,Ik kijk elke avond naar het nieuws.,I watch the news every evening.
+normaal,normal(ly),Mijn werkdag begint normaal om negen uur.,My working day normally starts at nine.
+ná,after (stressed),Ná de pauze gaan we verder.,After the break we continue.
+opdracht,"assignment, task",De opdracht staat op het bord.,The assignment is on the board.
+opdrachten,"assignments, tasks",Maak alle opdrachten in het boek.,Do all the assignments in the book.
+paspoort,passport,Neem uw paspoort mee naar het gemeentehuis.,Bring your passport to the town hall.
+past,fits; suits,Deze broek past niet goed.,These trousers do not fit well.
+plaats,place; seat,Er is nog plaats in de bus.,There is still room on the bus.
+programma,programme,Het programma eindigt om half negen.,The programme ends at half past eight.
+rest,"rest, remainder",De rest van het geld gaat naar een goed doel.,The rest of the money goes to charity.
+rustig,"quiet, calm",Het is rustig in de bibliotheek.,It is quiet in the library.
+scholen,schools,In deze wijk zijn twee scholen.,There are two schools in this district.
+schoon,clean,De kamer is helemaal schoon.,The room is completely clean.
+stil,"quiet, silent",Het is heel stil in de klas.,It is very quiet in the classroom.
+trap,stairs,Ik loop de trap op naar de tweede verdieping.,I walk up the stairs to the second floor.
+universiteit,university,Mijn zoon studeert aan de universiteit.,My son studies at university.
+vakanties,holidays,De vakanties staan in de gids.,The holidays are listed in the guide.
+valt,falls,"Als uw buurjongen valt, kunt u helpen.","If your neighbour's boy falls, you can help."
+veilig,safe,Wij willen dat alles veilig is.,We want everything to be safe.
+verder,"further, furthermore",Ga zo verder tot het einde van de tekst.,Continue like this until the end of the text.
+vergeet,forget(s),Vergeet je paspoort niet!,Do not forget your passport!
+verkeer,traffic,Het verkeer is druk in de ochtend.,The traffic is busy in the morning.
+voelt,feels,Zij voelt zich vandaag ziek.,She feels ill today.
+vorige,"previous, last",Vorige week was ik ziek.,Last week I was ill.
+wedstrijd,"match, race, competition",De wedstrijd begint om elf uur.,The match starts at eleven o'clock.
+woonkamer,living room,De woonkamer is groot en licht.,The living room is big and light.
+woordenboek,dictionary,Zoek het woord op in het woordenboek.,Look the word up in the dictionary.
+zeker,"certain, sure",Weet u het zeker?,Are you sure?
+zoals,"such as, like","Neem iets mee, zoals brood of fruit.","Bring something, such as bread or fruit."
+zwembad,swimming pool,In de zomer gaan we naar het zwembad.,In summer we go to the swimming pool.
+aardig,"nice, kind",Mijn buren zijn heel aardig.,My neighbours are very kind.
+adressen,addresses,Wilt u de meubels op meer adressen laten bezorgen?,Would you like the furniture delivered to several addresses?
+auto's,cars,Er mogen geen auto's op de route staan.,No cars may be parked on the route.
+avonden,evenings,Op woensdagavonden heb ik les.,I have lessons on Wednesday evenings.
+bakken,"to bake, to fry",Ik ga pannenkoeken bakken.,I am going to make pancakes.
+basketbal,basketball,U kunt ook kiezen voor basketbal.,You can also choose basketball.
+bedrijven,companies,Veel bedrijven zoeken nieuwe medewerkers.,Many companies are looking for new employees.
+been,leg,Hij heeft zijn been gebroken.,He has broken his leg.
+beginners,beginners,Deze cursus is voor beginners.,This course is for beginners.
+belde,"called, phoned",Ik belde gisteren naar de huisarts.,I called the GP yesterday.
+berg,mountain; pile,In Nederland is geen berg te vinden.,No mountain is to be found in the Netherlands.
+betaald,paid,Ik heb de rekening al betaald.,I have already paid the bill.
+bezoeken,to visit; visits,Wij gaan mijn ouders bezoeken.,We are going to visit my parents.
+blijf,stay (I stay / imperative),Blijf rustig zitten tijdens het examen.,Stay seated calmly during the exam.
+bloemenwinkel,flower shop,De bloemenwinkel is op de hoek.,The flower shop is on the corner.
+boekenwinkel,bookshop,Ik koop een woordenboek in de boekenwinkel.,I buy a dictionary at the bookshop.
+bomen,trees,In het park staan veel bomen.,There are many trees in the park.
+boom,tree,Er staat een grote boom voor het huis.,There is a big tree in front of the house.
+boot,boat,Wij gaan met de boot naar het eiland.,We are going to the island by boat.
+brengt,"brings, takes",Hij brengt de tas naar de portier.,He takes the bag to the porter.
+briefje,"note, short letter",Ik schrijf een briefje voor mijn buurvrouw.,I am writing a note for my neighbour.
+brieven,letters,Ik krijg veel brieven van de gemeente.,I receive many letters from the municipality.
+brug,bridge,Ga over de brug en dan linksaf.,Go over the bridge and then turn left.
+bruine,brown,Ik neem een bruine boterham.,I am having a slice of brown bread.
+dank,thanks,Hartelijk dank voor uw bericht.,Many thanks for your message.
+dans,dance,Ik volg een cursus dans.,I am taking a dance course.
+deden,did (plural),Wat deden jullie in het weekend?,What did you do at the weekend?
+denken,to think,Wij denken aan een cadeaubon.,We are thinking of a gift voucher.
+docenten,teachers,De docenten helpen de nieuwe cursisten.,The teachers help the new students.
+doos,box,De doos is te zwaar om te dragen.,The box is too heavy to carry.
+doosje,small box,In het doosje zitten mijn medicijnen.,My medicine is in the small box.
+drukke,busy,Het is een drukke dag in de winkel.,It is a busy day in the shop.
+duurde,"lasted, took",De vergadering duurde twee uur.,The meeting lasted two hours.
+duurder,more expensive,De nieuwe fiets is duurder dan de oude.,The new bicycle is more expensive than the old one.
+e-mailadres,email address,Schrijf uw e-mailadres op het formulier.,Write your email address on the form.
+eerder,earlier,Kunt u eerder komen?,Can you come earlier?
+flat,"block of flats, apartment",Modibo woont in een flat op de tweede verdieping.,Modibo lives in a flat on the second floor.
+gebruikte,"used, second-hand",In de winkel liggen gebruikte spullen.,There are second-hand items in the shop.
+gegaan,gone,Hij is al naar huis gegaan.,He has already gone home.
+gehad,had,Ik heb vorige week griep gehad.,I had the flu last week.
+gehoord,heard,Heb je het nieuws al gehoord?,Have you heard the news yet?
+gekregen,"received, got",Ik heb een brief van de gemeente gekregen.,I received a letter from the municipality.
+gele,yellow,Het is een gele rugtas met een rits.,It is a yellow backpack with a zip.
+gelukkig,fortunately; happy,Gelukkig heb ik mijn telefoon wel bij me.,Fortunately I do have my phone with me.
+gemist,missed,Ik heb de bus gemist.,I have missed the bus.
+geschreven,written,Ik heb een sollicitatiebrief geschreven.,I have written an application letter.
+gevraagd,asked,Ik heb om extra uitleg gevraagd.,I have asked for extra explanation.
+geweest,been,Ik ben nog nooit in Groningen geweest.,I have never been to Groningen.
+gewone,"ordinary, normal",Dit is een gewone werkdag.,This is an ordinary working day.
+gewoond,lived,Ik heb drie jaar in Utrecht gewoond.,I lived in Utrecht for three years.
+gezien,seen,Hebt u meubels gezien die u wilt kopen?,Have you seen furniture that you want to buy?
+gezocht,"looked for, sought",Ik heb lang naar een woning gezocht.,I looked for a home for a long time.
+ging,went,Ik ging gisteren naar de dokter.,I went to the doctor yesterday.
+gitaar,guitar,Mijn zoon speelt gitaar.,My son plays the guitar.
+goedkoop,cheap,De spullen zijn altijd goed en goedkoop.,The items are always good and cheap.
+gooi,throw (imperative),Gooi de oude spullen niet weg!,Do not throw the old things away!
+gooien,to throw,U mag dit niet in de container gooien.,You may not throw this in the container.
+gras,grass,De kinderen spelen op het gras.,The children play on the grass.
+groeit,grows,Mijn dochter groeit heel snel.,My daughter is growing very fast.
+haal,"get, fetch (I / imperative)",Ik haal mijn tas morgen op.,I will pick up my bag tomorrow.
+hadden,had (plural),Wij hadden een gezellige avond.,We had a pleasant evening.
+handdoeken,towels,Wij zullen handdoeken meenemen.,We will bring towels.
+haren,hair,Zij heeft lange zwarte haren.,She has long black hair.
+hart,heart,De cursus leert u wat u doet bij een hartstilstand.,The course teaches you what to do in case of cardiac arrest.
+helemaal,"completely, entirely",De bus is helemaal vol.,The bus is completely full.
+hoed,hat,Hij draagt een zwarte hoed.,He is wearing a black hat.
+hoef,need (I),Ik hoef geen eten mee te nemen.,I do not need to bring any food.
+hoger,higher,Woont u op de vijfde verdieping of hoger?,Do you live on the fifth floor or higher?
+horen,to hear; to belong,Zij vinden het leuk om te horen wat u vindt.,They like to hear what you think.
+ieder,"every, each",Ieder kind krijgt een cadeautje.,Every child gets a small present.
+ijs,ice; ice cream,De kinderen eten een ijsje in de zomer.,The children eat an ice cream in summer.
+jaren,years,Ik werk hier al vijf jaren.,I have been working here for five years.
+kantoor,office,Michael werkt op een kantoor.,Michael works in an office.
+kast,"cupboard, wardrobe",De borden staan in de kast.,The plates are in the cupboard.
+kasten,cupboards,Wij verkopen kasten en tafels.,We sell cupboards and tables.
+kennen,to know (a person/thing),Zo kunt u de nieuwe cursisten leren kennen.,This way you can get to know the new students.
+kilo,"kilo, kilogram",Hij heeft een tafel van 20 kilo gekocht.,He bought a table weighing 20 kilos.
+kledingwinkels,clothes shops,In het centrum zijn veel kledingwinkels.,There are many clothes shops in the centre.
+kleuren,colours,Welke kleuren vindt u mooi?,Which colours do you like?
+knie,knee,Ik heb pijn aan mijn knie.,My knee hurts.
+komkommer,cucumber,Ik doe komkommer op mijn boterham.,I put cucumber on my sandwich.
+kop,cup; head,Om half twaalf is er een kop koffie.,At half past eleven there is a cup of coffee.
+kreeg,"got, received",Ik kreeg gisteren een brief.,I received a letter yesterday.
+kregen,"got, received (plural)",De bewoners kregen allemaal een brief.,The residents all received a letter.
+lacht,"laughs, smiles",Het kind lacht op de foto.,The child is smiling in the photo.
+lampen,"lamps, lights",De lampen in de gang zijn kapot.,The lights in the hallway are broken.
+langere,longer,Voor een langere reis neem ik de trein.,For a longer journey I take the train.
+leeg,empty,De bus is helemaal leeg.,The bus is completely empty.
+leggen,"to lay, to put",Wij leggen de folders op de balie.,We put the leaflets on the counter.
+lente,spring,In de lente worden de dagen langer.,In spring the days get longer.
+leraar,teacher,Mijn leraar legt alles goed uit.,My teacher explains everything well.
+lift,"lift, elevator",Wij bezorgen alleen als er een lift is.,We only deliver if there is a lift.
+markt,market,Op zaterdag is er markt op het plein.,On Saturday there is a market on the square.
+meestal,"usually, mostly",Ik ga meestal met de fiets.,I usually go by bike.
+meubelwinkel,furniture shop,In een meubelwinkel ligt een folder.,There is a leaflet in a furniture shop.
+mevrouw,"madam, Mrs","Goedemiddag, mevrouw Jansen.","Good afternoon, Mrs Jansen."
+midden,middle,In het midden van de kamer staat een tafel.,In the middle of the room there is a table.
+mis,miss (I); wrong,Ik mis mijn familie in het buitenland.,I miss my family abroad.
+moderne,modern,Wij verkopen moderne meubels.,We sell modern furniture.
+mooier,more beautiful,Dit schilderij is mooier dan dat.,This painting is more beautiful than that one.
+morgens,in the morning,'s Morgens ga ik altijd vroeg weg.,In the morning I always leave early.
+nat,wet,Uw kleding wordt nat op de boot.,Your clothes will get wet on the boat.
+neef,"nephew, cousin",Mijn neef komt uit Rotterdam.,My cousin comes from Rotterdam.
+noemen,"to name, to mention",Kunt u drie voorbeelden noemen?,Can you mention three examples?
+oefeningen,exercises,Maak de oefeningen in het boek.,Do the exercises in the book.
+ongeveer,"about, approximately",Ongeveer 500 hardlopers doen mee.,About 500 runners are taking part.
+ontbijt,breakfast,Ik neem elke ochtend een klein ontbijt.,I have a small breakfast every morning.
+ouder,older; parent,Mijn broer is ouder dan ik.,My brother is older than me.
+pakt,"takes, grabs",Hij pakt zijn tas en gaat naar huis.,He takes his bag and goes home.
+pannenkoek,pancake,Om half acht eten we een pannenkoek.,At half past seven we eat a pancake.
+pannenkoeken,pancakes,De kinderen eten graag pannenkoeken.,The children like eating pancakes.
+papieren,"papers, documents",Neem uw papieren mee naar de gemeente.,Bring your documents to the municipality.
+papiertje,slip of paper,Schrijf het op een papiertje.,Write it on a slip of paper.
+paprika,pepper (vegetable),Ik snijd een paprika voor de salade.,I cut a pepper for the salad.
+passen,to fit; to try on,Mag ik deze broek even passen?,May I try on these trousers?
+plaatsen,places; to place,Er zijn nog vijf plaatsen vrij.,There are still five places available.
+planten,plants; to plant,Ik geef de planten elke week water.,I water the plants every week.
+portemonnee,"wallet, purse",Gelukkig heb ik mijn portemonnee wel bij me.,Fortunately I do have my wallet with me.
+post,"post, mail",De post komt om elf uur.,The post comes at eleven o'clock.
+postcode,"postcode, zip code",Vul uw postcode en huisnummer in.,Fill in your postcode and house number.
+praatte,talked (past tense),Ik praatte gisteren met mijn baas.,I talked to my boss yesterday.
+prima,"fine, excellent","Dat is prima, tot morgen!","That is fine, see you tomorrow!"
+probleem,problem,Is er een probleem met uw bestelling?,Is there a problem with your order?
+problemen,problems,U leert wat u doet bij andere problemen.,You learn what to do with other problems.
+punt,point; full stop,Zet een punt aan het einde van de zin.,Put a full stop at the end of the sentence.
+raam,window,"Doe het raam open, het is warm.","Open the window, it is warm."
+reden,reason,Wat is de reden dat u niet kunt komen?,What is the reason you cannot come?
+redenen,reasons,Hij noemt twee redenen in de brief.,He mentions two reasons in the letter.
+reis,"journey, trip",De reis naar mijn werk duurt een uur.,The journey to work takes an hour.
+reist,travels,Hij reist elke dag met de trein.,He travels by train every day.
+rekening,"bill, invoice; account",Ik heb de rekening al betaald.,I have already paid the bill.
+rij,"row, queue",Er staat een lange rij bij de kassa.,There is a long queue at the checkout.
+schoenenwinkel,shoe shop,Ik koop laarzen in de schoenenwinkel.,I buy boots at the shoe shop.
+service,service,Wij bieden een goede service.,We offer good service.
+simpel,simple,Dit is een simpele oefening.,This is a simple exercise.
+sla,"lettuce, salad; hit (I)",Ik maak sla met tomaat en komkommer.,I make a salad with tomato and cucumber.
+slaapkamer,bedroom,De slaapkamer is boven.,The bedroom is upstairs.
+slim,"clever, smart",Dat is een slimme oplossing.,That is a clever solution.
+sluiten,to close,Wij sluiten een aantal straten af.,We are closing a number of streets.
+snacks,snacks,Er zijn snacks bij de barbecue.,There are snacks at the barbecue.
+snelle,"fast, quick",De snelle bus gaat rechtstreeks naar het station.,The fast bus goes directly to the station.
+snijden,to cut,Ik moet de groenten snijden.,I have to cut the vegetables.
+spaans,Spanish,Mijn buurvrouw spreekt Spaans.,My neighbour speaks Spanish.
+speciaal,special,Dit aanbod is speciaal voor onze klanten.,This offer is especially for our customers.
+speelgoedwinkel,toy shop,Ik koop een cadeau in de speelgoedwinkel.,I buy a present at the toy shop.
+speeltuin,playground,De kinderen spelen in de speeltuin.,The children play in the playground.
+spel,game,We doen een spel in de les.,We play a game in the lesson.
+spelletjes,games,De kinderen doen spelletjes op het feest.,The children play games at the party.
+starten,to start,Wij starten om negen uur.,We start at nine o'clock.
+steden,cities,Amsterdam en Rotterdam zijn grote steden.,Amsterdam and Rotterdam are big cities.
+stoppen,to stop,De bussen stoppen hier niet.,The buses do not stop here.
+straks,"later, shortly",Ik bel je straks terug.,I will call you back shortly.
+straten,streets,Wij sluiten een aantal straten af.,We are closing a number of streets.
+stukje,"little piece, bit",Lees elk stukje opnieuw.,Read each little piece again.
+stukken,"pieces, parts",Lees de tekst in kleine stukken.,Read the text in small parts.
+succes,success; good luck,Veel succes met je examen!,Good luck with your exam!
+supermarkten,supermarkets,In deze wijk zijn twee supermarkten.,There are two supermarkets in this district.
+taart,cake,Op haar verjaardag eten we taart.,On her birthday we eat cake.
+tafeltje,small table,Er staat een tafeltje in de hoek.,There is a small table in the corner.
+tassen,bags,Wij verkopen tassen en koffers.,We sell bags and suitcases.
+tip,"tip, hint",Heeft u een tip om beter te leren?,Do you have a tip for learning better?
+toen,"then, when (past)","Toen ik klein was, woonde ik in een dorp.","When I was small, I lived in a village."
+tomaat,tomato,Ik snijd een tomaat voor de salade.,I cut a tomato for the salad.
+tomaatjes,small tomatoes,Er liggen tomaatjes in de koelkast.,There are small tomatoes in the fridge.
+tomatensoep,tomato soup,Wij eten tomatensoep bij de lunch.,We have tomato soup for lunch.
+tram,tram,In Amsterdam ga ik met de tram.,In Amsterdam I take the tram.
+treinstation,train station,Het treinstation is tien minuten lopen.,The train station is ten minutes' walk.
+uitleggen,to explain,Kunt u dat nog een keer uitleggen?,Could you explain that once more?
+vanmiddag,this afternoon,Vanmiddag heb ik een afspraak.,This afternoon I have an appointment.
+vanmorgen,this morning,Vanmorgen was het erg koud.,This morning it was very cold.
+veld,"field, pitch",Wilt u om negen uur op het veld zijn?,Would you be on the field at nine o'clock?
+veranderen,to change,Ik wil van baan veranderen.,I want to change jobs.
+verjaardag,birthday,Op mijn verjaardag komt de familie langs.,On my birthday the family comes over.
+verkocht,sold,De oude fiets is al verkocht.,The old bicycle has already been sold.
+verkoopt,sells,De winkel verkoopt gebruikte spullen.,The shop sells second-hand things.
+verkopen,to sell,Wij nemen alleen mee wat we kunnen verkopen.,We only take what we can sell.
+verkoper,"salesperson, seller",De verkoper helpt mij met de maat.,The salesperson helps me with the size.
+verteld,told,U onthoudt het beter als u het hebt verteld.,You remember it better once you have told it.
+vies,dirty,De keuken is heel vies.,The kitchen is very dirty.
+vijfde,fifth,Woont u op de vijfde verdieping?,Do you live on the fifth floor?
+vlees,meat,"Als u geen vlees eet, geef dit dan door.","If you do not eat meat, please let us know."
+vliegen,to fly,Wij vliegen morgen naar Istanbul.,We are flying to Istanbul tomorrow.
+vliegtuig,aeroplane,Het vliegtuig vertrekt om zes uur.,The plane leaves at six o'clock.
+volg,"follow, take (I / imperative)",Ik volg een cursus Nederlands.,I am taking a Dutch course.
+vond,found; thought,Ik vond de cursus heel nuttig.,I found the course very useful.
+vonden,found; thought (plural),Wij vonden het een leuke dag.,We thought it was a nice day.
+vroeg,early; asked,Ik sta elke dag vroeg op.,I get up early every day.
+vroeger,"in the past, formerly",Vroeger woonde ik in een klein dorp.,In the past I lived in a small village.
+websites,websites,Op deze websites vindt u meer informatie.,You will find more information on these websites.
+wegen,roads; to weigh,Wij sluiten een aantal wegen af.,We are closing a number of roads.
+wereld,world,Nederlandse kaas is bekend in de hele wereld.,Dutch cheese is known all over the world.
+word,become (I); word,Ik word volgende maand dertig.,I turn thirty next month.
+z'n,his (informal),Hij komt met z'n hele familie.,He is coming with his whole family.
+zal,"shall, will",De politie zal de auto's wegslepen.,The police will tow the cars away.
+zin,sentence; desire,Schrijf een zin met dit woord.,Write a sentence with this word.
+zingen,to sing,De kinderen zingen een lied.,The children sing a song.
+zo'n,such a,Zo'n cursus duurt zes weken.,Such a course lasts six weeks.
+zomervakantie,summer holiday,De zomervakantie duurt zes weken.,The summer holiday lasts six weeks.
+zondagen,Sundays,Op zondagen zijn wij gesloten.,We are closed on Sundays.
+zorgt,"takes care of, ensures",Zij zorgt voor koffie en thee.,She takes care of coffee and tea.
+zou,would,Ik zou graag een afspraak maken.,I would like to make an appointment.
+zouden,would (plural),Wij zouden graag komen.,We would like to come.
+zuid,south,Limburg ligt in het zuiden van Nederland.,Limburg is in the south of the Netherlands.
+zwaar,heavy,De doos is te zwaar om te dragen.,The box is too heavy to carry.
+enkele,"a few, some",Er zijn enkele fouten in de tekst.,There are a few mistakes in the text.
+kandidaat,candidate,De kandidaat beantwoordt 25 vragen.,The candidate answers 25 questions.
+specifiek,specific,Geef een specifiek voorbeeld uit de tekst.,Give a specific example from the text.
+onderdeel,"part, component",Dit onderdeel van het examen duurt 30 minuten.,This part of the exam takes 30 minutes.
+ehbo,first aid,Ik volg een cursus EHBO.,I am taking a first-aid course.
+steeds,"always, increasingly",Het wordt steeds drukker in de stad.,The city is getting busier and busier.
+verplicht,"compulsory, obliged",De cursus is verplicht voor alle cursisten.,The course is compulsory for all students.
+voorbeeldexamen,sample exam,Maak eerst het voorbeeldexamen.,Do the sample exam first.
+aanvragen,to apply for,Ik wil huurtoeslag aanvragen.,I want to apply for housing benefit.
+inschrijven,"to register, to enrol",U moet zich inschrijven bij de gemeente.,You have to register with the municipality.
+uitkering,"benefit, allowance",Hij krijgt een uitkering van het UWV.,He receives a benefit from the UWV.
+feestcommissie,party committee,De feestcommissie regelt de bruiloft.,The party committee arranges the wedding.
+onderwijs,education,Zij werkt in het onderwijs.,She works in education.
+openingstijden,opening hours,Onze openingstijden staan op de website.,Our opening hours are on the website.
+presentatie,presentation,Ik moet een presentatie geven op mijn werk.,I have to give a presentation at work.
+geschiedenis,history,We leren over de geschiedenis van Nederland.,We learn about the history of the Netherlands.
+gezondheid,health,De cursus gaat over gezondheid en zorg.,The course is about health and care.
+hardloopwedstrijd,running race,De jaarlijkse hardloopwedstrijd is in juni.,The annual running race is in June.
+inkoop,"purchasing, buying",Hij werkt op de afdeling inkoop.,He works in the purchasing department.
+maximaal,"at most, maximum",De cursus duurt maximaal drie uur.,The course lasts a maximum of three hours.
+rooster,"schedule, timetable",Het nieuwe rooster hangt op het bord.,The new timetable is on the board.
+stapel,"pile, stack",Er ligt een stapel papier op tafel.,There is a pile of paper on the table.
+uitnodiging,invitation,Ik heb een uitnodiging voor de bruiloft.,I have an invitation to the wedding.
+voicemail,voicemail,Hij spreekt een bericht in op de voicemail.,He leaves a message on the voicemail.
+volgens,according to,Volgens de tekst moet hij eerst plannen.,According to the text he has to plan first.
+werknemers,employees,Alle werknemers krijgen een nieuwe pas.,All employees get a new pass.
+advies,advice,Welk advies kun je hem geven?,What advice can you give him?
+apotheek,pharmacy,Ik haal mijn medicijnen bij de apotheek.,I collect my medicine at the pharmacy.
+bezorging,delivery,De bezorging is op dinsdag.,The delivery is on Tuesday.
+bijeenkomst,"meeting, gathering",De cursus bestaat uit één bijeenkomst.,The course consists of one meeting.
+doorgeven,"to pass on, to let know",Wilt u dit doorgeven aan Marie?,Could you pass this on to Marie?
+last,"trouble, nuisance",Waar hebt u last van?,What is bothering you?
+lokaal,classroom; local,De les is in lokaal 12.,The lesson is in classroom 12.
+patiënten,patients,De dokter ziet vandaag veel patiënten.,The doctor sees many patients today.
+seizoen,season,In dit seizoen zijn er veel activiteiten.,There are many activities this season.
+werkgever,employer,U meldt zich ziek bij uw werkgever.,You report sick to your employer.
+woning,"home, dwelling",Ik zoek een nieuwe woning.,I am looking for a new home.
+administratie,"administration, office",Bel met de administratie van de school.,Call the school's administration office.
+assistente,assistant (female),U maakt een spoedafspraak met de assistente.,You make an emergency appointment with the assistant.
+balie,"counter, desk",Ga naar de informatiebalie in de winkel.,Go to the information desk in the shop.
+bereiken,"to reach, to get hold of",Het is belangrijk dat uw werkgever u kan bereiken.,It is important that your employer can reach you.
+bespreken,to discuss,We gaan het rooster bespreken.,We are going to discuss the schedule.
+bestelling,order,Hoeveel weegt uw bestelling?,How much does your order weigh?
+blikjes,"cans, tins",Zet de lege blikjes bij het oud papier.,Put the empty cans with the paper recycling.
+bruiloft,wedding,Volgende week vrijdag is de bruiloft.,The wedding is next Friday.
+buurthuis,community centre,Ik doe vrijwilligerswerk in het buurthuis.,I do volunteer work at the community centre.
+doel,"goal, purpose; charity",Het geld gaat naar een goed doel.,The money goes to a good cause.
+gezellig,"cosy, sociable, pleasant",Het was een gezellige avond.,It was a pleasant evening.
+hardlopers,runners,Ongeveer 500 hardlopers doen mee.,About 500 runners take part.
+inkomen,income,Mijn inkomen is dit jaar hoger.,My income is higher this year.
+inleveren,to hand in,U moet het formulier vrijdag inleveren.,You have to hand in the form on Friday.
+klantenkaart,loyalty card,Met een klantenkaart krijgt u korting.,With a loyalty card you get a discount.
+naartoe,to (a place),Waar gaat de winst naartoe?,Where do the profits go?
+persoonlijke,personal,Vul hier uw persoonlijke gegevens in.,Fill in your personal details here.
+provincie,province,Limburg is een provincie in het zuiden.,Limburg is a province in the south.
+receptie,reception,U kunt onze receptie bellen.,You can call our reception.
+rijbewijs,driving licence,Ik heb vorig jaar mijn rijbewijs gehaald.,I got my driving licence last year.
+weleens,"sometimes, ever",Bent u weleens in Maastricht geweest?,Have you ever been to Maastricht?
+werktijden,working hours,Mijn werktijden zijn flexibel.,My working hours are flexible.
+afgelopen,"past, finished",De sportdag is om half zeven afgelopen.,The sports day finishes at half past six.
+afspreken,"to arrange, to agree",We moeten een tijd afspreken.,We have to arrange a time.
+allen,all (of them),Zij komen allen naar de bijeenkomst.,They are all coming to the meeting.
+barbecueën,to barbecue,We gaan na de sportdag barbecueën.,We are going to barbecue after the sports day.
+bewoners,residents,Alle bewoners van het dorp krijgen een brief.,All residents of the village receive a letter.
+bijeenkomsten,meetings,De cursus bestaat uit vier bijeenkomsten.,The course consists of four meetings.
+bijzonder,special,Dit is een bijzondere dag voor ons.,This is a special day for us.
+certificaat,certificate,U krijgt een certificaat na de cursus.,You receive a certificate after the course.
+controleren,to check,Wij controleren en testen alle spullen.,We check and test all the items.
+cursusboek,course book,U krijgt het cursusboek bij de eerste bijeenkomst.,You get the course book at the first meeting.
+cursuscentrum,training centre,De les is in het cursuscentrum.,The lesson is at the training centre.
+dweilen,to mop,Ik moet de keuken nog dweilen.,I still have to mop the kitchen.
+ervaring,experience,Ik heb veel ervaring met dit werk.,I have a lot of experience with this work.
+gemeentehuis,town hall,U moet naar het gemeentehuis voor een paspoort.,You have to go to the town hall for a passport.
+geopend,open(ed),De praktijk is elke dag geopend.,The practice is open every day.
+geslaagd,passed (an exam),Ik ben geslaagd voor mijn examen!,I passed my exam!
+gestolen,stolen,Mijn fiets is gestolen.,My bicycle has been stolen.
+houten,wooden,Er staat een houten tafel in de keuken.,There is a wooden table in the kitchen.
+inhoud,content(s),Denk na over de inhoud van de tekst.,Think about the content of the text.
+komende,"coming, next",De komende week ben ik vrij.,I am off this coming week.
+lied,song,Het Wilhelmus is het Nederlandse lied.,The Wilhelmus is the Dutch national song.
+namelijk,"namely, you see",Ik kan niet komen; ik moet namelijk werken.,"I cannot come; you see, I have to work."
+netjes,"neat, tidy",Houd het lokaal netjes.,Keep the classroom tidy.
+onderweg,on the way,Ik ben al onderweg naar kantoor.,I am already on my way to the office.
+onthoudt,remembers,U onthoudt de informatie dan beter.,You then remember the information better.
+opgeven,to sign up; to give up,Geef je op bij David.,Sign up with David.
+opnemen,to pick up (phone); to record,Zij neemt de telefoon niet op.,She does not pick up the phone.
+overheid,government,De overheid stuurt u een brief.,The government sends you a letter.
+regelen,to arrange,Wij regelen de bus naar de bruiloft.,We arrange the bus to the wedding.
+regelt,arranges,Zij regelt alles voor het feest.,She arranges everything for the party.
+repareren,to repair,Wij proberen de kapotte spullen te repareren.,We try to repair the broken items.
+samenwonen,to live together,Wij gaan volgend jaar samenwonen.,We are going to live together next year.
+solliciteren,to apply for a job,Ik wil solliciteren naar deze baan.,I want to apply for this job.
+stemmen,to vote; voices,In Nederland mag je vanaf 18 jaar stemmen.,In the Netherlands you can vote from the age of 18.
+taalcursus,language course,Ik volg een taalcursus Nederlands.,I am taking a Dutch language course.
+taken,tasks,We verdelen de taken eerlijk.,We divide the tasks fairly.
+tijdelijk,temporary,Ik heb een tijdelijk contract.,I have a temporary contract.
+toch,"still, nevertheless; right?",Je komt toch morgen?,"You are coming tomorrow, right?"
+verandering,change,Er komt een verandering in het rooster.,There is a change in the schedule.
+verandert,changes,Het rooster verandert volgende week.,The schedule changes next week.
+verhuisd,moved (house),Wij zijn vorige maand verhuisd.,We moved house last month.
+verkopers,salespeople,De verkopers helpen de klanten.,The salespeople help the customers.
+vertraging,delay,De trein heeft tien minuten vertraging.,The train is ten minutes late.
+verzamelen,"to collect, to gather",Wij verzamelen deze meubels voor u.,We collect this furniture for you.
+verzekering,insurance,Ik heb een nieuwe verzekering afgesloten.,I have taken out a new insurance policy.
+wet,law,Dit staat in de Nederlandse wet.,This is stated in Dutch law.
+aantal,"number, amount",Wij sluiten een aantal straten af.,We are closing a number of streets.
+algemene,general,Dit is de algemene cursus EHBO.,This is the general first-aid course.
+allerlei,all kinds of,U leert helpen bij allerlei ongelukken.,You learn to help with all kinds of accidents.
+alvast,"in advance, already",Alvast bedankt voor uw hulp!,Thanks in advance for your help!
+automatisch,automatic(ally),De deur gaat automatisch open.,The door opens automatically.
+belangrijkste,most important,Dit is het belangrijkste punt van de brief.,This is the most important point of the letter.
+bepalen,"to determine, to decide",Dat moet je zelf bepalen.,You have to decide that yourself.
+beroep,"profession, occupation",Wat is uw beroep?,What is your profession?
+buitenland,abroad,In juni ga ik naar het buitenland.,In June I am going abroad.
+cadeaubon,gift voucher,We geven een cadeaubon aan het bruidspaar.,We are giving the couple a gift voucher.
+centrale,central; switchboard,Bel de centrale voor meer informatie.,Call the switchboard for more information.
+computerlokaal,computer room,De les is in het computerlokaal.,The lesson is in the computer room.
+daarin,"in it, in there",In de tas zit een boek; daarin staat mijn naam.,There is a book in the bag; my name is in it.
+daarvan,"of that, from that",Daarvan weet ik niets.,I know nothing about that.
+daarvoor,for that; before that,Daarvoor betaalt u vijf euro.,For that you pay five euros.
+directeur,"director, manager",De directeur komt morgen op bezoek.,The director is visiting tomorrow.
+dochtertje,little daughter,Haar dochtertje is nog maar twee jaar.,Her little daughter is only two years old.
+eigenlijk,actually,Eigenlijk wil ik liever thuisblijven.,Actually I would rather stay at home.
+feestdagen,public holidays,Op feestdagen zijn wij gesloten.,We are closed on public holidays.
+flexibel,flexible,Mijn werktijden zijn flexibel.,My working hours are flexible.
+formulier,form,Vul het formulier volledig in.,Fill in the form completely.
+gebroken,broken,Zijn arm is gebroken.,His arm is broken.
+gegevens,"data, details",U hoeft geen medische gegevens te geven.,You do not have to give medical details.
+geregeld,arranged,Alles is geregeld voor de bruiloft.,Everything is arranged for the wedding.
+geschikt,suitable,Deze cursus is zeer geschikt voor ouders.,This course is very suitable for parents.
+gevallen,fallen; cases,Hij is van de trap gevallen.,He has fallen down the stairs.
+gezellige,"cosy, pleasant",Wij hopen op een gezellige dag.,We hope for a pleasant day.
+gordijnen,curtains,Ik hang nieuwe gordijnen in de woonkamer.,I am hanging new curtains in the living room.
+hierover,about this,Hierover krijgt u nog een brief.,You will receive another letter about this.
+ideeën,ideas,Heeft u ideeën voor het feest?,Do you have ideas for the party?
+inloggen,to log in,U kunt met uw DigiD inloggen.,You can log in with your DigiD.
+kans,"chance, opportunity",Dit is een goede kans op werk.,This is a good chance of work.
+kantine,canteen,We eten in de kantine van het bedrijf.,We eat in the company canteen.
+kermis,funfair,In de zomer is er kermis in het dorp.,In summer there is a funfair in the village.
+kiespijn,toothache,Ik heb kiespijn en bel de tandarts.,I have toothache and am calling the dentist.
+kistje,"small box, crate",In het kistje zit gereedschap.,There are tools in the small box.
+kopie,copy,Stuur een kopie van uw paspoort mee.,Send a copy of your passport with it.
+kwijt,"lost, missing",Ik ben mijn pinpas kwijt.,I have lost my debit card.
+lastig,"difficult, awkward",Het is lastig om een woning te vinden.,It is difficult to find a home.
+leeftijd,age,Wat is de leeftijd van uw kinderen?,What is the age of your children?
+leslokaal,classroom,Het leslokaal is op de eerste verdieping.,The classroom is on the first floor.
+letten,to pay attention,Let op de tijd tijdens het examen.,Pay attention to the time during the exam.
+lid,member,Ik ben lid van de sportschool.,I am a member of the gym.
+linksaf,to the left,Ga bij de brug linksaf.,Turn left at the bridge.
+medewerker,"employee, member of staff",Een medewerker helpt u in de winkel.,A member of staff will help you in the shop.
+medewerkers,"employees, staff",De medewerkers zijn allemaal vrijwilligers.,The staff are all volunteers.
+medicijnen,"medicine, medication",Ik haal mijn medicijnen bij de apotheek.,I collect my medication at the pharmacy.
+merk,brand; notice (I),Ik merk dat ik mijn tas ben vergeten.,I notice that I have forgotten my bag.
+minimaal,"at least, minimum",U moet minimaal twee weken wachten.,You have to wait at least two weeks.
+mode,fashion,Zij werkt in de mode.,She works in fashion.
+nederlanders,Dutch people,Veel Nederlanders gaan op de fiets naar hun werk.,Many Dutch people cycle to work.
+nieuwsbrief,newsletter,U krijgt elke maand onze nieuwsbrief.,You receive our newsletter every month.
+nootjes,nuts,Bij de borrel zijn er nootjes.,There are nuts with the drinks.
+omgeving,"environment, surroundings",Leer in een rustige omgeving.,Study in a quiet environment.
+omhoog,"up, upwards",De prijzen gaan weer omhoog.,The prices are going up again.
+onderwerp,"subject, topic",Onderwerp: jaarlijkse hardloopwedstrijd.,Subject: annual running race.
+ongeluk,accident,Er is een ongeluk gebeurd op de snelweg.,There has been an accident on the motorway.
+ongelukken,accidents,EHBO betekent Eerste Hulp Bij Ongelukken.,EHBO means First Aid for Accidents.
+opsturen,"to send in, to mail",U moet het formulier opsturen.,You have to send in the form.
+opzoeken,to look up; to visit,Ik moet dit woord opzoeken in het woordenboek.,I have to look up this word in the dictionary.
+organiseren,to organise,Wij organiseren elk jaar een sportdag.,We organise a sports day every year.
+pakketje,"parcel, package",De postbode brengt een pakketje.,The postman brings a parcel.
+parkeerplaats,"parking space, car park",Er is een parkeerplaats achter het gebouw.,There is a car park behind the building.
+pinpas,debit card,Ik betaal met mijn pinpas.,I pay with my debit card.
+plannen,to plan; plans,Wij moeten de vakantie goed plannen.,We have to plan the holiday well.
+plekken,"places, spots",Er zijn nog twee plekken vrij.,There are still two places available.
+postbode,"postman, mail carrier",De postbode komt om elf uur.,The postman comes at eleven o'clock.
+recept,prescription; recipe,De dokter geeft mij een recept.,The doctor gives me a prescription.
+rechtdoor,straight ahead,Ga rechtdoor tot het station.,Go straight ahead to the station.
+rechter,right (side); judge,Ga door de rechter deur.,Go through the right-hand door.
+rechtsaf,to the right,Sla bij de kerk rechtsaf.,Turn right at the church.
+reizigers,"travellers, passengers",De reizigers wachten op de trein.,The passengers are waiting for the train.
+ruilen,"to exchange, to swap",Kan ik deze broek ruilen?,Can I exchange these trousers?
+schilderij,painting,Er hangt een schilderij in de woonkamer.,There is a painting in the living room.
+schoolbord,"blackboard, whiteboard",De docent schrijft op het schoolbord.,The teacher writes on the board.
+schoonste,cleanest,Dit is het schoonste lokaal van de school.,This is the cleanest classroom in the school.
+snelweg,"motorway, highway",Er staat een file op de snelweg.,There is a traffic jam on the motorway.
+sportlessen,sports lessons,De sportlessen zijn op dinsdagavond.,The sports lessons are on Tuesday evening.
+studiecentrum,study centre,Ik leer in het studiecentrum.,I study at the study centre.
+toe,"to, closed","De deur is dicht, doe hem maar toe.","The door is shut, just close it."
+uitzoeken,to find out; to sort out,Zoek uit wanneer u het beste kunt leren.,Find out when you can study best.
+veiligheid,safety,De veiligheid van de kinderen is belangrijk.,The children's safety is important.
+verdienen,to earn,Het geld dat we verdienen gaat naar een goed doel.,The money we earn goes to a good cause.
+verrassing,surprise,Het cadeau moet een verrassing blijven.,The present must remain a surprise.
+volgorde,"order, sequence",Zet de plaatjes in de goede volgorde.,Put the pictures in the right order.
+vooral,"especially, mainly",Waarom stuurt zij deze e-mail vooral?,Why is she mainly sending this email?
+voordat,before (conjunction),Meld dit voordat u naar huis gaat.,Report this before you go home.
+weekendje,short weekend break,We geven ze een weekendje weg cadeau.,We are giving them a weekend away as a present.
+weghalen,"to remove, to take away",Wanneer moet hij zijn auto weghalen?,When does he have to move his car?
+wijk,"district, neighbourhood",In onze wijk wonen veel gezinnen.,Many families live in our district.
+winst,profit,Wat doen we met onze winst?,What do we do with our profit?
+woordenlijst,"word list, vocabulary list",Leer de woordenlijst voor het examen.,Learn the word list for the exam.
+zalen,"halls, rooms",De D-zalen zijn op de derde verdieping.,The D halls are on the third floor.
+zodat,so that,"We maken een planning, zodat alles goed gaat.",We make a plan so that everything goes well.
+aangeven,"to indicate, to state",Geef aan welke cursus u wilt volgen.,Indicate which course you want to take.
+aanmeldt,"registers, signs up",U moet betalen als u zich aanmeldt.,You have to pay when you register.
+aantrekken,to put on (clothes),U moet thuis uw sportkleren aantrekken.,You have to put on your sports clothes at home.
+achterkant,"back, reverse side",Het antwoord staat op de achterkant.,The answer is on the back.
+actief,active,Ik ben actief in de buurtvereniging.,I am active in the neighbourhood association.
+afdelingen,departments,Het bedrijf heeft drie afdelingen.,The company has three departments.
+afgemaakt,"finished, completed",Ik heb de opdracht afgemaakt.,I have finished the assignment.
+afgesproken,"agreed, arranged",We hebben afgesproken om zes uur.,We have arranged to meet at six.
+apparaten,"appliances, devices",Wij verkopen elektrische apparaten.,We sell electrical appliances.
+artikel,article; item,In de krant staat een artikel over de wijk.,There is an article about the district in the newspaper.
+avondje,evening out,We hebben een gezellig avondje gehad.,We had a nice evening out.
+basis,"basis, foundation",Op basis van uw cv nodigen wij u uit.,On the basis of your CV we invite you.
+bedanken,to thank,Wij willen u bedanken voor uw hulp.,We would like to thank you for your help.
+bedrag,amount (of money),Dit alles voor een klein bedrag.,All this for a small amount.
+beeld,"image, picture",Op het beeld ziet u het station.,In the image you see the station.
+begrepen,understood,"Als u dat kunt, weet u dat u het hebt begrepen.","If you can do that, you know you have understood it."
+bekendste,best known,Amsterdam is de bekendste stad van Nederland.,Amsterdam is the best-known city in the Netherlands.
+belangrijkst,most important,Wat is het belangrijkst voor u?,What is most important for you?
+belasting,tax,Ik betaal elk jaar belasting.,I pay tax every year.
+bepaalt,"determines, decides",De docent bepaalt wanneer de toets is.,The teacher decides when the test is.
+beschrijf,describe (imperative),Beschrijf wat u op het plaatje ziet.,Describe what you see in the picture.
+bestond,consisted of; existed,De cursus bestond uit zes lessen.,The course consisted of six lessons.
+beweegt,moves,Het kind beweegt niet meer.,The child is no longer moving.
+bezoekers,visitors,Er komen veel bezoekers naar de open dag.,Many visitors come to the open day.
+bezorgd,delivered; worried,De meubels worden morgen bezorgd.,The furniture will be delivered tomorrow.
+bieden,to offer,Wij bieden u onze excuses aan.,We offer you our apologies.
+binnenkort,"soon, shortly",De nieuwe cursus begint binnenkort.,The new course starts soon.
+blad,leaf; sheet; magazine,Schrijf uw antwoord op dit blad.,Write your answer on this sheet.
+bladzijdes,pages,Lees dezelfde bladzijdes een paar keer.,Read the same pages a few times.
+bloed,blood,Er komt bloed uit zijn neus.,Blood is coming from his nose.
+boerderij,farm,Mijn opa woonde op een boerderij.,My grandfather lived on a farm.
+bouwen,to build,Ze gaan nieuwe huizen bouwen in de wijk.,They are going to build new houses in the district.
+brand,fire,Bij brand belt u 112.,In case of fire you call 112.
+brandweer,fire brigade,De brandweer is snel ter plaatse.,The fire brigade arrives quickly.
+brievenbus,"letterbox, mailbox",De post zit in de brievenbus.,The mail is in the letterbox.
+brillenwinkel,optician's shop,Ik koop een nieuwe bril in de brillenwinkel.,I buy new glasses at the optician's.
+buslijn,"bus line, bus route",Buslijn 12 gaat naar het station.,Bus route 12 goes to the station.
+cadeautjes,small presents,De kinderen krijgen cadeautjes op Sinterklaas.,The children get small presents on Saint Nicholas' Day.
+cursist,course participant,Elke cursist krijgt een cursusboek.,Every course participant gets a course book.
+daarbij,"in addition, with that",Daarbij krijgt u een online cursusboek.,In addition you get an online course book.
+daarmee,with that,Daarmee kunt u zich aanmelden.,With that you can register.
+daarover,about that,Daarover hoeft u niets te vertellen.,You do not have to say anything about that.
+danken,to thank,Wij danken u voor uw medewerking.,We thank you for your cooperation.
+dienst,service; shift,Ik heb morgen dienst tot tien uur.,I have a shift until ten o'clock tomorrow.
+diensten,services; shifts,Het postbedrijf biedt verschillende diensten aan.,The postal company offers various services.
+dierenarts,"vet, veterinarian",Ik ga met de kat naar de dierenarts.,I am taking the cat to the vet.
+doelen,"goals, aims; charities",Wij steunen elk jaar andere goede doelen.,Every year we support different charities.
+doorgaan,"to continue, to go ahead",De cursus gaat volgende week door.,The course is going ahead next week.
+downloaden,to download,U kunt het formulier downloaden van de website.,You can download the form from the website.
+draaien,to turn; to run (a shift),Ik moet dit weekend een dienst draaien.,I have to work a shift this weekend.
+drukte,"crowds, busyness",Ik hou niet van de drukte in de stad.,I do not like the crowds in the city.
+duidelijke,clear,Geef een duidelijke uitleg.,Give a clear explanation.
+duitse,German,Ik lees elke week een Duitse krant.,I read a German newspaper every week.
+eigenaar,owner,De eigenaar van de winkel helpt mij.,The owner of the shop helps me.
+elektrische,electrical,Wij verkopen elektrische apparaten.,We sell electrical appliances.
+energie,energy,De prijzen voor energie zijn gestegen.,Energy prices have gone up.
+eng,scary,De eerste les vond ik een beetje eng.,I found the first lesson a bit scary.
+enige,only; some,Dit is de enige bus naar het station.,This is the only bus to the station.
+erbij,"with it, present",Laat je weten of je erbij kunt zijn?,Will you let us know if you can be there?
+erge,"bad, serious",Dat is niet zo'n erge fout.,That is not such a serious mistake.
+erin,in it,De tas is open en mijn laptop zit erin.,The bag is open and my laptop is in it.
+ervan,"of it, from it",Wij hebben ervan gehoord.,We have heard about it.
+ervoor,for it; in front of it,Wij zorgen ervoor dat alles goed gaat.,We make sure that everything goes well.
+fabrieken,factories,Vroeger waren er veel fabrieken in deze stad.,There used to be many factories in this city.
+fantastische,fantastic,Het was een fantastische dag.,It was a fantastic day.
+feestdag,public holiday,Koningsdag is een feestdag in Nederland.,King's Day is a public holiday in the Netherlands.
+files,traffic jams,In de ochtend zijn er veel files.,In the morning there are many traffic jams.
+finish,finish (line),De start en de finish zijn op het Dorpsplein.,The start and the finish are on the village square.
+franse,French,Ik houd van Franse kaas.,I like French cheese.
+gas,gas,De prijs van gas is omhoog gegaan.,The price of gas has gone up.
+gebeurde,happened,Wat gebeurde er op de snelweg?,What happened on the motorway?
+geboorte,birth,Bij de geboorte van een baby eten we beschuit met muisjes.,At the birth of a baby we eat rusk with aniseed sprinkles.
+gebouwd,built,Dit huis is in 1960 gebouwd.,This house was built in 1960.
+gebracht,"brought, taken",Ik heb de tas naar de portier gebracht.,I took the bag to the porter.
+geheim,secret,Het cadeau moet geheim blijven.,The present must remain a secret.
+gekozen,chosen,Wij geven het cadeau dat het meest gekozen is.,We give the present that was chosen most.
+gelegd,"laid, put",Ik heb de folder op tafel gelegd.,I have put the leaflet on the table.
+gelijk,right; equal; immediately,"Je hebt gelijk, de winkel is dicht.","You are right, the shop is closed."
+geloof,"faith, religion; believe (I)",In Nederland is iedereen vrij in zijn geloof.,In the Netherlands everyone is free in their faith.
+gepraat,talked,We hebben lang over het werk gepraat.,We talked about work for a long time.
+getal,"number, figure",Schrijf het getal in cijfers.,Write the number in figures.
+geval,case,In ieder geval moet u bellen.,In any case you have to call.
+geweldige,"great, wonderful",Wij hadden een geweldige dag.,We had a wonderful day.
+gewond,"injured, wounded",Is het kind gewond of ziek?,Is the child injured or ill?
+geworden,become,Wanneer bent u ziek geworden?,When did you become ill?
+gids,guide (book/person),U krijgt de gids mee naar huis.,You take the guide home with you.
+groeien,to grow,De bomen groeien snel in de lente.,The trees grow quickly in spring.
+groentesoep,vegetable soup,We eten groentesoep bij de lunch.,We have vegetable soup for lunch.
+halte,stop (bus/tram),Ik stap uit bij de volgende halte.,I get off at the next stop.
+handig,"handy, useful",De cursus is erg handig voor ouders.,The course is very useful for parents.
+hapjes,"snacks, appetizers",Op het feest zijn er hapjes en drankjes.,At the party there are snacks and drinks.
+hardop,"aloud, out loud",Lees de tekst hardop voor.,Read the text aloud.
+helaas,unfortunately,Helaas kan ik niet komen.,Unfortunately I cannot come.
+hen,them,Ik geef hen de informatie.,I give them the information.
+herhaalt,repeats,De docent herhaalt de vraag.,The teacher repeats the question.
+hiermee,with this,Hiermee kunt u zich aanmelden.,With this you can register.
+hiervoor,for this; before this,Wat moet hij hiervoor betalen?,What does he have to pay for this?
+hoesten,to cough,Moet het kind ineens erg hoesten?,Does the child suddenly cough a lot?
+hoeven,to need to,U hoeven geen zwemkleding mee te nemen.,You do not need to bring swimwear.
+hoofdpijn,headache,Ik heb vandaag veel hoofdpijn.,I have a bad headache today.
+hoofdstad,capital city,Amsterdam is de hoofdstad van Nederland.,Amsterdam is the capital of the Netherlands.
+hopelijk,hopefully,Hopelijk kun je volgende week komen.,Hopefully you can come next week.
+hout,wood,De tafel is van hout gemaakt.,The table is made of wood.
+huisnummer,house number,Vergeet uw huisnummer niet.,Do not forget your house number.
+huren,to rent,Wij willen een bus huren.,We want to rent a bus.
+inchecken,to check in,Vergeet niet in te checken in de bus.,Do not forget to check in on the bus.
+ineens,suddenly,Het kind moet ineens erg hoesten.,The child suddenly coughs a lot.
+ingang,entrance,De ingang is aan de andere kant.,The entrance is on the other side.
+interesse,interest,Ik heb interesse in deze vacature.,I am interested in this vacancy.
+interview,interview,Morgen heb ik een interview bij het bedrijf.,Tomorrow I have an interview at the company.
+jammer,"a pity, too bad",Jammer dat je niet kunt komen.,It is a pity that you cannot come.
+jarig,having a birthday,Mijn dochter is vandaag jarig.,It is my daughter's birthday today.
+jeugd,"youth, young people",Wij verkopen boeken voor volwassenen en jeugd.,We sell books for adults and young people.
+journaal,news broadcast,Ik kijk elke avond naar het journaal.,I watch the news broadcast every evening.
+keelpijn,sore throat,Ik heb keelpijn en bel de huisarts.,I have a sore throat and am calling the GP.
+kennis,knowledge; acquaintance,Uw kennis van het Nederlands wordt getoetst.,Your knowledge of Dutch is tested.
+kerstdag,Christmas Day,Eerste kerstdag is op 25 december.,Christmas Day is on 25 December.
+kinderbedje,"cot, child's bed",Wij zoeken een tweedehands kinderbedje.,We are looking for a second-hand cot.
+kinderkleding,children's clothing,In deze winkel verkopen ze kinderkleding.,They sell children's clothing in this shop.
+klachten,complaints; symptoms,Moet ik alle klachten aan mijn werkgever vertellen?,Do I have to tell my employer all my symptoms?
+klantenservice,customer service,Bel de klantenservice voor meer informatie.,Call customer service for more information.
+kledingzaak,clothing store,Zij werkt in een kledingzaak.,She works in a clothing store.
+klusjes,"small jobs, chores",Ik heb vrijwillig klusjes gedaan in het buurthuis.,I did small jobs voluntarily at the community centre.
+klussen,odd jobs; to do DIY,In het weekend doe ik klussen in huis.,At the weekend I do DIY jobs around the house.
+koning,king,De koning van Nederland heet Willem-Alexander.,The king of the Netherlands is called Willem-Alexander.
+korting,discount,Met deze kaart krijgt u korting.,With this card you get a discount.
+kring,circle,We zitten in een kring in de klas.,We sit in a circle in the classroom.
+kruis,cross (mark),Kruis het juiste antwoord aan.,Tick the correct answer.
+krullen,curls,Zij heeft mooie krullen.,She has beautiful curls.
+kwartier,quarter of an hour,De bus rijdt elk kwartier.,The bus runs every quarter of an hour.
+landkaart,map,Op de landkaart zie je alle provincies.,On the map you see all the provinces.
+laptoptas,laptop bag,Mijn laptoptas staat nog op kantoor.,My laptop bag is still at the office.
+leeftijden,ages,Kinderen van alle leeftijden zijn welkom.,Children of all ages are welcome.
+leerlingen,"pupils, students",De leerlingen maken samen het huiswerk.,The pupils do the homework together.
+leger,army,Mijn broer werkt bij het leger.,My brother works for the army.
+leslokalen,classrooms,De leslokalen zijn op de tweede verdieping.,The classrooms are on the second floor.
+leuks,something nice,Wij hebben iets leuks voor u.,We have something nice for you.
+levens,lives,Deze cursus kan helpen om levens te redden.,This course can help to save lives.
+liefst,preferably; most of all,Ik wil het liefst 's ochtends werken.,I would prefer to work in the morning.
+locatie,location,De nieuwe locatie is in het centrum.,The new location is in the centre.
+lokalen,"classrooms, rooms",De lokalen zijn vandaag gesloten.,The classrooms are closed today.
+lopend,"walking, on foot",Ik ga lopend naar de winkel.,I go to the shop on foot.
+losse,"loose, single",Ik koop losse kaartjes voor de bus.,I buy single tickets for the bus.
+lunchpauze,lunch break,Daarna hebben we lunchpauze.,After that we have a lunch break.
+luncht,has lunch,Hij luncht altijd in de kantine.,He always has lunch in the canteen.
+maaien,to mow,Ik moet het gras maaien.,I have to mow the grass.
+machines,machines,In de fabriek staan grote machines.,There are big machines in the factory.
+make-up,make-up,Zij doet make-up op voor het feest.,She puts on make-up for the party.
+manager,manager,De manager geeft ons het nieuwe rooster.,The manager gives us the new schedule.
+map,"folder, file",De papieren zitten in een map.,The papers are in a folder.
+maximum,maximum,Het maximum is tien personen.,The maximum is ten people.
+meedoet,takes part,"Als u niet meedoet, betaalt u tien euro.","If you do not take part, you pay ten euros."
+meehelpen,to help out,Hij kan meehelpen op de open dag.,He can help out at the open day.
+merkt,notices,Zij merkt dat ze haar tas is vergeten.,She notices that she has forgotten her bag.
+minste,least,De levertijd is ten minste twee weken.,The delivery time is at least two weeks.
+module,"module, unit",De cursus bestaat uit vier modules.,The course consists of four modules.
+muzikaal,musical,Mijn dochter is heel muzikaal.,My daughter is very musical.
+nergens,nowhere,Ik kan mijn sleutel nergens vinden.,I cannot find my key anywhere.
+niveau,level,Wat is uw niveau Nederlands?,What is your level of Dutch?
+nodigen,to invite,Wij nodigen u uit voor de bijeenkomst.,We invite you to the meeting.
+oefentoetsen,practice tests,Maak eerst de oefentoetsen.,Do the practice tests first.
+omlaag,"down, downwards",De prijzen gaan dit jaar omlaag.,Prices are going down this year.
+ontvangen,to receive,Wij hebben uw brief ontvangen.,We have received your letter.
+ontvangt,receives,Jasper ontvangt een e-mail van zijn collega.,Jasper receives an email from his colleague.
+ooit,ever; once,Bent u ooit in Limburg geweest?,Have you ever been to Limburg?
+oorlog,war,De Tweede Wereldoorlog duurde vijf jaar.,The Second World War lasted five years.
+opleidingen,"courses of study, training",Zet alle opleidingen op uw cv.,Put all your courses of study on your CV.
+oppas,"babysitter, childminder",Wij zoeken een oppas voor de kinderen.,We are looking for a babysitter for the children.
+opruimen,"to tidy up, to clear away",Ik moet de woonkamer opruimen.,I have to tidy up the living room.
+opschrijven,to write down,Wilt u uw telefoonnummer opschrijven?,Would you write down your telephone number?
+overdag,during the day,Overdag ben ik op mijn werk.,During the day I am at work.
+overkant,other side,De apotheek is aan de overkant.,The pharmacy is on the other side.
+overslaan,to skip,U mag deze vraag overslaan.,You may skip this question.
+pakketjes,"parcels, packages",De postbode bezorgt veel pakketjes.,The postman delivers many parcels.
+pannenkoekenhuis,pancake restaurant,We eten bij het pannenkoekenhuis.,We are eating at the pancake restaurant.
+parkeergarage,"car park, parking garage",De auto staat in de parkeergarage.,The car is in the car park.
+parkeerplaatsen,parking spaces,Er zijn te weinig parkeerplaatsen in de wijk.,There are too few parking spaces in the district.
+pasen,Easter,Met Pasen zijn we vrij.,We are off at Easter.
+periode,period,In deze periode is het erg druk.,It is very busy in this period.
+persoonlijk,personal(ly),Ik geef het formulier persoonlijk af.,I hand in the form personally.
+plaat,"record; plate, board",Er hangt een plaat aan de muur.,There is a board on the wall.
+plaatst,"places, puts",Hij plaatst de dozen in de gang.,He places the boxes in the hallway.
+postadres,postal address,Wat is uw postadres?,What is your postal address?
+postkantoor,post office,Ik breng het pakketje naar het postkantoor.,I take the parcel to the post office.
+praktische,practical,In de gids staat praktische informatie.,The guide contains practical information.
+publiek,"public, audience",Het moet veilig zijn voor het publiek.,It must be safe for the public.
+raar,"strange, odd",Dat is een rare vraag.,That is a strange question.
+raden,to guess; to advise,Wij raden aan om extra kleding mee te nemen.,We advise you to bring extra clothes.
+recht,right; straight,Iedereen heeft recht op onderwijs.,Everyone has a right to education.
+rechten,rights; law,In de grondwet staan uw rechten.,Your rights are in the constitution.
+reclame,"advertising, adverts",Ik krijg veel reclame in de brievenbus.,I get a lot of adverts in the letterbox.
+redden,"to save, to rescue",Deze cursus kan helpen om levens te redden.,This course can help to save lives.
+regelmatig,regularly,Kom regelmatig kijken in onze winkel.,Come and look in our shop regularly.
+rek,"rack, shelf",De folders staan in het rek.,The leaflets are on the rack.
+reken,"calculate, count (I / imperative)",Ik reken erop dat je komt.,I am counting on you coming.
+resultaat,result,Wanneer krijg ik het resultaat van het examen?,When do I get the result of the exam?
+rijexamen,driving test,Ik doe volgende week mijn rijexamen.,I am taking my driving test next week.
+rijschool,driving school,Ik neem les bij een rijschool.,I take lessons at a driving school.
+rits,"zip, zipper",Het is een gele rugtas met een rits.,It is a yellow backpack with a zip.
+routes,routes,Er zijn twee routes naar het station.,There are two routes to the station.
+rugtas,"backpack, rucksack",Mijn rugtas staat nog op kantoor.,My backpack is still at the office.
+salon,salon,Ik ga naar de salon voor een knipbeurt.,I am going to the salon for a haircut.
+samenwerken,"to cooperate, to work together",In dit bedrijf moeten we goed samenwerken.,In this company we have to work together well.
+schema,"schedule, diagram",Het schema hangt in de kantine.,The schedule is in the canteen.
+schilder,painter,De schilder komt maandag.,The painter is coming on Monday.
+schildert,paints,Hij schildert de muren van de woonkamer.,He is painting the walls of the living room.
+schoollokaal,classroom,Het schoollokaal is groot en licht.,The classroom is big and light.
+schoonmaker,cleaner,Hij werkt als schoonmaker in een kantoor.,He works as a cleaner in an office.
+secretaresse,secretary,De secretaresse maakt de afspraak.,The secretary makes the appointment.
+slot,lock; end,Het slot van de deur is kapot.,The lock on the door is broken.
+snackbar,snack bar,We halen patat bij de snackbar.,We get chips at the snack bar.
+snijdt,cuts,"Als iemand zich snijdt, kunt u helpen.","If someone cuts themselves, you can help."
+solliciteer,apply (I apply / imperative),Ik solliciteer op deze vacature.,I am applying for this vacancy.
+sommigen,some (people),Sommigen leren 's avonds het beste.,Some people learn best in the evening.
+sparen,to save (money),Wij sparen voor een nieuwe auto.,We are saving for a new car.
+spelling,spelling,Let op de spelling van de woorden.,Pay attention to the spelling of the words.
+sportkleren,sports clothes,U moet thuis uw sportkleren aantrekken.,You have to put on your sports clothes at home.
+stage,"internship, work placement",Ik loop stage bij een bouwbedrijf.,I am doing an internship at a construction company.
+stages,internships,Zet ook uw stages op uw cv.,Also put your internships on your CV.
+startdatum,start date,Wat is de startdatum van de cursus?,What is the start date of the course?
+stellen,"to put, to pose (a question)",Mag ik een vraag stellen?,May I ask a question?
+stofzuigen,to vacuum,Ik moet de woonkamer stofzuigen.,I have to vacuum the living room.
+studieboek,textbook,Ik lees mijn studieboek in de trein.,I read my textbook on the train.
+superleuk,"really nice, great",Het was een superleuke dag.,It was a really nice day.
+talencursus,language course,Zij willen een talencursus volgen.,They want to take a language course.
+tankstation,petrol station,Ik tank bij het tankstation langs de snelweg.,I fill up at the petrol station along the motorway.
+telefoonwinkel,phone shop,Mijn telefoon is kapot; ik ga naar de telefoonwinkel.,My phone is broken; I am going to the phone shop.
+tennistoernooi,tennis tournament,We beginnen met een tennistoernooi.,We start with a tennis tournament.
+terugkomen,"to come back, to return",Wanneer kunt u terugkomen?,When can you come back?
+terugsturen,to send back,U moet het formulier terugsturen.,You have to send the form back.
+testen,to test,Wij controleren en testen alle spullen.,We check and test all the items.
+teveel,too much,Denk niet teveel aan andere dingen.,Do not think too much about other things.
+tevreden,"satisfied, content",Ik ben tevreden met mijn nieuwe baan.,I am satisfied with my new job.
+theorie,theory,"Eerst de theorie, daarna de praktijk.","First the theory, then the practice."
+tijdschriften,magazines,Wij verkopen boeken en tijdschriften.,We sell books and magazines.
+tulp,tulip,De tulp is een bekende Nederlandse bloem.,The tulip is a well-known Dutch flower.
+uitnodigen,to invite,Hij wil ze uitnodigen om mee te doen.,He wants to invite them to take part.
+uitslagen,results,De uitslagen van het examen komen in juni.,The exam results come in June.
+vangen,to catch,De kat probeert een vogel te vangen.,The cat tries to catch a bird.
+vaste,"fixed, permanent",Ik heb vaste werktijden.,I have fixed working hours.
+vechten,to fight,De kinderen mogen niet vechten.,The children are not allowed to fight.
+veranderingen,changes,Er zijn veranderingen in het rooster.,There are changes in the schedule.
+verdelen,"to divide, to share out",Wij moeten de taken eerlijk verdelen.,We have to divide the tasks fairly.
+verf,paint,Ik koop verf voor de slaapkamer.,I buy paint for the bedroom.
+verkoop,"sale, sales",Het geld van de verkoop gaat naar een goed doel.,The money from the sale goes to a good cause.
+versturen,to send,Ik moet de brief vandaag nog versturen.,I still have to send the letter today.
+vertalen,to translate,Kunt u dit woord voor mij vertalen?,Could you translate this word for me?
+vertrekken,"to leave, to depart",De bus gaat om acht uur vertrekken.,The bus is going to leave at eight o'clock.
+vertrekt,"leaves, departs",De trein vertrekt van spoor drie.,The train departs from platform three.
+vervelend,"annoying, unpleasant",Wat vervelend dat je ziek bent.,How unpleasant that you are ill.
+verzamel,collect (imperative),Verzamel- en transportservice.,Collection and transport service.
+vieren,to celebrate,Wij vieren de verjaardag van mijn dochter.,We are celebrating my daughter's birthday.
+vlag,flag,"De Nederlandse vlag is rood, wit en blauw.","The Dutch flag is red, white and blue."
+voetbalteam,football team,Mijn zoon zit in een voetbalteam.,My son is in a football team.
+voetbaltoernooi,football tournament,Na de pauze is er een voetbaltoernooi.,After the break there is a football tournament.
+volleybalwedstrijd,volleyball match,Voor de kinderen is er een volleybalwedstrijd.,For the children there is a volleyball match.
+volwassenen,adults,Wij verkopen boeken voor volwassenen en jeugd.,We sell books for adults and young people.
+voordeel,"advantage, benefit",Het voordeel is dat het dichtbij is.,The advantage is that it is nearby.
+voorjaarsvakantie,spring holiday,De voorjaarsvakantie is in februari.,The spring holiday is in February.
+vrachtwagen,"lorry, truck",Er staat een vrachtwagen voor de winkel.,There is a lorry in front of the shop.
+vrede,peace,Na de oorlog kwam er vrede.,After the war peace came.
+vreemde,strange; foreign,Het is een vreemde situatie.,It is a strange situation.
+vrijwilligers,volunteers,De medewerkers zijn allemaal vrijwilligers.,The staff are all volunteers.
+waarschijnlijk,probably,Ik kom waarschijnlijk iets later.,I will probably come a bit later.
+wachtkamer,waiting room,Ik zit in de wachtkamer van de huisarts.,I am sitting in the GP's waiting room.
+weegt,weighs,Hoeveel weegt uw bestelling?,How much does your order weigh?
+werden,"were, became (plural)",De straten werden afgesloten.,The streets were closed off.
+werkervaring,work experience,Bij werkervaring schrijft u het werk dat u gedaan heeft.,Under work experience you write the work you have done.
+werkgevers,employers,Werkgevers vragen vaak om een cv.,Employers often ask for a CV.
+werktijd,"working hours, working time","Wordt u onder werktijd ziek, meld dit dan meteen.","If you become ill during working hours, report it immediately."
+werkwoorden,verbs,We leren de werkwoorden in de les.,We learn the verbs in the lesson.
+wetten,laws,De wetten gelden voor iedereen.,The laws apply to everyone.
+woonplaats,place of residence,Vul uw woonplaats in op het formulier.,Fill in your place of residence on the form.
+wél,"indeed, do (emphatic)",U moet wél vertellen waarom u niet kunt werken.,You do have to say why you cannot work.
+zaken,"matters, business",In de gids staat een tekst over praktische zaken.,The guide contains a text about practical matters.
+zeer,very; sore,Deze cursus is zeer geschikt voor ouders.,This course is very suitable for parents.
+zelfs,even,Zelfs in het weekend is de winkel open.,Even at the weekend the shop is open.
+zolder,"attic, loft",De oude dozen staan op zolder.,The old boxes are in the attic.
+zonnige,sunny,Wij hopen op een zonnige sportdag!,We hope for a sunny sports day!
+zwanger,pregnant,Mijn collega is zwanger.,My colleague is pregnant.
+zwemkleding,swimwear,U hoeft geen zwemkleding mee te nemen.,You do not need to bring swimwear.
+acceptabel,acceptable,Het antwoord van de kandidaat is acceptabel.,The candidate's answer is acceptable.
+beoordeeld,"assessed, judged",Het examen wordt door twee docenten beoordeeld.,The exam is assessed by two teachers.
+beoordeling,"assessment, evaluation",De beoordeling krijgt u binnen twee weken.,You will receive the assessment within two weeks.
+bevatten,to contain,De antwoorden mogen enkele onduidelijkheden bevatten.,The answers may contain a few unclear points.
+bedrijfsarts,"company doctor, occupational physician",Na zes weken krijgt u een uitnodiging van de bedrijfsarts.,After six weeks you get an invitation from the company doctor.
+buurtbijeenkomst,neighbourhood meeting,Vanavond is er een buurtbijeenkomst.,There is a neighbourhood meeting tonight.
+uiterlijk,at the latest; appearance,U meldt zich uiterlijk om negen uur ziek.,You report sick at nine o'clock at the latest.
+belastingdienst,tax office,Ik krijg een brief van de Belastingdienst.,I receive a letter from the tax office.
+ingesproken,recorded (a message),Zij heeft een bericht ingesproken.,She has left a recorded message.
+leidinggevende,"manager, supervisor",U meldt zich ziek bij uw leidinggevende.,You report sick to your manager.
+uitzendbureau,temp agency,Ik heb werk gevonden via een uitzendbureau.,I found work through a temp agency.
+ziekmelding,"sick report, calling in sick",Wat vertel ik tijdens een ziekmelding?,What do I say when I call in sick?
+geografie,geography,We leren over de geografie van Nederland.,We learn about the geography of the Netherlands.
+gezondheidszorg,health care,De gezondheidszorg in Nederland is goed.,Health care in the Netherlands is good.
+instanties,"authorities, agencies",U krijgt brieven van verschillende instanties.,You receive letters from various authorities.
+normen,"norms, standards",We praten over normen en waarden.,We talk about norms and values.
+opvoeding,"upbringing, parenting",De cursus gaat over de opvoeding van kinderen.,The course is about raising children.
+praktijklessen,practical lessons,De praktijklessen zijn op donderdag.,The practical lessons are on Thursday.
+secretariaat,"secretariat, office",Het secretariaat is bereikbaar tot twaalf uur.,The office can be reached until twelve o'clock.
+telefonisch,by telephone,U meldt zich telefonisch ziek.,You report sick by telephone.
+waarden,values,Normen en waarden zijn belangrijk.,Norms and values are important.
+alarmnummer,emergency number,Het alarmnummer in Nederland is 112.,The emergency number in the Netherlands is 112.
+begane,ground (in 'begane grond'),Bezorging op de begane grond kost minder.,Delivery on the ground floor costs less.
+buurtcomité,neighbourhood committee,Het buurtcomité organiseert een feest.,The neighbourhood committee is organising a party.
+curriculum,curriculum,Uw curriculum vitae stuurt u op.,You send in your curriculum vitae.
+digid,DigiD (Dutch online ID),Met uw DigiD kunt u inloggen bij de overheid.,With your DigiD you can log in to government sites.
+einddatum,end date,Wat is de einddatum van uw contract?,What is the end date of your contract?
+kringloopcentrum,"second-hand centre, thrift store",Breng uw oude spullen naar het kringloopcentrum.,Take your old things to the second-hand centre.
+medecursist,fellow student,Ik oefen met een medecursist.,I practise with a fellow student.
+overig,"other, remaining",Bij 'overig' zet u uw rijbewijs.,Under 'other' you put your driving licence.
+portfolio,portfolio,U moet uw portfolio inleveren.,You have to hand in your portfolio.
+spreektoets,speaking test,De spreektoets duurt dertig minuten.,The speaking test takes thirty minutes.
+transportservice,transport service,U kunt gebruikmaken van onze transportservice.,You can make use of our transport service.
+vakantieperiode,holiday period,Gaat u buiten de vakantieperiode op vakantie?,Are you going on holiday outside the holiday period?
+verbouwing,renovation,De kleedkamers zijn dicht door de verbouwing.,The changing rooms are closed due to renovation.
+verkiezingen,elections,In maart zijn er verkiezingen.,There are elections in March.
+vitae,vitae (in 'curriculum vitae'),Stuur uw curriculum vitae mee.,Send your curriculum vitae with it.
+wereldoorlog,world war,De Tweede Wereldoorlog eindigde in 1945.,The Second World War ended in 1945.
+werkrooster,work schedule,Het nieuwe werkrooster hangt in de kantine.,The new work schedule is in the canteen.
+woordnet,"word web, vocabulary net",Maak een woordnet met nieuwe woorden.,Make a word web with new words.
+aannemen,to accept; to assume; to hire,Wij gaan twee nieuwe medewerkers aannemen.,We are going to hire two new employees.
+bereikbaar,"reachable, available",Het secretariaat is bereikbaar tot twaalf uur.,The office is available until twelve o'clock.
+bloedonderzoek,blood test,De dokter wil een bloedonderzoek doen.,The doctor wants to do a blood test.
+buurtbewoners,local residents,"Beste buurtbewoners, op 9 juli is de sportdag.","Dear residents, the sports day is on 9 July."
+buurtvergadering,neighbourhood meeting,De buurtvergadering is in het buurthuis.,The neighbourhood meeting is in the community centre.
+doorverbinden,to put through (a call),Ik zal u doorverbinden met de afdeling.,I will put you through to the department.
+ehbo-cursussen,first-aid courses,U kunt bij ons EHBO-cursussen volgen.,You can take first-aid courses with us.
+eisen,requirements; to demand,Wat zijn de eisen voor deze baan?,What are the requirements for this job?
+geldig,valid,Deze prijzen zijn geldig voor één adres.,These prices are valid for one address.
+herkansing,"resit, retake",Ik heb een herkansing voor het examen.,I have a resit for the exam.
+ingeschreven,"registered, enrolled",Ik ben ingeschreven bij de gemeente.,I am registered with the municipality.
+jaarlijkse,annual,De jaarlijkse hardloopwedstrijd is in juni.,The annual running race is in June.
+kinderboerderij,"petting zoo, children's farm",Het geld gaat naar de kinderboerderij.,The money goes to the children's farm.
+kleedkamers,changing rooms,De kleedkamers worden verbouwd.,The changing rooms are being renovated.
+knipbeurt,haircut,Een knipbeurt kost twintig euro.,A haircut costs twenty euros.
+medische,medical,U hoeft geen medische gegevens te geven.,You do not have to give medical details.
+meubelstuk,piece of furniture,Dit meubelstuk is te groot voor de kamer.,This piece of furniture is too big for the room.
+nachtdienst,night shift,Deze week heb ik nachtdienst.,This week I am on night shift.
+noodgevallen,emergencies,Bel dit nummer alleen in noodgevallen.,Call this number only in emergencies.
+noodnummer,emergency number,U kunt bellen met het noodnummer.,You can call the emergency number.
+opstappen,to get on (a bus); to resign,Waar moet ik opstappen?,Where do I have to get on?
+reiskosten,travel expenses,Mijn werkgever betaalt de reiskosten.,My employer pays the travel expenses.
+schoonmaakwerk,cleaning work,Ik doe schoonmaakwerk in een kantoor.,I do cleaning work in an office.
+sociale,social,Ik werk bij de sociale dienst.,I work at the social services.
+sollicitatiebrief,application letter,Ik schrijf een sollicitatiebrief.,I am writing an application letter.
+solliciteert,applies (for a job),Zij solliciteert naar een nieuwe baan.,She is applying for a new job.
+spreekuur,"consultation hour, surgery",Het spreekuur is van negen tot elf.,The surgery is from nine to eleven.
+tandartspraktijk,dental practice,Welkom bij de tandartspraktijk Oud Zwaluwen.,Welcome to the Oud Zwaluwen dental practice.
+terecht,rightly; can go,U kunt vandaag nog bij ons terecht.,You can still come to us today.
+themagroepen,theme groups,De cursisten werken in themagroepen.,The students work in theme groups.
+theorieboek,theory book,Ik leer uit het theorieboek voor mijn rijexamen.,I study from the theory book for my driving test.
+theorielessen,theory lessons,De theorielessen zijn op maandag.,The theory lessons are on Monday.
+thuisbezorgen,to deliver at home,Wilt u dat wij de meubels thuisbezorgen?,Would you like us to deliver the furniture to your home?
+tijdstip,"time, moment",Meld u ziek voor het tijdstip dat uw werkdag begint.,Report sick before the time your working day starts.
+toestemming,permission,U hebt toestemming nodig van uw werkgever.,You need permission from your employer.
+vacature,job vacancy,Ik zie een vacature voor een verkoper.,I see a vacancy for a salesperson.
+vakantieregels,holiday rules,Lees de vakantieregels in de cursusgids.,Read the holiday rules in the course guide.
+verplaatst,"moved, relocated",De les is verplaatst naar donderdag.,The lesson has been moved to Thursday.
+waarmee,with which,Dit is het formulier waarmee u zich aanmeldt.,This is the form with which you register.
+weekblad,weekly magazine,Ik lees elke week een weekblad.,I read a weekly magazine every week.
+zorgpas,health insurance card,Neem uw zorgpas mee naar de dokter.,Bring your health insurance card to the doctor.
+aangevraagd,"applied for, requested",Ik heb huurtoeslag aangevraagd.,I have applied for housing benefit.
+aanwijzen,"to point out, to indicate",Wijs op de kaart aan waar u woont.,Point out on the map where you live.
+abonnementen,"subscriptions, passes",Wij verkopen abonnementen voor de bus.,We sell bus passes.
+afgesloten,closed off; concluded,De straat is afgesloten voor verkeer.,The street is closed off to traffic.
+afleveren,to deliver,Wij kunnen de spullen bij u thuis afleveren.,We can deliver the items to your home.
+afmelden,"to cancel, to unsubscribe","Als u niet kunt komen, moet u zich afmelden.","If you cannot come, you have to cancel."
+afscheid,"farewell, goodbye",We nemen afscheid van onze collega.,We are saying goodbye to our colleague.
+afsluit,"closes off, concludes",De gemeente sluit de straat af.,The municipality closes off the street.
+alsnog,"still, after all",Ik kan alsnog meedoen aan de cursus.,I can still take part in the course after all.
+automonteur,car mechanic,Mijn broer werkt als automonteur.,My brother works as a car mechanic.
+avonddienst,evening shift,Deze week heb ik avonddienst.,This week I am on the evening shift.
+bankmedewerkers,bank employees,De bankmedewerkers helpen bij het openen van een rekening.,The bank employees help with opening an account.
+bankrekening,bank account,Ik open een bankrekening in Nederland.,I am opening a bank account in the Netherlands.
+basisabonnement,basic subscription,Het basisabonnement kost tien euro per maand.,The basic subscription costs ten euros a month.
+bedoeld,"meant, intended",Deze cursus is bedoeld voor beginners.,This course is intended for beginners.
+belastinggeld,tax money,Met belastinggeld betaalt de overheid de wegen.,With tax money the government pays for the roads.
+belastingregels,tax rules,De belastingregels zijn dit jaar veranderd.,The tax rules have changed this year.
+bereidt,prepares,Hij bereidt het eten voor het feest.,He prepares the food for the party.
+beschermen,to protect,De dijken beschermen Nederland tegen water.,The dykes protect the Netherlands against water.
+bescherming,protection,De grondwet geeft bescherming aan iedereen.,The constitution gives protection to everyone.
+beschikbaar,available,Er zijn nog twee plaatsen beschikbaar.,There are still two places available.
+beschuit,rusk,Bij de geboorte eten we beschuit met muisjes.,At a birth we eat rusk with aniseed sprinkles.
+beslist,decides; definitely,U moet beslist op tijd komen.,You definitely have to come on time.
+bestuur,"board, management",Het bestuur vergadert elke maand.,The board meets every month.
+bevrijdingsdag,Liberation Day,Op 5 mei is het Bevrijdingsdag.,Liberation Day is on 5 May.
+bloedneus,nosebleed,U leert wat u moet doen bij een bloedneus.,You learn what to do in case of a nosebleed.
+blokkeren,to block,Ik moet mijn pinpas laten blokkeren.,I have to have my debit card blocked.
+brandwond,burn (injury),U leert wat u doet bij een brandwond.,You learn what to do with a burn.
+brouwer,brewer,De brouwer maakt bier.,The brewer makes beer.
+bruidspaar,"bride and groom, married couple",Wij geven een cadeau aan het bruidspaar.,We are giving a present to the bride and groom.
+burgemeester,mayor,De burgemeester opent de nieuwe school.,The mayor opens the new school.
+busdienst,bus service,De busdienst rijdt ook in het weekend.,The bus service also runs at the weekend.
+buurjongen,neighbour's boy,Mijn buurjongen valt en breekt zijn arm.,My neighbour's boy falls and breaks his arm.
+buurtbewoner,local resident,Elke buurtbewoner krijgt een uitnodiging.,Every local resident receives an invitation.
+buurtvereniging,neighbourhood association,Halima krijgt een brief van de buurtvereniging.,Halima receives a letter from the neighbourhood association.
+christelijk,Christian,Dit is een christelijke feestdag.,This is a Christian holiday.
+computerkennis,computer skills,Zet uw computerkennis op uw cv.,Put your computer skills on your CV.
+cursusgids,course guide,In de cursusgids staan de vakanties.,The holidays are in the course guide.
+deelnemers,participants,De barbecue was alleen voor de deelnemers.,The barbecue was only for the participants.
+deeltijd,part-time,Ik werk in deeltijd.,I work part-time.
+deeltijdbaan,part-time job,Zij heeft een deeltijdbaan in een winkel.,She has a part-time job in a shop.
+deeltijdwerk,part-time work,Ik zoek deeltijdwerk naast mijn studie.,I am looking for part-time work alongside my studies.
+dijken,"dykes, dikes",De dijken houden het water tegen.,The dykes hold back the water.
+doordeweeks,on weekdays,Doordeweeks werk ik van negen tot vijf.,On weekdays I work from nine to five.
+doordeweekse,weekday (adjective),Op doordeweekse dagen is het druk.,On weekdays it is busy.
+dorpsbewoners,village residents,Waarom krijgen de dorpsbewoners deze brief?,Why do the village residents get this letter?
+durf,dare (I dare); courage,Ik durf niet in het Nederlands te bellen.,I do not dare to make calls in Dutch.
+ehbo-cursus,first-aid course,Zij wil een EHBO-cursus volgen.,She wants to take a first-aid course.
+enzovoorts,"et cetera, and so on","Wij verkopen meubels, speelgoed, enzovoorts.","We sell furniture, toys, and so on."
+eren,to honour,Wij eren de mensen die gevochten hebben.,We honour the people who fought.
+excuses,apologies,Wij bieden u onze excuses aan.,We offer you our apologies.
+fietspaden,cycle paths,In Nederland zijn overal fietspaden.,In the Netherlands there are cycle paths everywhere.
+gasmeter,gas meter,Ik lees elke maand de gasmeter af.,I read the gas meter every month.
+geachte,dear (formal letter opening),"Geachte mevrouw Jansen, hierbij stuur ik mijn cv.","Dear Mrs Jansen, herewith I send my CV."
+geboortedatum,date of birth,Vul uw geboortedatum in op het formulier.,Fill in your date of birth on the form.
+gebruikmaken,to make use of,U kunt gebruikmaken van onze transportservice.,You can make use of our transport service.
+gedood,killed,In de oorlog werden veel mensen gedood.,Many people were killed in the war.
+geldbedrag,sum of money,Het geldbedrag staat op de rekening.,The sum of money is on the invoice.
+gepland,"planned, scheduled",De verbouwing is gepland voor juni.,The renovation is scheduled for June.
+geplant,planted,We hebben bomen geplant in het park.,We have planted trees in the park.
+gereedschap,"tools, equipment",Voor dit werk heb je gereedschap nodig.,For this work you need tools.
+gereedschappen,tools,De meubelmakers gebruiken speciale gereedschappen.,The furniture makers use special tools.
+gescheiden,divorced; separated,Mijn zus is vorig jaar gescheiden.,My sister got divorced last year.
+groothandel,wholesaler,Hij koopt de spullen bij een groothandel.,He buys the goods from a wholesaler.
+harte,heart (in phrases),Van harte gefeliciteerd met uw diploma!,Congratulations on your diploma!
+hartelijke,"warm, cordial","Met hartelijke groeten, Jan.","With warm regards, Jan."
+huisadres,home address,Vul hier uw huisadres in.,Fill in your home address here.
+huishouden,household; housekeeping,Ik doe het huishouden in het weekend.,I do the housework at the weekend.
+huurcontract,"rental contract, lease",Ik heb het huurcontract getekend.,I have signed the rental contract.
+huurhuis,rented house,Wij wonen in een huurhuis.,We live in a rented house.
+huurprijs,rent (price),De huurprijs gaat elk jaar omhoog.,The rent goes up every year.
+huurwoning,rented home,Wij zoeken een huurwoning in deze wijk.,We are looking for a rented home in this district.
+inburgeren,to integrate (civic integration),Ik moet inburgeren in Nederland.,I have to do civic integration in the Netherlands.
+informatiebalie,information desk,Ga naar de informatiebalie in onze winkel.,Go to the information desk in our shop.
+informatieve,informative,Dit is een informatieve folder.,This is an informative leaflet.
+inhalen,to catch up; to overtake,Ik moet de gemiste lessen inhalen.,I have to catch up on the missed lessons.
+islamitisch,Islamic,Dit is een islamitische feestdag.,This is an Islamic holiday.
+joodse,Jewish,In de oorlog werden Joodse mensen vervolgd.,During the war Jewish people were persecuted.
+kampen,camps; to struggle,In de oorlog waren er kampen.,During the war there were camps.
+kanovaren,to go canoeing,Op vrijdag gaan we met het bedrijf kanovaren.,On Friday we are going canoeing with the company.
+kapotgaat,breaks down,"Als de machine kapotgaat, bel je de monteur.","If the machine breaks down, you call the mechanic."
+kapsel,hairstyle,Zij wil een nieuw kapsel.,She wants a new hairstyle.
+kinderzaal,children's ward/room,De kinderzaal is op de eerste verdieping.,The children's ward is on the first floor.
+koksopleiding,chef training,Mijn zoon volgt een koksopleiding.,My son is doing chef training.
+kolonie,colony,Suriname was vroeger een Nederlandse kolonie.,Suriname used to be a Dutch colony.
+koningsdag,King's Day,Op Koningsdag is heel Nederland oranje.,On King's Day the whole of the Netherlands is orange.
+koopavond,late-night shopping evening,Op donderdag is er koopavond.,Thursday is late-night shopping evening.
+kracht,"strength, force",Je hebt veel kracht nodig voor dit werk.,You need a lot of strength for this work.
+langslopen,"to walk past, to drop by",Ik ga even bij de buren langslopen.,I am going to drop by the neighbours.
+levertijd,delivery time,De levertijd is ten minste twee weken.,The delivery time is at least two weeks.
+loket,"counter, desk (service)",U meldt zich bij het loket.,You report to the counter.
+makelaar,estate agent,De makelaar laat ons het huis zien.,The estate agent shows us the house.
+medecursisten,fellow students,Ik oefen Nederlands met mijn medecursisten.,I practise Dutch with my fellow students.
+medestudent,fellow student,Een medestudent helpt mij met het huiswerk.,A fellow student helps me with the homework.
+medewerking,cooperation,Wij danken u voor uw medewerking.,We thank you for your cooperation.
+mediatheek,media library,In de mediatheek kun je films lenen.,In the media library you can borrow films.
+meepraten,to join in a conversation,Ik wil graag meepraten in de les.,I would like to join in the conversation in class.
+mengt,mixes,Hij mengt de groenten met de rijst.,He mixes the vegetables with the rice.
+meubelmakers,furniture makers,De meubelmakers werken met hout.,The furniture makers work with wood.
+middagdienst,afternoon shift,Ik werk vandaag de middagdienst.,I am working the afternoon shift today.
+minister-president,prime minister,De minister-president woont in Den Haag.,The prime minister lives in The Hague.
+moeite,"effort, trouble",Het kost mij veel moeite om te bellen.,It takes me a lot of effort to make calls.
+muisjes,aniseed sprinkles,Bij de geboorte eten we beschuit met muisjes.,At a birth we eat rusk with aniseed sprinkles.
+nachtdiensten,night shifts,Ik werk deze maand veel nachtdiensten.,I am working many night shifts this month.
+namens,on behalf of,"Namens de feestcommissie, Henk de Groot.","On behalf of the party committee, Henk de Groot."
+naties,nations,De Verenigde Naties zijn in 1945 opgericht.,The United Nations were founded in 1945.
+nationaal,national,Het Wilhelmus is het nationaal volkslied.,The Wilhelmus is the national anthem.
+nationaliteit,nationality,Wat is uw nationaliteit?,What is your nationality?
+natuurproject,nature project,De school doet mee aan een natuurproject.,The school takes part in a nature project.
+neerzetten,"to put down, to set down",Waar kan ik de dozen neerzetten?,Where can I put the boxes down?
+nogmaals,once again,Nogmaals bedankt voor uw hulp.,Thanks once again for your help.
+noodgeval,emergency,In een noodgeval belt u 112.,In an emergency you call 112.
+ns-bus,NS bus (rail replacement bus),Er rijdt een NS-bus in plaats van de trein.,An NS bus is running instead of the train.
+ochtenddienst,morning shift,Morgen heb ik ochtenddienst.,Tomorrow I am on the morning shift.
+officieel,official,Dit is een officieel document.,This is an official document.
+oliebollen,Dutch doughnuts,Met oud en nieuw eten we oliebollen.,At New Year we eat Dutch doughnuts.
+omgaan,"to deal with, to handle",Je moet goed met klanten omgaan.,You have to deal with customers well.
+ontvangst,"reception, receipt",Na ontvangst van de betaling sturen wij de spullen.,After receipt of payment we send the goods.
+ontwerpen,to design; designs,Zij wil meubels leren ontwerpen.,She wants to learn to design furniture.
+opgericht,"founded, set up",Daarom hebben we een feestcommissie opgericht.,That is why we have set up a party committee.
+opleidingsgids,course prospectus,In een opleidingsgids staan tips om te leren.,A course prospectus contains tips for studying.
+oproepen,"to call up, to summon",Hij wil ze oproepen om te komen kijken.,He wants to call on them to come and watch.
+optreden,performance; to perform,Er is een optreden op het buurtfeest.,There is a performance at the neighbourhood party.
+organisator,organiser,Piet Jansen is de organisator van de wedstrijd.,Piet Jansen is the organiser of the race.
+overlast,"nuisance, inconvenience",Wij bieden onze excuses aan voor de overlast.,We apologise for the inconvenience.
+overleg,"consultation, discussion",Na overleg met mijn baas neem ik vrij.,After consultation with my boss I am taking time off.
+overmaken,to transfer (money),U kunt het bedrag overmaken naar onze rekening.,You can transfer the amount to our account.
+overnemen,to take over,Moeten uw collega's werk van u overnemen?,Do your colleagues have to take over your work?
+overzicht,overview,In de folder staat een overzicht van de prijzen.,The leaflet contains an overview of the prices.
+parlement,parliament,Het parlement zit in Den Haag.,Parliament is in The Hague.
+pashokjes,fitting rooms,De pashokjes zijn achter in de winkel.,The fitting rooms are at the back of the shop.
+paspoortcontrole,passport control,Op Schiphol is er paspoortcontrole.,There is passport control at Schiphol.
+passief,passive,Mijn kennis van het Duits is passief.,My knowledge of German is passive.
+pepernoten,spiced biscuits (Sinterklaas),Met Sinterklaas eten we pepernoten.,At Sinterklaas we eat spiced biscuits.
+plichten,"duties, obligations",U hebt rechten en plichten in Nederland.,You have rights and duties in the Netherlands.
+portier,"porter, doorman",Breng de tas naar de portier.,Take the bag to the porter.
+postbedrijf,postal company,Hij werkt bij een postbedrijf.,He works at a postal company.
+postvakje,"pigeonhole, mail slot",De brief ligt in uw postvakje.,The letter is in your pigeonhole.
+prikken,to prick; to have a blood test,De verpleegkundige komt bloed prikken.,The nurse is coming to take blood.
+privacy,privacy,U hebt recht op uw privacy.,You have a right to your privacy.
+religie,religion,In Nederland is er vrijheid van religie.,In the Netherlands there is freedom of religion.
+risico,risk,Er is een klein risico op vertraging.,There is a small risk of delay.
+rondom,around,Hij geeft informatie over alles rondom de wedstrijd.,He gives information about everything around the race.
+salarissen,salaries,De salarissen gaan dit jaar omhoog.,Salaries are going up this year.
+schoof,"slid, pushed (past tense)",Hij schoof de stoel naar de tafel.,He pushed the chair to the table.
+schoonhouden,to keep clean,Wij moeten het lokaal schoonhouden.,We have to keep the classroom clean.
+schoonmaakbedrijf,cleaning company,Ik werk bij een schoonmaakbedrijf.,I work at a cleaning company.
+schoonmaakster,cleaner (female),De schoonmaakster komt elke dinsdag.,The cleaner comes every Tuesday.
+schriftelijk,in writing,Dit moet u schriftelijk doen.,You have to do this in writing.
+schrikt,"gets a fright, is startled",Zij schrikt van het harde geluid.,She gets a fright from the loud noise.
+schuift,"slides, pushes",Hij schuift de kaartjes op tafel.,He slides the cards on the table.
+scooterrijbewijs,scooter licence,Anna heeft haar scooterrijbewijs gehaald.,Anna got her scooter licence.
+sinterklaas,Saint Nicholas (Dutch feast),Met Sinterklaas krijgen de kinderen cadeautjes.,At Sinterklaas the children get presents.
+slingers,"streamers, garlands",Wij hangen slingers op voor het feest.,We hang up streamers for the party.
+staartjes,"pigtails, ponytails",Het meisje draagt staartjes.,The girl is wearing pigtails.
+startdata,start dates,De startdata staan op de website.,The start dates are on the website.
+statiegeld,deposit (on bottles),U krijgt statiegeld terug voor de flessen.,You get a deposit back for the bottles.
+straf,punishment,Er staat een straf op te hard rijden.,There is a punishment for speeding.
+talenkennis,language skills,Zet uw talenkennis op uw cv.,Put your language skills on your CV.
+tarieven,"rates, tariffs",De tarieven staan in de folder.,The rates are in the leaflet.
+ten,"at, to (in fixed phrases)",De levertijd is ten minste twee weken.,The delivery time is at least two weeks.
+tevoren,"beforehand, in advance",Meld dit twee weken tevoren.,Report this two weeks in advance.
+toiletspullen,toiletries,Vergeet uw toiletspullen niet.,Do not forget your toiletries.
+toilettasje,toiletry bag,Mijn toilettasje zit in de koffer.,My toiletry bag is in the suitcase.
+tolk,interpreter,Bij de dokter is er soms een tolk.,At the doctor there is sometimes an interpreter.
+trouwens,by the way,"Trouwens, de winkel is morgen gesloten.","By the way, the shop is closed tomorrow."
+uitziet,looks (appearance),Ik weet niet hoe de nieuwe winkel eruitziet.,I do not know what the new shop looks like.
+vakantierooster,holiday schedule,Het vakantierooster hangt in de kantine.,The holiday schedule is in the canteen.
+vakbond,trade union,Ik ben lid van een vakbond.,I am a member of a trade union.
+verbaasd,"surprised, astonished",Ik was verbaasd over het goede nieuws.,I was surprised by the good news.
+verbouwd,renovated,De kleedkamers worden verbouwd.,The changing rooms are being renovated.
+verenigde,united,De Verenigde Naties zijn in 1945 opgericht.,The United Nations were founded in 1945.
+verlichting,lighting,De verlichting in de gang is kapot.,The lighting in the hallway is broken.
+verpleeghuis,nursing home,Mijn oma woont in een verpleeghuis.,My grandmother lives in a nursing home.
+vervangt,replaces,Een collega vervangt mij als ik ziek ben.,A colleague replaces me when I am ill.
+verzorgers,"carers, guardians",Deze cursus is geschikt voor ouders en verzorgers.,This course is suitable for parents and carers.
+visum,visa,Ik heb een visum nodig voor deze reis.,I need a visa for this trip.
+voicemailbericht,voicemail message,Hij laat een voicemailbericht achter.,He leaves a voicemail message.
+voldoende,sufficient; a pass,Ik heb een voldoende voor het examen.,I got a pass mark for the exam.
+volgordes,"orders, sequences",Er zijn twee mogelijke volgordes.,There are two possible orders.
+volkslied,national anthem,Het Wilhelmus is het Nederlandse volkslied.,The Wilhelmus is the Dutch national anthem.
+vrijwillig,"voluntary, voluntarily",Zij heeft vrijwillig klusjes gedaan.,She did jobs voluntarily.
+vrijwilligerswerk,volunteer work,Schrijf ook uw vrijwilligerswerk op uw cv.,Also write your volunteer work on your CV.
+waarbij,"whereby, in which",Dit is een cursus waarbij u veel oefent.,This is a course in which you practise a lot.
+waarderen,to appreciate,Wij waarderen uw hulp erg.,We really appreciate your help.
+waarin,in which,Dit is het gebouw waarin ik werk.,This is the building in which I work.
+waarover,about which,De tekst waarover we praten is moeilijk.,The text we are talking about is difficult.
+weekendabonnement,weekend pass,Met een weekendabonnement reist u goedkoper.,With a weekend pass you travel more cheaply.
+wegslepen,to tow away,De politie zal de auto's wegslepen.,The police will tow the cars away.
+welkomstdrankje,welcome drink,Bij aankomst krijgt u een welkomstdrankje.,On arrival you get a welcome drink.
+winkeleigenaar,shop owner,De winkeleigenaar opent de deur om negen uur.,The shop owner opens the door at nine o'clock.
+winkeltijden,shop opening hours,De winkeltijden staan op de deur.,The shop opening hours are on the door.
+zorgverzekering,health insurance,In Nederland is een zorgverzekering verplicht.,In the Netherlands health insurance is compulsory.
+adequaatheid,"adequacy, appropriateness",De adequaatheid van het antwoord wordt beoordeeld.,The adequacy of the answer is assessed.
+beoordelingsmodel,marking scheme,De docent gebruikt een beoordelingsmodel.,The teacher uses a marking scheme.
+onduidelijkheden,"unclear points, ambiguities",In de brief staan een paar onduidelijkheden.,There are a few unclear points in the letter.
+uiting,"utterance, expression",De uiting van de kandidaat is goed te begrijpen.,The candidate's utterance is easy to understand.
+kinderopvangtoeslag,childcare allowance,Wij vragen kinderopvangtoeslag aan.,We are applying for childcare allowance.
+kiesrecht,"right to vote, suffrage",In Nederland hebben vrouwen sinds 1919 kiesrecht.,In the Netherlands women have had the vote since 1919.
+omgangsvormen,"manners, social conventions",In Nederland zijn de omgangsvormen vrij informeel.,In the Netherlands manners are fairly informal.
+rechtsstaat,"constitutional state, rule of law",Nederland is een democratische rechtsstaat.,The Netherlands is a democratic constitutional state.
+spoedbehandeling,emergency treatment,Voor een spoedbehandeling belt u de assistente.,For emergency treatment you call the assistant.
+staatsinrichting,system of government,We leren over de staatsinrichting van Nederland.,We learn about the Dutch system of government.
+koophandel,commerce (Kamer van Koophandel),Ik schrijf mijn bedrijf in bij de Kamer van Koophandel.,I register my company with the Chamber of Commerce.
+schuifmethode,sliding method,Bij de schuifmethode schuift u de kaartjes.,With the sliding method you slide the cards.
+huisartsenpost,out-of-hours GP service,In het weekend belt u de huisartsenpost.,At the weekend you call the out-of-hours GP service.
+identiteitsbewijs,identity document,Neem uw identiteitsbewijs mee.,Bring your identity document.
+kinderbijslag,child benefit,Ouders krijgen kinderbijslag van de SVB.,Parents receive child benefit from the SVB.
+reanimeren,to resuscitate,In deze cursus leert u reanimeren.,In this course you learn to resuscitate.
+spoedafspraak,emergency appointment,U kunt een spoedafspraak maken met de assistente.,You can make an emergency appointment with the assistant.
+woningcorporatie,housing association,De woningcorporatie verhuurt deze woningen.,The housing association rents out these homes.
+aansprakelijk,"liable, responsible",De werkgever is aansprakelijk voor de schade.,The employer is liable for the damage.
+ademstilstand,respiratory arrest,U leert helpen bij een ademstilstand.,You learn to help with respiratory arrest.
+arbeidsmarkt,labour market,Op de arbeidsmarkt is veel vraag naar techniek.,There is a lot of demand for technology on the labour market.
+arbeidsongeschiktheidsverzekering,disability insurance,Zelfstandigen sluiten vaak een arbeidsongeschiktheidsverzekering af.,Self-employed people often take out disability insurance.
+belangstellenden,interested people,Belangstellenden zijn welkom op de open dag.,Interested people are welcome at the open day.
+belastingaangifte,tax return,Ik doe elk jaar belastingaangifte.,I file a tax return every year.
+brutosalaris,gross salary,Mijn brutosalaris staat op de loonstrook.,My gross salary is on the payslip.
+bsn-nummer,citizen service number,U hebt een BSN-nummer nodig om te werken.,You need a citizen service number in order to work.
+consultatiebureau,child health clinic,Met de baby ga ik naar het consultatiebureau.,I take the baby to the child health clinic.
+daaromheen,around it,Het plein en de straten daaromheen zijn afgesloten.,The square and the streets around it are closed.
+deltawerken,Delta Works,De Deltawerken beschermen Nederland tegen het water.,The Delta Works protect the Netherlands from the water.
+energiecontract,energy contract,Ik heb een nieuw energiecontract afgesloten.,I have taken out a new energy contract.
+gasgebruik,gas consumption,Mijn gasgebruik is dit jaar lager.,My gas consumption is lower this year.
+gemeenteraadsverkiezingen,municipal elections,In maart zijn er gemeenteraadsverkiezingen.,There are municipal elections in March.
+geïnformeerd,informed,Alle bewoners zijn geïnformeerd.,All residents have been informed.
+grondwet,constitution,In de grondwet staan de rechten van iedereen.,Everyone's rights are in the constitution.
+hartstilstand,cardiac arrest,U leert mensen met een hartstilstand te helpen.,You learn to help people with cardiac arrest.
+holocaust,Holocaust,In de les leren we over de Holocaust.,In the lesson we learn about the Holocaust.
+huurtoeslag,housing benefit,Ik vraag huurtoeslag aan bij de Belastingdienst.,I apply for housing benefit at the tax office.
+juridisch,legal,Ik heb juridisch advies nodig.,I need legal advice.
+kaartjesmethode,card method,Bij de kaartjesmethode legt u de kaartjes neer.,With the card method you lay down the cards.
+legitimatiebewijs,"proof of identity, ID",Neem een legitimatiebewijs mee.,Bring proof of identity with you.
+nul-urencontract,zero-hours contract,Ik werk met een nul-urencontract.,I work on a zero-hours contract.
+omroepbericht,announcement (public address),Luister naar het omroepbericht op het station.,Listen to the announcement at the station.
+participatie,participation,Participatie in de samenleving is belangrijk.,Participation in society is important.
+personeelsuitje,staff outing,Wat moet Sabrina meenemen naar het personeelsuitje?,What does Sabrina have to bring to the staff outing?
+personeelsvereniging,staff association,De personeelsvereniging organiseert het feest.,The staff association organises the party.
+privéproblemen,personal problems,"Als u privéproblemen hebt, hoeft u daar niets over te vertellen.","If you have personal problems, you do not have to say anything about them."
+privéredenen,personal reasons,Ik kan niet komen om privéredenen.,I cannot come for personal reasons.
+reanimatie,resuscitation,U krijgt de gids 'Reanimatie' mee naar huis.,You take the guide 'Resuscitation' home with you.
+samenlevingscontract,cohabitation agreement,Wij hebben een samenlevingscontract getekend.,We have signed a cohabitation agreement.
+spoedeisende,emergency (adjective),Ga naar de spoedeisende hulp in het ziekenhuis.,Go to the emergency department at the hospital.
+storingsnummer,fault reporting number,Bel het storingsnummer als het gas uitvalt.,Call the fault number if the gas fails.
+verzekeringsbank,social insurance bank,De Sociale Verzekeringsbank betaalt de kinderbijslag.,The Social Insurance Bank pays the child benefit.
+verzekeringspapieren,insurance documents,Neem uw verzekeringspapieren mee.,Bring your insurance documents.
+vmbo-diploma,VMBO diploma (pre-vocational),Met een vmbo-diploma kun je naar het mbo.,With a VMBO diploma you can go to vocational college.
+voortgezet,continued (secondary education),Mijn zoon zit op het voortgezet onderwijs.,My son is in secondary education.
+werkgelegenheid,employment,Er is veel werkgelegenheid in de techniek.,There is a lot of employment in technology.
+woningbouwvereniging,housing association,De woningbouwvereniging verhuurt deze flats.,The housing association rents out these flats.
+woningzoekende,"house hunter, home seeker",Als woningzoekende moet u zich inschrijven.,As a home seeker you have to register.
+ww-uitkeringen,unemployment benefits,Het UWV betaalt de WW-uitkeringen.,The UWV pays the unemployment benefits.
+zorgverzekeraar,health insurer,Mijn zorgverzekeraar betaalt de rekening.,My health insurer pays the bill.
+`;

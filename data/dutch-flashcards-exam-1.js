@@ -1,3 +1,13 @@
+// Dutch flashcard word list — words taken from practice exam 1
+//
+// One card per line: Dutch word,English meaning,Dutch sentence,English sentence
+// Wrap a field in double quotes when it contains a comma, e.g. "a, an; one".
+// This is a .js file rather than a .txt so the page also works when opened
+// straight from disk (file://), where browsers refuse to fetch local files.
+
+window.dutchFlashcardData = window.dutchFlashcardData || {};
+
+window.dutchFlashcardData['exam-1'] = `
 de - het - een,the / a / an,Lees eerst de vraag.,First read the question.
 ik - mij - mijn,I / me / my,Ik zit nu in de trein.,I am on the train now.
 je,you (informal),Wanneer kan je volgens de tekst het beste leren?,When can you study best according to the text?
@@ -484,3 +494,4 @@ half,half,Om half tien.,At half past nine.
 les,lesson/teaching,Myra geeft les.,Myra gives lessons.
 tekst,text,Lees de tekst.,Read the text.
 stuk - stukje,piece/small piece,Lees een stuk tekst.,Read a piece of text.
+`;
