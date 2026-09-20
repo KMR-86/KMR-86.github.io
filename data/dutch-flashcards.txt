@@ -1,14 +1,3 @@
-// Dutch flashcard word list — curated A2 vocabulary from the 12 official DUO practice exams
-//
-// GENERATED FILE — edit data/dutch-flashcards.txt instead and run:
-//     python3 tools/build-flashcard-data.py
-//
-// One card per line: Dutch word,English meaning,Dutch sentence,English sentence
-// Wrap a field in double quotes when it contains a comma, e.g. "a, an; one".
-
-window.dutchFlashcardData = window.dutchFlashcardData || {};
-
-window.dutchFlashcardData['default'] = `
 de,the (de-words),De man werkt in de winkel.,The man works in the shop.
 een,"a, an; one",Ik heb een vraag over de cursus.,I have a question about the course.
 het,the (het-words); it,Het kind speelt in de tuin.,The child plays in the garden.
@@ -1801,4 +1790,3 @@ woningbouwvereniging,housing association,De woningbouwvereniging verhuurt deze f
 woningzoekende,"house hunter, home seeker",Als woningzoekende moet u zich inschrijven.,As a home seeker you have to register.
 ww-uitkeringen,unemployment benefits,Het UWV betaalt de WW-uitkeringen.,The UWV pays the unemployment benefits.
 zorgverzekeraar,health insurer,Mijn zorgverzekeraar betaalt de rekening.,My health insurer pays the bill.
-`;
