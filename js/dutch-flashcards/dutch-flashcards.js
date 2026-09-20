@@ -1,4 +1,4 @@
-const FLASHCARD_DEFAULT_SOURCE = '../data/dutch-flashcards.txt';
+const FLASHCARD_DEFAULT_SOURCE = 'default';
 const FLASHCARD_DECK_SIZE = 25;
 
 const flashcardsState = {
@@ -14,6 +14,48 @@ const flashcardsState = {
     mistakenWords: new Set()
 };
 
+const splitCsvLine = (line) => {
+    const fields = [];
+    let currentField = '';
+    let isQuoted = false;
+
+    for (let index = 0; index < line.length; index += 1) {
+        const character = line[index];
+
+        if (isQuoted) {
+            if (character === '"') {
+                if (line[index + 1] === '"') {
+                    currentField += '"';
+                    index += 1;
+                } else {
+                    isQuoted = false;
+                }
+            } else {
+                currentField += character;
+            }
+            continue;
+        }
+
+        if (character === '"' && currentField.trim() === '') {
+            isQuoted = true;
+            currentField = '';
+            continue;
+        }
+
+        if (character === ',') {
+            fields.push(currentField);
+            currentField = '';
+            continue;
+        }
+
+        currentField += character;
+    }
+
+    fields.push(currentField);
+
+    return fields;
+};
+
 const parseFlashcardText = (rawText) => {
     if (!rawText) {
         return [];
@@ -24,31 +66,55 @@ const parseFlashcardText = (rawText) => {
         .map(line => line.trim())
         .filter(Boolean)
         .map((line, index) => {
-            const firstCommaIndex = line.indexOf(',');
-            const secondCommaIndex = line.indexOf(',', firstCommaIndex + 1);
-            const thirdCommaIndex = line.indexOf(',', secondCommaIndex + 1);
+            const fields = splitCsvLine(line);
 
-            if (firstCommaIndex === -1 || secondCommaIndex === -1) {
+            if (fields.length < 3) {
                 console.warn(`Skipping invalid flashcard line ${index + 1}: ${line}`);
                 return null;
             }
 
-            const sentence = thirdCommaIndex !== -1
-                ? line.slice(secondCommaIndex + 1, thirdCommaIndex).trim()
-                : line.slice(secondCommaIndex + 1).trim();
-
-            const sentenceEn = thirdCommaIndex !== -1
-                ? line.slice(thirdCommaIndex + 1).trim()
-                : '';
+            // Lists may carry two extra columns: topic and level (1-5). Older
+            // four-column lists were written unquoted, so anything past the
+            // third comma there still belongs to the English sentence.
+            const level = fields.length >= 6 ? Number.parseInt(fields[5], 10) : NaN;
+            const hasTopicAndLevel = fields.length >= 6 && Number.isInteger(level);
 
             return {
-                word: line.slice(0, firstCommaIndex).trim(),
-                meaning: line.slice(firstCommaIndex + 1, secondCommaIndex).trim(),
-                sentence: sentence,
-                sentenceEn: sentenceEn
+                word: fields[0].trim(),
+                meaning: fields[1].trim(),
+                sentence: fields[2].trim(),
+                sentenceEn: hasTopicAndLevel ? fields[3].trim() : fields.slice(3).join(',').trim(),
+                topic: hasTopicAndLevel ? fields[4].trim() : '',
+                level: hasTopicAndLevel ? level : null
             };
         })
         .filter(card => card && card.word && card.meaning && card.sentence);
+};
+
+const describeDeck = (cards) => {
+    const levels = [...new Set(cards.map(card => card.level).filter(Boolean))].sort();
+    const topicCounts = cards.reduce((counts, card) => {
+        if (card.topic) {
+            counts[card.topic] = (counts[card.topic] || 0) + 1;
+        }
+        return counts;
+    }, {});
+    const topics = Object.keys(topicCounts).sort((a, b) => topicCounts[b] - topicCounts[a]);
+
+    if (!levels.length && !topics.length) {
+        return 'Serial chunk of words ready for a focused study session.';
+    }
+
+    const levelLabel = levels.length === 1
+        ? `Level ${levels[0]}`
+        : `Levels ${levels[0]}–${levels[levels.length - 1]}`;
+    const topicLabel = topics.length === 0
+        ? ''
+        : topics.length === 1
+            ? topics[0]
+            : `${topics[0]} + ${topics.length - 1} more`;
+
+    return [levelLabel, topicLabel].filter(Boolean).join(' · ');
 };
 
 const chunkWordsIntoDecks = (cards, deckSize = FLASHCARD_DECK_SIZE) => {
@@ -56,11 +122,13 @@ const chunkWordsIntoDecks = (cards, deckSize = FLASHCARD_DECK_SIZE) => {
 
     for (let index = 0; index < cards.length; index += deckSize) {
         const deckNumber = Math.floor(index / deckSize) + 1;
+        const deckCards = cards.slice(index, index + deckSize);
 
         decks.push({
             id: `deck-${deckNumber}`,
             title: `Deck ${deckNumber}`,
-            cards: cards.slice(index, index + deckSize)
+            summary: describeDeck(deckCards),
+            cards: deckCards
         });
     }
 
@@ -85,19 +153,26 @@ const escapeHtml = (value) => String(value)
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
 
-const ALLOWED_SOURCES = [
-    '../data/dutch-flashcards.txt',
-    '../data/dutch-flashcards-exam-1.text'
-];
+const FLASHCARD_SOURCE_KEYS = ['default', 'exam-1'];
+
+const LEGACY_SOURCE_PATHS = {
+    '../data/dutch-flashcards.txt': 'default',
+    '../data/dutch-flashcards-exam-1.text': 'exam-1'
+};
 
 const getUrlParams = () => new URLSearchParams(window.location.search);
 
-const getFlashcardSourcePath = () => {
-    const params = getUrlParams();
-    const requested = params.get('source');
-    if (requested && ALLOWED_SOURCES.includes(requested)) {
+const getFlashcardSourceKey = () => {
+    const requested = getUrlParams().get('source');
+
+    if (requested && FLASHCARD_SOURCE_KEYS.includes(requested)) {
         return requested;
     }
+
+    if (requested && LEGACY_SOURCE_PATHS[requested]) {
+        return LEGACY_SOURCE_PATHS[requested];
+    }
+
     return FLASHCARD_DEFAULT_SOURCE;
 };
 
@@ -106,19 +181,18 @@ const getPageTitle = () => {
     return params.get('title') || 'Dutch Flashcards Tool Area';
 };
 
-const fetchAndParseFlashcards = async () => {
-    const filePath = getFlashcardSourcePath();
-    const response = await fetch(filePath);
+const loadFlashcards = () => {
+    const sourceKey = getFlashcardSourceKey();
+    const wordLists = (typeof window !== 'undefined' && window.dutchFlashcardData) || {};
+    const rawText = wordLists[sourceKey];
 
-    if (!response.ok) {
-        throw new Error(`Failed to load flashcard data from ${filePath}`);
+    if (typeof rawText !== 'string') {
+        throw new Error(`No flashcard word list loaded for "${sourceKey}". Check the data script tag on this page.`);
     }
-
-    const rawText = await response.text();
 
     return {
         cards: parseFlashcardText(rawText),
-        source: 'text file'
+        source: `word list "${sourceKey}"`
     };
 };
 
@@ -179,7 +253,7 @@ const renderDeckSelectionView = () => {
             <button class="lab-card flashcards-deck-card" type="button" data-deck-id="${deck.id}">
                 <span class="lab-card-label">${deck.title}</span>
                 <h3 class="lab-card-title">${deck.cards.length} cards</h3>
-                <p>Serial chunk of words ready for a focused study session.</p>
+                <p>${escapeHtml(deck.summary)}</p>
                 <ul class="flashcards-preview-list">${previewWords}</ul>
                 <span class="lab-card-arrow">Start studying →</span>
             </button>
@@ -271,6 +345,7 @@ const renderStudySessionView = () => {
                         <span class="flashcards-card-face flashcards-card-back">
                             <span class="flashcards-card-copy">
                                 <span class="lab-card-label">Back</span>
+                                ${currentWord.topic ? `<span class="flashcards-card-meta">${escapeHtml(currentWord.topic)}${currentWord.level ? ` · Level ${currentWord.level}` : ''}</span>` : ''}
                                 <span class="flashcards-meaning">${escapeHtml(currentWord.meaning)}</span>
                                 <span class="flashcards-sentence">${escapeHtml(currentWord.sentence)}</span>
                                 ${currentWord.sentenceEn ? `<span class="flashcards-sentence-en">${escapeHtml(currentWord.sentenceEn)}</span>` : ''}
@@ -436,30 +511,54 @@ const bindFlashcardsEvents = () => {
     appElement.dataset.bound = 'true';
 };
 
-const initializeFlashcardData = async () => {
+const renderFlashcardsError = (error) => {
+    const statusElement = document.getElementById('flashcards-data-status');
+    const appElement = document.getElementById('flashcards-app');
+
+    if (statusElement) {
+        statusElement.textContent = 'Could not load the flashcards';
+    }
+
+    if (appElement) {
+        appElement.innerHTML = `
+            <div class="flashcards-panel">
+                <h2 class="flashcards-heading">Could not load the flashcards</h2>
+                <p class="flashcards-supporting-text">${escapeHtml(error.message)}</p>
+            </div>
+        `;
+    }
+
+    console.error('Dutch flashcard app failed to start:', error);
+};
+
+const initializeFlashcardData = () => {
     const titleElement = document.getElementById('flashcards-page-title');
     if (titleElement) {
         titleElement.textContent = getPageTitle();
     }
 
-    const { cards, source } = await fetchAndParseFlashcards();
+    try {
+        const { cards, source } = loadFlashcards();
 
-    flashcardsState.cards = cards;
-    flashcardsState.decks = chunkWordsIntoDecks(cards);
-    flashcardsState.dataSource = source;
+        flashcardsState.cards = cards;
+        flashcardsState.decks = chunkWordsIntoDecks(cards);
+        flashcardsState.dataSource = source;
 
-    if (typeof window !== 'undefined') {
-        window.dutchFlashcardsStore = flashcardsState;
+        if (typeof window !== 'undefined') {
+            window.dutchFlashcardsStore = flashcardsState;
+        }
+
+        bindFlashcardsEvents();
+        renderFlashcardsApp();
+
+        console.log('Dutch flashcard app ready:', {
+            totalCards: flashcardsState.cards.length,
+            totalDecks: flashcardsState.decks.length,
+            dataSource: flashcardsState.dataSource
+        });
+    } catch (error) {
+        renderFlashcardsError(error);
     }
-
-    bindFlashcardsEvents();
-    renderFlashcardsApp();
-
-    console.log('Dutch flashcard app ready:', {
-        totalCards: flashcardsState.cards.length,
-        totalDecks: flashcardsState.decks.length,
-        dataSource: flashcardsState.dataSource
-    });
 };
 
 if (typeof window !== 'undefined') {
@@ -467,8 +566,9 @@ if (typeof window !== 'undefined') {
         FLASHCARD_DECK_SIZE,
         parseFlashcardText,
         chunkWordsIntoDecks,
+        describeDeck,
         shuffleCards,
-        fetchAndParseFlashcards
+        loadFlashcards
     };
 }
 

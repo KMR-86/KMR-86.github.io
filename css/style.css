@@ -1241,6 +1241,14 @@ h2.big-heading {
     margin-bottom: 0;
 }
 
+.flashcards-card-meta {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
 .flashcards-hint {
     color: var(--green);
     font-family: var(--font-mono);
