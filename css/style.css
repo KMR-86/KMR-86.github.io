@@ -1148,10 +1148,11 @@ h2.big-heading {
 }
 
 .flashcards-card {
+    position: relative;
     display: block;
     width: 100%;
     max-width: 560px;
-    min-height: 340px;
+    height: 380px;
     margin: 0 auto;
     padding: 0;
     border: 0;
@@ -1163,7 +1164,7 @@ h2.big-heading {
 .flashcards-card-inner {
     position: relative;
     display: block;
-    min-height: 340px;
+    height: 100%;
     width: 100%;
     transform-style: preserve-3d;
     transform-origin: center center;
@@ -1204,47 +1205,59 @@ h2.big-heading {
 }
 
 .flashcards-card-back {
-    justify-content: space-between;
+    /* room for the answer buttons, which are no longer part of this face */
+    padding-bottom: 124px;
     transform: rotateY(180deg);
 }
 
 .flashcards-card-copy {
+    /* Set by the page script: long cards shrink their text rather than
+       growing the card and pushing the answer buttons out of it. */
+    --flashcards-text-scale: 1;
     display: flex;
+    flex: 1;
+    min-height: 0;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 14px;
+    gap: calc(14px * var(--flashcards-text-scale));
     width: 100%;
+    overflow: hidden;
 }
 
 .flashcards-word,
 .flashcards-meaning {
     color: var(--lightest-slate);
-    font-size: clamp(28px, 4vw, 38px);
+    font-size: calc(clamp(28px, 4vw, 38px) * var(--flashcards-text-scale));
     font-weight: 600;
+    line-height: 1.2;
     text-align: center;
+    overflow-wrap: anywhere;
 }
 
 .flashcards-sentence {
     color: var(--light-slate);
-    font-size: 17px;
+    font-size: calc(17px * var(--flashcards-text-scale));
     line-height: 1.6;
     text-align: center;
+    overflow-wrap: anywhere;
     margin-bottom: 0;
 }
 
 .flashcards-sentence-en {
     color: var(--slate);
-    font-size: 14px;
+    font-size: calc(14px * var(--flashcards-text-scale));
     font-style: italic;
     line-height: 1.5;
     text-align: center;
+    overflow-wrap: anywhere;
     margin-bottom: 0;
 }
 
 .flashcards-card-meta {
     color: var(--green);
     font-family: var(--font-mono);
-    font-size: 12px;
+    font-size: calc(12px * var(--flashcards-text-scale));
     letter-spacing: 0.5px;
     text-align: center;
 }
@@ -1252,15 +1265,35 @@ h2.big-heading {
 .flashcards-hint {
     color: var(--green);
     font-family: var(--font-mono);
-    font-size: 13px;
+    font-size: calc(13px * var(--flashcards-text-scale));
     text-align: center;
 }
 
 .flashcards-card-actions {
+    /* Outside the flipping element on purpose: while the card rotates, a
+       button inside it is not where the pointer expects it to be, so clicks
+       land on the card and flip it back instead of answering. */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 32px;
     display: flex;
     justify-content: center;
     gap: 80px;
-    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.3s ease 0.2s;
+}
+
+.flashcards-card.is-flipped .flashcards-card-actions,
+.flashcards-card.is-flipped .flashcards-icon-button {
+    visibility: visible;
+}
+
+.flashcards-card.is-flipped .flashcards-card-actions {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .flashcards-icon-button {

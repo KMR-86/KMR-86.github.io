@@ -42,7 +42,7 @@
 
 <main class="lab-page">
     <div class="lab-breadcrumb">
-        <a href="my-lab.html">← Go back to My Lab</a>
+        <a id="flashcards-breadcrumb-link" href="my-lab.html">← Back</a>
     </div>
 
     <section class="lab-tool-shell">
@@ -53,7 +53,9 @@
         <div id="flashcards-app" class="flashcards-app" aria-live="polite"></div>
 
         <div class="lab-tool-actions flashcards-page-actions">
+            <button id="flashcards-page-back-btn" class="flashcards-secondary-button" type="button" hidden>← Back to all flashcards</button>
             <button id="flashcards-page-reset-btn" class="resume-link" type="button" hidden>Restart Deck</button>
+            <button id="flashcards-page-next-btn" class="resume-link" type="button" hidden>Go to next deck →</button>
         </div>
     </section>
 </main>

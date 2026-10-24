@@ -216,14 +216,47 @@ const updateFlashcardStatus = () => {
     }
 };
 
-const updatePageActions = () => {
-    const resetButton = document.getElementById('flashcards-page-reset-btn');
+const isDeckCompleted = () => Boolean(flashcardsState.selectedDeck)
+    && !flashcardsState.currentWord
+    && flashcardsState.activeQueue.length === 0;
 
-    if (!resetButton) {
-        return;
+const getNextDeck = () => {
+    if (!flashcardsState.selectedDeck) {
+        return null;
     }
 
-    resetButton.hidden = !flashcardsState.selectedDeck;
+    const currentIndex = flashcardsState.decks.findIndex(deck => deck.id === flashcardsState.selectedDeck.id);
+
+    return currentIndex === -1 ? null : flashcardsState.decks[currentIndex + 1] || null;
+};
+
+const updatePageActions = () => {
+    const isStudying = Boolean(flashcardsState.selectedDeck);
+    const resetButton = document.getElementById('flashcards-page-reset-btn');
+    const backButton = document.getElementById('flashcards-page-back-btn');
+    const nextButton = document.getElementById('flashcards-page-next-btn');
+    const breadcrumbLink = document.getElementById('flashcards-breadcrumb-link');
+
+    if (resetButton) {
+        resetButton.hidden = !isStudying;
+    }
+
+    if (backButton) {
+        backButton.hidden = !isStudying;
+    }
+
+    const nextDeck = getNextDeck();
+
+    if (nextButton) {
+        nextButton.hidden = !(isDeckCompleted() && nextDeck);
+        nextButton.textContent = nextDeck ? `Go to ${nextDeck.title} \u2192` : 'Go to next deck \u2192';
+    }
+
+    // While a deck is open the breadcrumb returns to the deck list instead of
+    // leaving the tool, so the only way out of a deck is never the browser.
+    if (breadcrumbLink) {
+        breadcrumbLink.textContent = isStudying ? '\u2190 Back to all flashcards' : '\u2190 Back';
+    }
 };
 
 const renderDeckSelectionView = () => {
@@ -297,11 +330,16 @@ const renderCompletionView = () => {
         return;
     }
 
+    const nextDeck = getNextDeck();
+    const nextStep = nextDeck
+        ? `Use the Restart Deck button to go again, or jump straight to ${escapeHtml(nextDeck.title)}.`
+        : 'That was the last deck. Use the Restart Deck button to go again, or Back to all flashcards to pick another deck.';
+
     appElement.innerHTML = `
         <div class="flashcards-panel flashcards-completion-panel">
             <span class="lab-card-label">${flashcardsState.selectedDeck.title}</span>
             <h2 class="flashcards-heading">Deck Completed!</h2>
-            <p class="flashcards-supporting-text">Nice work — you cleared all ${flashcardsState.selectedDeck.cards.length} cards in this deck. Use the Restart Deck button to go again, or Change Deck to pick another.</p>
+            <p class="flashcards-supporting-text">Nice work — you cleared all ${flashcardsState.selectedDeck.cards.length} cards in this deck. ${nextStep}</p>
         </div>
     `;
 };
@@ -350,20 +388,45 @@ const renderStudySessionView = () => {
                                 <span class="flashcards-sentence">${escapeHtml(currentWord.sentence)}</span>
                                 ${currentWord.sentenceEn ? `<span class="flashcards-sentence-en">${escapeHtml(currentWord.sentenceEn)}</span>` : ''}
                             </span>
-                            <span class="flashcards-card-actions">
-                                <button id="flashcards-right-btn" class="flashcards-icon-button flashcards-icon-button--right" type="button" aria-label="Mark flashcard as right">
-                                    <i class="fas fa-check"></i>
-                                </button>
-                                <button id="flashcards-wrong-btn" class="flashcards-icon-button flashcards-icon-button--wrong" type="button" aria-label="Mark flashcard as wrong">
-                                    <i class="fas fa-times"></i>
-                                </button>
-                            </span>
                         </span>
+                    </span>
+                    <span class="flashcards-card-actions">
+                        <button id="flashcards-right-btn" class="flashcards-icon-button flashcards-icon-button--right" type="button" aria-label="Mark flashcard as right">
+                            <i class="fas fa-check"></i>
+                        </button>
+                        <button id="flashcards-wrong-btn" class="flashcards-icon-button flashcards-icon-button--wrong" type="button" aria-label="Mark flashcard as wrong">
+                            <i class="fas fa-times"></i>
+                        </button>
                     </span>
                 </div>
             </div>
         </div>
     `;
+
+    fitFlashcardText();
+};
+
+const FLASHCARD_MIN_TEXT_SCALE = 0.5;
+const FLASHCARD_TEXT_SCALE_STEP = 0.04;
+
+const fitFlashcardText = () => {
+    if (typeof document === 'undefined') {
+        return;
+    }
+
+    // Both faces keep a fixed size, so text that would spill out of one is
+    // shrunk until it fits. That keeps the answer buttons in the same spot
+    // whatever the length of the word or the example sentence.
+    document.querySelectorAll('.flashcards-card-copy').forEach(function(copyElement) {
+        let scale = 1;
+
+        copyElement.style.setProperty('--flashcards-text-scale', '1');
+
+        while (scale > FLASHCARD_MIN_TEXT_SCALE && copyElement.scrollHeight > copyElement.clientHeight) {
+            scale -= FLASHCARD_TEXT_SCALE_STEP;
+            copyElement.style.setProperty('--flashcards-text-scale', scale.toFixed(2));
+        }
+    });
 };
 
 const renderFlashcardsApp = () => {
@@ -498,6 +561,39 @@ const bindFlashcardsEvents = () => {
         }
     });
 
+    const pageBackButton = document.getElementById('flashcards-page-back-btn');
+
+    if (pageBackButton) {
+        pageBackButton.addEventListener('click', function() {
+            resetToDeckSelection();
+        });
+    }
+
+    const breadcrumbLink = document.getElementById('flashcards-breadcrumb-link');
+
+    if (breadcrumbLink) {
+        breadcrumbLink.addEventListener('click', function(event) {
+            if (!flashcardsState.selectedDeck) {
+                return;
+            }
+
+            event.preventDefault();
+            resetToDeckSelection();
+        });
+    }
+
+    const pageNextButton = document.getElementById('flashcards-page-next-btn');
+
+    if (pageNextButton) {
+        pageNextButton.addEventListener('click', function() {
+            const nextDeck = getNextDeck();
+
+            if (nextDeck) {
+                startDeckStudy(nextDeck.id);
+            }
+        });
+    }
+
     const pageResetButton = document.getElementById('flashcards-page-reset-btn');
 
     if (pageResetButton) {
@@ -506,6 +602,14 @@ const bindFlashcardsEvents = () => {
                 startDeckStudy(flashcardsState.selectedDeck.id);
             }
         });
+    }
+
+    window.addEventListener('resize', function() {
+        window.requestAnimationFrame(fitFlashcardText);
+    });
+
+    if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(fitFlashcardText);
     }
 
     appElement.dataset.bound = 'true';

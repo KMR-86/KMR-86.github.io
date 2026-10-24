@@ -2,7 +2,7 @@
 
 | File | Role |
 | --- | --- |
-| `dutch-flashcards.txt` | 1,792 curated A2 words from the 12 official DUO practice exams — **edit this one** |
+| `dutch-flashcards.txt` | 2,370 curated A2 words from the 12 official DUO practice exams — **edit this one** |
 | `dutch-flashcards-exam-1.text` | 486 words taken from practice exam 1 — **edit this one** |
 | `dutch-flashcards.js`, `dutch-flashcards-exam-1.js` | generated copies the page actually loads — do not edit by hand |
 
@@ -12,6 +12,10 @@ One card per line:
 Dutch word,English meaning,Dutch sentence,English sentence,Topic,Level
 appel,apple,Ik eet een appel.,I eat an apple.,Eten & drinken,1
 ```
+
+Forms of the same word share a card, separated by a slash: `boek/boeken` with
+the meaning `book/books`, `nieuw/nieuwe` with `new`, `maken/maakt/maak` with
+`to make`. Add a new word in that shape rather than as a second card.
 
 `Topic` is one of the twenty categories used throughout the list (`Basis &
 grammatica`, `Werkwoorden`, `Eten & drinken`, `Werk & solliciteren`, …) and
