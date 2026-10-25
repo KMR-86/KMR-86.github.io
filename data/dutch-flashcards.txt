@@ -125,7 +125,6 @@ dank je wel,thank you (informal),Dank je wel voor het cadeau.,Thank you for the 
 dank u wel,thank you (formal),Dank u wel voor de uitnodiging.,Thank you for the invitation.,Communicatie & post,1
 de zon schijnt,the sun is shining,De zon schijnt eindelijk weer.,The sun is finally shining again.,Communicatie & post,1
 doei,bye,Doei ik ga nu weg.,Bye I'm leaving now.,Communicatie & post,1
-echt?,really?,Echt waar is dat zo?,Really is that so?,Communicatie & post,1
 eet smakelijk,enjoy your meal,Eet smakelijk allemaal.,Enjoy your meal everyone.,Communicatie & post,1
 excuus,excuse me,Mijn excuus voor deze vervelende fout.,My excuses for this annoying mistake.,Communicatie & post,1
 geen dank,you're welcome,Geen dank het was een kleine moeite.,You're welcome it was no trouble.,Communicatie & post,1
@@ -202,7 +201,7 @@ erg,very; bad,Het is erg koud vandaag.,It is very cold today.,Eigenschappen,1
 hard,hard; loud; fast,Hij werkt heel hard.,He works very hard.,Eigenschappen,1
 minder,"less, fewer",Ik werk nu minder uren.,I work fewer hours now.,Eigenschappen,1
 dicht,closed; near,De winkel is vandaag dicht.,The shop is closed today.,Eigenschappen,1
-echt,"real, really",Dat is echt een goed idee.,That is really a good idea.,Eigenschappen,1
+echt,"real, really; really?",Dat is echt een goed idee.,That is really a good idea.,Eigenschappen,1
 goede,good,Dit zijn goede tips om te leren.,These are good tips for studying.,Eigenschappen,1
 moeilijk/moeilijke,difficult,Nederlands is soms moeilijk.,Dutch is sometimes difficult.,Eigenschappen,1
 mooi/mooie,"beautiful, nice",Wat een mooi schilderij!,What a beautiful painting!,Eigenschappen,1

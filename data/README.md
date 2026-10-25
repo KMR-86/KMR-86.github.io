@@ -2,7 +2,7 @@
 
 | File | Role |
 | --- | --- |
-| `dutch-flashcards.txt` | 2,370 curated A2 words from the 12 official DUO practice exams — **edit this one** |
+| `dutch-flashcards.txt` | 2,369 curated A2 words from the 12 official DUO practice exams — **edit this one** |
 | `dutch-flashcards-exam-1.text` | 486 words taken from practice exam 1 — **edit this one** |
 | `dutch-flashcards.js`, `dutch-flashcards-exam-1.js` | generated copies the page actually loads — do not edit by hand |
 
@@ -16,6 +16,14 @@ appel,apple,Ik eet een appel.,I eat an apple.,Eten & drinken,1
 Forms of the same word share a card, separated by a slash: `boek/boeken` with
 the meaning `book/books`, `nieuw/nieuwe` with `new`, `maken/maakt/maak` with
 `to make`. Add a new word in that shape rather than as a second card.
+
+Every card also has a **word id**, derived rather than stored: the first form,
+lowercased and without its article, so `boek/boeken` is `boek` and
+`de - het - een` is `de`. It is what the flashcard tool records a learner's
+progress against, which is why adding a plural or a conjugation to an existing
+card keeps that progress while correcting a spelling resets it. The build
+refuses to run when two cards in one list share an id. The same rule lives in
+`js/dutch-flashcards/dutch-flashcards.js` for the browser; keep the two in step.
 
 `Topic` is one of the twenty categories used throughout the list (`Basis &
 grammatica`, `Werkwoorden`, `Eten & drinken`, `Werk & solliciteren`, …) and

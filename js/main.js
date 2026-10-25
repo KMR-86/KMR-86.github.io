@@ -9,8 +9,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 // Theme toggling functionality
+// Browsers can refuse localStorage outright in private browsing, and an
+// uncaught throw here would take the rest of this file down with it.
+const readStoredTheme = () => {
+    try {
+        return localStorage.getItem('theme');
+    } catch (error) {
+        return null;
+    }
+};
+
+const storeTheme = (theme) => {
+    try {
+        localStorage.setItem('theme', theme);
+    } catch (error) {
+        // The choice just does not survive this page.
+    }
+};
+
 const themeToggleBtn = document.getElementById('theme-toggle-btn');
-const currentTheme = localStorage.getItem('theme');
+const currentTheme = readStoredTheme();
 
 // Check for saved theme preference
 if (currentTheme) {
@@ -41,7 +59,7 @@ themeToggleBtn.addEventListener('click', function() {
     }
 
     // Save preference to localStorage
-    localStorage.setItem('theme', theme);
+    storeTheme(theme);
 });
 
 // Hamburger menu for mobile
