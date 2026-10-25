@@ -14,6 +14,22 @@ const flashcardsState = {
     mistakenWords: new Set()
 };
 
+// Stable identity for a card, used to remember progress for a word even when
+// the card later gains another form. Cards list their forms separated by a
+// slash (boek/boeken) or by spaced hyphens in the exam list (de - het - een);
+// the first form, without its article, is the id.
+//
+// tools/build-flashcard-data.py carries the same rule and fails the build if
+// two cards in one list end up with the same id. Keep the two in step.
+const getWordId = (word) => String(word || '')
+    .toLowerCase()
+    .split('/')[0]
+    .split(' - ')[0]
+    .replace(/^(de|het|een)\s+/, '')
+    .replace(/[^\p{L}\p{N}'-]+/gu, '-')
+    .replace(/-+/g, '-')
+    .replace(/^-|-$/g, '');
+
 const splitCsvLine = (line) => {
     const fields = [];
     let currentField = '';
@@ -80,6 +96,7 @@ const parseFlashcardText = (rawText) => {
             const hasTopicAndLevel = fields.length >= 6 && Number.isInteger(level);
 
             return {
+                id: getWordId(fields[0]),
                 word: fields[0].trim(),
                 meaning: fields[1].trim(),
                 sentence: fields[2].trim(),
@@ -446,6 +463,72 @@ const renderFlashcardsApp = () => {
     renderStudySessionView();
 };
 
+// Guest progress lives in js/dutch-flashcards/dutch-flashcards-progress.js and
+// is optional: if that script is missing, or the browser refuses storage, the
+// tool behaves exactly as it did before.
+const getProgressStore = () => (typeof window !== 'undefined' && window.dutchFlashcardsProgress) || null;
+
+const saveCurrentSession = () => {
+    const progress = getProgressStore();
+
+    if (!progress || !flashcardsState.selectedDeck) {
+        return;
+    }
+
+    progress.saveSession(getFlashcardSourceKey(), {
+        deckId: flashcardsState.selectedDeck.id,
+        remaining: flashcardsState.activeQueue.map(card => card.id),
+        completed: flashcardsState.completedCount
+    });
+};
+
+const clearSavedSession = () => {
+    const progress = getProgressStore();
+
+    if (progress) {
+        progress.clearSession(getFlashcardSourceKey());
+    }
+};
+
+// Decks are 25-card chunks by position, so a deck id only holds while the word
+// list is unchanged. The queue itself is restored from word ids itself, and any
+// word that has since left the list is dropped.
+const resumeSavedSession = () => {
+    const progress = getProgressStore();
+
+    if (!progress) {
+        return false;
+    }
+
+    const listKey = getFlashcardSourceKey();
+    const saved = progress.getSession(listKey);
+
+    if (!saved) {
+        return false;
+    }
+
+    const deck = flashcardsState.decks.find(item => item.id === saved.deckId);
+    const cardsById = new Map(flashcardsState.cards.map(card => [card.id, card]));
+    const queue = deck ? saved.remaining.map(wordId => cardsById.get(wordId)).filter(Boolean) : [];
+
+    if (!deck || queue.length === 0) {
+        progress.clearSession(listKey);
+        return false;
+    }
+
+    flashcardsState.selectedDeck = deck;
+    flashcardsState.activeQueue = queue;
+    flashcardsState.currentWord = queue[0];
+    flashcardsState.isFlipped = false;
+    flashcardsState.completedCount = saved.completed || 0;
+    // Derived rather than taken from the deck: a wrong answer goes back into
+    // the queue instead of counting, so these two always add up to the deck.
+    flashcardsState.totalInDeck = flashcardsState.completedCount + queue.length;
+    flashcardsState.mistakenWords = new Set();
+
+    return true;
+};
+
 const startDeckStudy = (deckId) => {
     const deck = flashcardsState.decks.find(item => item.id === deckId);
 
@@ -461,10 +544,13 @@ const startDeckStudy = (deckId) => {
     flashcardsState.totalInDeck = deck.cards.length;
     flashcardsState.mistakenWords = new Set();
 
+    saveCurrentSession();
     renderFlashcardsApp();
 };
 
 const resetToDeckSelection = () => {
+    clearSavedSession();
+
     flashcardsState.selectedDeck = null;
     flashcardsState.activeQueue = [];
     flashcardsState.currentWord = null;
@@ -509,6 +595,18 @@ const handleFlashcardAnswer = (isCorrect) => {
 
     flashcardsState.currentWord = flashcardsState.activeQueue[0] || null;
     flashcardsState.isFlipped = false;
+
+    const progress = getProgressStore();
+
+    if (progress && currentCard) {
+        progress.recordWordAnswer(currentCard.id, isCorrect);
+    }
+
+    if (flashcardsState.activeQueue.length === 0) {
+        clearSavedSession();
+    } else {
+        saveCurrentSession();
+    }
 
     renderFlashcardsApp();
 };
@@ -653,6 +751,7 @@ const initializeFlashcardData = () => {
         }
 
         bindFlashcardsEvents();
+        resumeSavedSession();
         renderFlashcardsApp();
 
         console.log('Dutch flashcard app ready:', {
@@ -672,7 +771,8 @@ if (typeof window !== 'undefined') {
         chunkWordsIntoDecks,
         describeDeck,
         shuffleCards,
-        loadFlashcards
+        loadFlashcards,
+        getWordId
     };
 }
 
